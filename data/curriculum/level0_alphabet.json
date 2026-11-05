@@ -1,0 +1,121 @@
+{
+  "id": "lesson_0_1",
+  "unitId": "level_0",
+  "title_bn": "জার্মান বর্ণমালা (A–Z)",
+  "title_en": "German Alphabet (A–Z)",
+  "subtitle_de": "Das deutsche Alphabet",
+  "order": 1,
+  "content": {
+    "intro_bn": "জার্মান বর্ণমালায় ইংরেজি ২৬টি অক্ষরের সাথে চারটি বিশেষ অক্ষর আছে। অক্ষরের নাম এবং উচ্চারণ অনেকটাই বাংলার কাছাকাছি। যেমন: 'W' কে ইংরেজিতে 'ডাবল-ইউ' কিন্তু জার্মানে 'ভি' (ভ) উচ্চারণ করা হয়, আর 'V' এর উচ্চারণ হয় 'ফাউ' (ফ)।",
+    "intro_en": "The German alphabet uses the same 26 letters as English, plus 4 special characters. In German, 'W' is pronounced like 'V', and 'V' is pronounced like 'F'.",
+    "examples": [
+      { "de": "A - der Apfel", "bn": "A (আ) - Apfel (আপেল)", "note": "আকারের মতো স্পষ্ট উচ্চারণ" },
+      { "de": "B - das Buch", "bn": "B (বে) - Buch (বই)", "note": "বাংলা 'ব' এর মতো" },
+      { "de": "C - das Café", "bn": "C (ৎসে) - Café (ক্যাফে)", "note": "'ৎস' বা 'ক' এর মতো" },
+      { "de": "J - das Jahr", "bn": "J (ইয়ট) - Jahr (বছর)", "note": "বাংলা 'য়' (Y) এর মতো ধ্বনি" },
+      { "de": "V - der Vater", "bn": "V (ফাউ) - Vater (বাবা)", "note": "বাংলা 'ফ' এর মতো উচ্চারণ" },
+      { "de": "W - das Wasser", "bn": "W (ভে) - Wasser (পানি)", "note": "বাংলা 'ভ' বা ইংরেজি V এর মতো" }
+    ]
+  },
+  "vocabulary": [
+    { "id": "v_l0_1", "german": "Apfel", "article": "der", "plural": "die Äpfel", "pos": "noun", "bengali": "আপেল", "english": "apple", "pronunciationBn": "আপফেল", "example_de": "Der Apfel ist rot.", "example_bn": "আপেলটি লাল।", "topic": "food_drinks", "level": "A1" },
+    { "id": "v_l0_2", "german": "Buch", "article": "das", "plural": "die Bücher", "pos": "noun", "bengali": "বই", "english": "book", "pronunciationBn": "বুখ", "example_de": "Das Buch ist gut.", "example_bn": "বইটি ভালো।", "topic": "hobbies", "level": "A1" },
+    { "id": "v_l0_3", "german": "Café", "article": "das", "plural": "die Cafés", "pos": "noun", "bengali": "ক্যাফে", "english": "café", "pronunciationBn": "কাফে", "example_de": "Ein schönes Café.", "example_bn": "একটি সুন্দর ক্যাফে।", "topic": "food_drinks", "level": "A1" },
+    { "id": "v_l0_4", "german": "Danke", "article": null, "pos": "phrase", "bengali": "ধন্যবাদ", "english": "thank you", "pronunciationBn": "ডাঙ্কে", "example_de": "Danke schön!", "example_bn": "অনেক ধন্যবাদ!", "topic": "greetings", "level": "A1" },
+    { "id": "v_l0_5", "german": "Jahr", "article": "das", "plural": "die Jahre", "pos": "noun", "bengali": "বছর", "english": "year", "pronunciationBn": "ইয়ার", "example_de": "Ein Jahr.", "example_bn": "এক বছর।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l0_6", "german": "Vater", "article": "der", "plural": "die Väter", "pos": "noun", "bengali": "বাবা", "english": "father", "pronunciationBn": "ফাটার", "example_de": "Mein Vater.", "example_bn": "আমার বাবা।", "topic": "family", "level": "A1" },
+    { "id": "v_l0_7", "german": "Wasser", "article": "das", "pos": "noun", "bengali": "পানি / জল", "english": "water", "pronunciationBn": "ভাসার", "example_de": "Kaltes Wasser.", "example_bn": "ঠান্ডা পানি।", "topic": "food_drinks", "level": "A1" },
+    { "id": "v_l0_8", "german": "Zug", "article": "der", "plural": "die Züge", "pos": "noun", "bengali": "ট্রেন", "english": "train", "pronunciationBn": "ৎসুক", "example_de": "Der Zug kommt.", "example_bn": "ট্রেন আসছে।", "topic": "health_travel", "level": "A1" }
+  ],
+  "grammarTip": {
+    "title_bn": "জার্মান উচ্চারণের মূল গোপন রহস্য",
+    "title_en": "Key German Pronunciation Rule",
+    "content_bn": "জার্মান ভাষার সবচেয়ে বড় সুবিধা হলো: যা লেখা হয়, প্রায় হুবহু তাই উচ্চারণ করা হয় (Phonetic language)।\n• 'J' সবসময় বাংলায় 'ইয়' (যেমন: Ja = ইয়া, Jahr = ইয়ার)।\n• 'W' বাংলায় 'ভ' (যেমন: Wasser = ভাসার, Wo = ভো)।\n• 'V' বাংলায় 'ফ' (যেমন: Vater = ফাটার, Vier = ফিয়ার)।\n• 'Z' বাংলায় 'ৎস' (যেমন: Zug = ৎসুক, Zeit = ৎসায়ট)।",
+    "rule_table": [
+      { "label": "J", "value": "ইয়", "note": "Ja (ইয়া = হ্যাঁ)" },
+      { "label": "W", "value": "ভ", "note": "Wasser (ভাসার = পানি)" },
+      { "label": "V", "value": "ফ", "note": "Vater (ফাটার = বাবা)" },
+      { "label": "Z", "value": "ৎস", "note": "Zug (ৎসুক = ট্রেন)" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ex_0_1_1",
+      "type": "multiple_choice",
+      "prompt_bn": "জার্মান ভাষায় 'W' অক্ষরের সাধারণ উচ্চারণ কেমন?",
+      "explanation_bn": "জার্মান 'W' এর উচ্চারণ ইংরেজি 'V' বা বাংলা 'ভ' এর মতো হয়। যেমন: Wasser = ভাসার।",
+      "question": "জার্মান 'W' কীভাবে উচ্চারিত হয়?",
+      "options": ["বাংলা 'ভ' বা ইংরেজি V এর মতো", "বাংলা 'ডাবলু' এর মতো", "বাংলা 'ক' এর মতো", "উচ্চারণ হয় না"],
+      "correctAnswer": "বাংলা 'ভ' বা ইংরেজি V এর মতো"
+    },
+    {
+      "id": "ex_0_1_2",
+      "type": "multiple_choice",
+      "prompt_bn": "জার্মান ভাষায় 'V' অক্ষরের উচ্চারণ কী?",
+      "explanation_bn": "'V' অক্ষরের নাম 'ফাউ' এবং শব্দে এর উচ্চারণ হয় 'ফ'। যেমন: Vater (ফাটার), Vier (ফিয়ার)।",
+      "question": "'Vater' শব্দে 'V' কীভাবে উচ্চারিত হয়?",
+      "options": ["বাংলা 'ফ' এর মতো (ফাটার)", "বাংলা 'ভ' এর মতো", "বাংলা 'ব' এর মতো", "বাংলা 'ড' এর মতো"],
+      "correctAnswer": "বাংলা 'ফ' এর মতো (ফাটার)"
+    },
+    {
+      "id": "ex_0_1_3",
+      "type": "matching_pairs",
+      "prompt_bn": "অক্ষরের সাথে সঠিক উচ্চারণ ধ্বনি মেলান:",
+      "explanation_bn": "J = ইয়, W = ভ, V = ফ, Z = ৎস",
+      "pairs": [
+        { "german": "J (যেমন Ja)", "bengali": "ইয় (ইয়া)" },
+        { "german": "W (যেমন Wasser)", "bengali": "ভ (ভাসার)" },
+        { "german": "V (যেমন Vater)", "bengali": "ফ (ফাটার)" },
+        { "german": "Z (যেমন Zug)", "bengali": "ৎস (ৎসুক)" }
+      ]
+    },
+    {
+      "id": "ex_0_1_4",
+      "type": "listening",
+      "prompt_bn": "অডিও শুনে সঠিক জার্মান শব্দটি বেছে নিন:",
+      "explanation_bn": "সঠিক শব্দটি হলো 'Wasser' (পানি)।",
+      "audioText": "Wasser",
+      "options": ["Wasser", "Vater", "Buch", "Apfel"],
+      "correctAnswer": "Wasser"
+    },
+    {
+      "id": "ex_0_1_5",
+      "type": "flashcard_flip",
+      "prompt_bn": "শব্দের অর্থ মনে রাখুন:",
+      "explanation_bn": "Das Buch মানে বই।",
+      "front": "das Buch",
+      "back": "বই (book)",
+      "hint_bn": "পড়ার জিনিস"
+    },
+    {
+      "id": "ex_0_1_6",
+      "type": "article_quiz",
+      "prompt_bn": "'Apfel' (আপেল) শব্দের সঠিক আর্টিকেল কোনটি?",
+      "explanation_bn": "Apfel হলো পুংলিঙ্গ (maskulin) বিশেষ্য, তাই এর আর্টিকেল 'der'।",
+      "noun": "Apfel",
+      "meaning_bn": "আপেল",
+      "correctArticle": "der"
+    },
+    {
+      "id": "ex_0_1_7",
+      "type": "fill_blank",
+      "prompt_bn": "শূন্যস্থানে সঠিক শব্দ বসিয়ে বাক্য সম্পূর্ণ করুন:",
+      "explanation_bn": "Danke মানে ধন্যবাদ।",
+      "sentenceWithBlank": "___ schön! (অনেক ধন্যবাদ!)",
+      "blankType": "noun",
+      "options": ["Danke", "Bitte", "Hallo", "Guten"],
+      "correctAnswer": "Danke",
+      "translation_bn": "অনেক ধন্যবাদ!"
+    },
+    {
+      "id": "ex_0_1_8",
+      "type": "typing",
+      "prompt_bn": "'বই' এর জার্মান লিখুন (das Buch):",
+      "explanation_bn": "বই হলো 'Buch' (পুরো: das Buch)।",
+      "prompt": "বই",
+      "correctAnswer": "Buch",
+      "acceptedAnswers": ["das Buch", "Buch"],
+      "placeholder": "যেমন: Buch"
+    }
+  ]
+}

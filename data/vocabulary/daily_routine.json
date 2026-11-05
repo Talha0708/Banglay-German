@@ -1,0 +1,172 @@
+[
+  {
+    "id": "v_aufstehen",
+    "german": "aufstehen",
+    "article": null,
+    "pos": "verb",
+    "bengali": "ঘুম থেকে ওঠা",
+    "english": "to get up",
+    "pronunciationBn": "আউফ-শ্টেহ্যান",
+    "example_de": "Ich stehe um sechs Uhr auf.",
+    "example_bn": "আমি সকাল ছয়টায় ঘুম থেকে উঠি।",
+    "topic": "daily_routine",
+    "level": "A1",
+    "conjugations": {
+      "ich": "stehe auf",
+      "du": "stehst auf",
+      "er_sie_es": "steht auf",
+      "wir": "stehen auf",
+      "ihr": "steht auf",
+      "sie_Sie": "stehen auf"
+    }
+  },
+  {
+    "id": "v_arbeiten",
+    "german": "arbeiten",
+    "article": null,
+    "pos": "verb",
+    "bengali": "কাজ করা",
+    "english": "to work",
+    "pronunciationBn": "আরবায়টেন",
+    "example_de": "Ich arbeite von Montag bis Freitag.",
+    "example_bn": "আমি সোমবার থেকে শুক্রবার পর্যন্ত কাজ করি।",
+    "topic": "daily_routine",
+    "level": "A1",
+    "conjugations": {
+      "ich": "arbeite",
+      "du": "arbeitest",
+      "er_sie_es": "arbeitet",
+      "wir": "arbeiten",
+      "ihr": "arbeitet",
+      "sie_Sie": "arbeiten"
+    }
+  },
+  {
+    "id": "v_lernen",
+    "german": "lernen",
+    "article": null,
+    "pos": "verb",
+    "bengali": "শেখা / অধ্যয়ন করা",
+    "english": "to learn / study",
+    "pronunciationBn": "লের্নেন",
+    "example_de": "Wir lernen jeden Tag Deutsch.",
+    "example_bn": "আমরা প্রতিদিন জার্মান শিখি।",
+    "topic": "daily_routine",
+    "level": "A1",
+    "conjugations": {
+      "ich": "lerne",
+      "du": "lernst",
+      "er_sie_es": "lernt",
+      "wir": "lernen",
+      "ihr": "lernt",
+      "sie_Sie": "lernen"
+    }
+  },
+  {
+    "id": "v_fruehstuecken",
+    "german": "frühstücken",
+    "article": null,
+    "pos": "verb",
+    "bengali": "সকালের নাস্তা করা",
+    "english": "to have breakfast",
+    "pronunciationBn": "ফ্রিউশ্ট্যুকেন",
+    "example_de": "Um sieben Uhr frühstücke ich.",
+    "example_bn": "সাতটায় আমি নাস্তা করি।",
+    "topic": "daily_routine",
+    "level": "A1",
+    "conjugations": {
+      "ich": "frühstücke",
+      "du": "frühstückst",
+      "er_sie_es": "frühstückt",
+      "wir": "frühstücken",
+      "ihr": "frühstückt",
+      "sie_Sie": "frühstücken"
+    }
+  },
+  {
+    "id": "v_gehen",
+    "german": "gehen",
+    "article": null,
+    "pos": "verb",
+    "bengali": "যাওয়া / হাঁটা",
+    "english": "to go / walk",
+    "pronunciationBn": "গেহ্যান",
+    "example_de": "Ich gehe nach Hause.",
+    "example_bn": "আমি বাড়ি যাচ্ছি।",
+    "topic": "daily_routine",
+    "level": "A1",
+    "conjugations": {
+      "ich": "gehe",
+      "du": "gehst",
+      "er_sie_es": "geht",
+      "wir": "gehen",
+      "ihr": "geht",
+      "sie_Sie": "gehen"
+    }
+  },
+  {
+    "id": "v_fahren",
+    "german": "fahren",
+    "article": null,
+    "pos": "verb",
+    "bengali": "গাড়িতে যাওয়া / চালানো",
+    "english": "to drive / ride",
+    "pronunciationBn": "ফারেন",
+    "example_de": "Er fährt mit dem Bus.",
+    "example_bn": "সে বাসে চড়ে যায়।",
+    "topic": "daily_routine",
+    "level": "A1",
+    "conjugations": {
+      "ich": "fahre",
+      "du": "fährst",
+      "er_sie_es": "fährt",
+      "wir": "fahren",
+      "ihr": "fahrt",
+      "sie_Sie": "fahren"
+    }
+  },
+  {
+    "id": "v_einkaufen",
+    "german": "einkaufen",
+    "article": null,
+    "pos": "verb",
+    "bengali": "কেনাকাটা / বাজার করা",
+    "english": "to shop",
+    "pronunciationBn": "আইন-কাউফেন",
+    "example_de": "Am Samstag kaufe ich ein.",
+    "example_bn": "শনিবার আমি কেনাকাটা করি।",
+    "topic": "daily_routine",
+    "level": "A1",
+    "conjugations": {
+      "ich": "kaufe ein",
+      "du": "kaufst ein",
+      "er_sie_es": "kauft ein",
+      "wir": "kaufen ein",
+      "ihr": "kauft ein",
+      "sie_Sie": "kaufen ein"
+    }
+  },
+  {
+    "id": "v_schlafen",
+    "german": "schlafen",
+    "article": null,
+    "pos": "verb",
+    "bengali": "ঘুমানো",
+    "english": "to sleep",
+    "pronunciationBn": "শ্লাফেন",
+    "example_de": "Ich schlafe acht Stunden.",
+    "example_bn": "আমি আট ঘণ্টা ঘুমাই।",
+    "topic": "daily_routine",
+    "level": "A1",
+    "conjugations": {
+      "ich": "schlafe",
+      "du": "schläfst",
+      "er_sie_es": "schläft",
+      "wir": "schlafen",
+      "ihr": "schlaft",
+      "sie_Sie": "schlafen"
+    }
+  },
+  { "id": "v_morgen_noun", "german": "Morgen", "article": "der", "plural": "die Morgen", "pos": "noun", "bengali": "সকাল", "english": "morning", "pronunciationBn": "মর্গেন", "example_de": "Am Morgen trinke ich Kaffee.", "example_bn": "সকালে আমি কফি পান করি।", "topic": "daily_routine", "level": "A1" },
+  { "id": "v_abend_noun", "german": "Abend", "article": "der", "plural": "die Abende", "pos": "noun", "bengali": "সন্ধ্যা", "english": "evening", "pronunciationBn": "আবেন্ট", "example_de": "Am Abend lese ich ein Buch.", "example_bn": "সন্ধ্যায় আমি একটি বই পড়ি।", "topic": "daily_routine", "level": "A1" }
+]

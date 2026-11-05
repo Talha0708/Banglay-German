@@ -1,0 +1,119 @@
+[
+  {
+    "id": "lesson_9_1",
+    "unitId": "unit_9",
+    "title_bn": "স্বাস্থ্য, কাজ, ভ্রমণ ও আবহাওয়া",
+    "title_en": "Health, Work, Travel & Weather",
+    "subtitle_de": "Gesundheit, Beruf, Reise und Wetter",
+    "order": 17,
+    "content": {
+      "intro_bn": "জার্মান দৈনন্দিন জীবনের কয়েকটি অতি দরকারী পরিস্থিতি:\n১. ডাক্তারের কাছে শারীরিক সমস্যা বলা: 'Mein Kopf tut weh.' (আমার মাথা ব্যথা করছে।)\n২. পেশা সংক্রান্ত কথা: 'Ich arbeite als Ingenieur bei Siemens.' (আমি প্রকৌশলী হিসেবে কাজ করি।)\n৩. টিকিট কেনা ও ভ্রমণ: 'Eine Fahrkarte nach München, bitte.' (মিউনিখের একটি ট্রেনের টিকিট, দয়া করে।)\n৪. আবহাওয়া বর্ণনা: 'Wie ist das Wetter? - Es ist sonnig / Es regnet.' (আবহাওয়া কেমন? - রোদোজ্জ্বল / বৃষ্টি হচ্ছে।)",
+      "intro_en": "Essential vocabulary for doctor visits (tut weh), talking about jobs (arbeiten als...), train travel (Fahrkarte), and weather expressions (es regnet, die Sonne scheint).",
+      "examples": [
+        { "de": "Mein Kopf tut weh.", "bn": "আমার মাথা ব্যথা করছে।", "note": "weh tun = ব্যথা করা" },
+        { "de": "Ich muss zum Arzt gehen.", "bn": "আমাকে ডাক্তারের কাছে যেতে হবে।", "note": "zum Arzt" },
+        { "de": "Wie ist das Wetter heute?", "bn": "আজকের আবহাওয়া কেমন?", "note": "আবহাওয়া জিজ্ঞাসা" },
+        { "de": "Die Sonne scheint und es ist warm.", "bn": "সূর্য কিরণ দিচ্ছে এবং উষ্ণ।", "note": "আবহাওয়ার উত্তর" }
+      ]
+    },
+    "vocabulary": [
+      { "id": "v_u9_1", "german": "Kopf", "article": "der", "plural": "die Köpfe", "pos": "noun", "bengali": "মাথা", "english": "head", "pronunciationBn": "কপফ", "example_de": "Mein Kopf tut weh.", "example_bn": "আমার মাথা ব্যথা করছে।", "topic": "health_travel", "level": "A1" },
+      { "id": "v_u9_2", "german": "Arzt", "article": "der", "plural": "die Ärzte", "pos": "noun", "bengali": "ডাক্তার", "english": "doctor", "pronunciationBn": "আরৎসট", "example_de": "Der Arzt hilft mir.", "example_bn": "ডাক্তার আমাকে সাহায্য করছেন।", "topic": "health_travel", "level": "A1" },
+      { "id": "v_u9_3", "german": "Apotheke", "article": "die", "plural": "die Apotheken", "pos": "noun", "bengali": "ওষুধের দোকান", "english": "pharmacy", "pronunciationBn": "আপোথেকে", "example_de": "Zur Apotheke gehen.", "example_bn": "ওষুধের দোকানে যাওয়া।", "topic": "health_travel", "level": "A1" },
+      { "id": "v_u9_4", "german": "Wetter", "article": "das", "pos": "noun", "bengali": "আবহাওয়া", "english": "weather", "pronunciationBn": "ভেটার", "example_de": "Schönes Wetter.", "example_bn": "সুন্দর আবহাওয়া।", "topic": "health_travel", "level": "A1" },
+      { "id": "v_u9_5", "german": "Sonne", "article": "die", "pos": "noun", "bengali": "সূর্য", "english": "sun", "pronunciationBn": "জোনে", "example_de": "Die Sonne scheint.", "example_bn": "সূর্য কিরণ দিচ্ছে।", "topic": "health_travel", "level": "A1" },
+      { "id": "v_u9_6", "german": "Regen", "article": "der", "pos": "noun", "bengali": "বৃষ্টি", "english": "rain", "pronunciationBn": "রেগেন", "example_de": "Viel Regen heute.", "example_bn": "আজ প্রচুর বৃষ্টি।", "topic": "health_travel", "level": "A1" },
+      { "id": "v_u9_7", "german": "Fahrkarte", "article": "die", "plural": "die Fahrkarten", "pos": "noun", "bengali": "ভ্রমণের টিকিট", "english": "ticket (transit)", "pronunciationBn": "ফারকার্টে", "example_de": "Eine Fahrkarte, bitte.", "example_bn": "একটি টিকিট, দয়া করে।", "topic": "health_travel", "level": "A1" },
+      { "id": "v_u9_8", "german": "krank", "article": null, "pos": "adjective", "bengali": "অসুস্থ", "english": "sick", "pronunciationBn": "ক্রাঙ্ক", "example_de": "Ich bin krank.", "example_bn": "আমি অসুস্থ।", "topic": "health_travel", "level": "A1" }
+    ],
+    "grammarTip": {
+      "title_bn": "'weh tun' (ব্যথা করা) এর ব্যবহার",
+      "title_en": "Using 'weh tun' (to hurt)",
+      "content_bn": "শরীরের কোনো অংশে ব্যথা প্রকাশ করতে 'weh tun' ব্যবহৃত হয়:\n• একবচনে (যেমন মাথা, পেট): Mein Kopf / Bauch tut weh.\n• বহুবচনে (যেমন দুই চোখ, দুই পা): Meine Augen / Beine tun weh.",
+      "rule_table": [
+        { "label": "Singular (একবচন)", "value": "... tut weh", "note": "Mein Kopf tut weh." },
+        { "label": "Plural (বহুবচন)", "value": "... tun weh", "note": "Meine Augen tun weh." }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_9_1_1",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য তৈরি করুন: 'আমার মাথা ব্যথা করছে।' (Mein Kopf tut weh.)",
+        "explanation_bn": "Mein Kopf tut weh.",
+        "targetSentence": "Mein Kopf tut weh.",
+        "scrambledWords": ["weh.", "Kopf", "tut", "Mein"],
+        "meaning_bn": "আমার মাথা ব্যথা করছে।"
+      },
+      {
+        "id": "ex_9_1_2",
+        "type": "article_quiz",
+        "prompt_bn": "'Wetter' (আবহাওয়া) শব্দের আর্টিকেল কোনটি?",
+        "explanation_bn": "Wetter ক্লীবলিঙ্গ, তাই 'das Wetter'।",
+        "noun": "Wetter",
+        "meaning_bn": "আবহাওয়া",
+        "correctArticle": "das"
+      },
+      {
+        "id": "ex_9_1_3",
+        "type": "article_quiz",
+        "prompt_bn": "'Sonne' (সূর্য) শব্দের আর্টিকেল কোনটি?",
+        "explanation_bn": "Sonne স্ত্রীলিঙ্গ, তাই 'die Sonne'।",
+        "noun": "Sonne",
+        "meaning_bn": "সূর্য",
+        "correctArticle": "die"
+      },
+      {
+        "id": "ex_9_1_4",
+        "type": "fill_blank",
+        "prompt_bn": "শূন্যস্থানে সঠিক শব্দ বসান: 'Eine ___, bitte.' (একটি টিকিট, দয়া করে)",
+        "explanation_bn": "Fahrkarte মানে টিকিট।",
+        "sentenceWithBlank": "Eine ___, bitte.",
+        "blankType": "noun",
+        "options": ["Fahrkarte", "Sonne", "Kopf", "Arzt"],
+        "correctAnswer": "Fahrkarte",
+        "translation_bn": "একটি টিকিট, দয়া করে।"
+      },
+      {
+        "id": "ex_9_1_5",
+        "type": "multiple_choice",
+        "prompt_bn": "'krank' শব্দের বাংলা অর্থ কী?",
+        "explanation_bn": "krank মানে অসুস্থ।",
+        "question": "'krank' এর অর্থ কোনটি?",
+        "options": ["অসুস্থ", "সুস্থ", "ক্লান্ত", "খুশি"],
+        "correctAnswer": "অসুস্থ"
+      },
+      {
+        "id": "ex_9_1_6",
+        "type": "matching_pairs",
+        "prompt_bn": "শব্দের সাথে বাংলা অর্থ মেলান:",
+        "explanation_bn": "Arzt = ডাক্তার, Sonne = সূর্য, Regen = বৃষ্টি, Kopf = মাথা",
+        "pairs": [
+          { "german": "Arzt", "bengali": "ডাক্তার" },
+          { "german": "Sonne", "bengali": "সূর্য" },
+          { "german": "Regen", "bengali": "বৃষ্টি" },
+          { "german": "Kopf", "bengali": "মাথা" }
+        ]
+      },
+      {
+        "id": "ex_9_1_7",
+        "type": "listening",
+        "prompt_bn": "অডিও শুনে বলুন কোন শব্দটি উচ্চারিত হয়েছে:",
+        "explanation_bn": "সঠিক শব্দ: 'Wetter' (আবহাওয়া)।",
+        "audioText": "Wetter",
+        "options": ["Wetter", "Wasser", "Winter", "Weiter"],
+        "correctAnswer": "Wetter"
+      },
+      {
+        "id": "ex_9_1_8",
+        "type": "typing",
+        "prompt_bn": "'ডাক্তার' এর জার্মান শব্দটি আর্টিকেলসহ লিখুন (der Arzt):",
+        "explanation_bn": "der Arzt",
+        "prompt": "ডাক্তার",
+        "correctAnswer": "der Arzt",
+        "acceptedAnswers": ["der Arzt", "Arzt"],
+        "placeholder": "যেমন: der Arzt"
+      }
+    ]
+  }
+]

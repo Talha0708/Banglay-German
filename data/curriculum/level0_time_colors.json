@@ -1,0 +1,121 @@
+{
+  "id": "lesson_0_5",
+  "unitId": "level_0",
+  "title_bn": "বার, মাস, ঋতু, সময় ও রঙের নাম",
+  "title_en": "Days, Months, Seasons, Time & Colors",
+  "subtitle_de": "Tage, Monate, Uhrzeit und Farben",
+  "order": 5,
+  "content": {
+    "intro_bn": "জার্মান দৈনন্দিন জীবনের অন্যতম গুরুত্বপূর্ণ অংশ হলো দিন ও সময়ের ব্যবহার:\n• সপ্তাহের সাত দিন: Montag (সোমবার), Dienstag (মঙ্গলবার), Mittwoch (বুধবার), Donnerstag (বৃহস্পতিবার), Freitag (শুক্রবার), Samstag (শনিবার), Sonntag (রবিবার)।\n• দিনের বারের আগে সবসময় 'am' বসে (যেমন: am Montag = সোমবারে)।\n• ঘড়ির সময় দুইভাবে বলা হয়:\n  ১. আনুষ্ঠানিক (অফিস/ট্রেন): 14:15 = vierzehn Uhr fünfzehn\n  ২. অনানুষ্ঠানিক (কথ্য): Viertel nach zwei (সোয়া দুইটা), halb drei (আড়াইটা - পরের ঘণ্টার অর্ধেক!)",
+    "intro_en": "Learn weekdays, months, time telling (formal & informal), and basic colors. Remember: weekdays always take the preposition 'am' (e.g. am Montag). In informal time, 'halb drei' means 2:30 (halfway to three).",
+    "examples": [
+      { "de": "am Montag", "bn": "সোমবারে", "note": "বারের আগে 'am' বসে" },
+      { "de": "Wie viel Uhr ist es? / Wie spät ist es?", "bn": "কয়টা বাজে?", "note": "সময় জিজ্ঞেস করার মূল বাক্য" },
+      { "de": "Es ist 8 Uhr.", "bn": "এখন আটটা বাজে।", "note": "সাধারণ সময়" },
+      { "de": "Es ist halb drei.", "bn": "এখন আড়াইটা (২:৩০) বাজে।", "note": "halb + পরবর্তী ঘণ্টা" },
+      { "de": "Der Himmel ist blau.", "bn": "আকাশ নীল।", "note": "রং এর ব্যবহার" }
+    ]
+  },
+  "vocabulary": [
+    { "id": "v_l05_1", "german": "Montag", "article": "der", "pos": "noun", "bengali": "সোমবার", "english": "Monday", "pronunciationBn": "মোনতাগ", "example_de": "Am Montag arbeite ich.", "example_bn": "সোমবারে আমি কাজ করি।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_2", "german": "Freitag", "article": "der", "pos": "noun", "bengali": "শুক্রবার", "english": "Friday", "pronunciationBn": "ফ্রায়তাগ", "example_de": "Am Freitag treffe ich Freunde.", "example_bn": "শুক্রবারে বন্ধুদের সাথে দেখা করি।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_3", "german": "Sonntag", "article": "der", "pos": "noun", "bengali": "রবিবার", "english": "Sunday", "pronunciationBn": "জোনতাগ", "example_de": "Sonntag ist frei.", "example_bn": "রবিবার ছুটি।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_4", "german": "Uhr", "article": "die", "plural": "die Uhren", "pos": "noun", "bengali": "ঘড়ি / বাজে", "english": "clock / o'clock", "pronunciationBn": "উর", "example_de": "Wie viel Uhr ist es?", "example_bn": "কয়টা বাজে?", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_5", "german": "heute", "article": null, "pos": "adverb", "bengali": "আজ", "english": "today", "pronunciationBn": "হয়টে", "example_de": "Heute ist schönes Wetter.", "example_bn": "আজকের আবহাওয়া সুন্দর।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_6", "german": "morgen", "article": null, "pos": "adverb", "bengali": "আগামীকাল", "english": "tomorrow", "pronunciationBn": "মর্গেন", "example_de": "Bis morgen!", "example_bn": "কাল দেখা হবে!", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_7", "german": "rot", "article": null, "pos": "adjective", "bengali": "লাল", "english": "red", "pronunciationBn": "রোট", "example_de": "Das Auto ist rot.", "example_bn": "গাড়িটি লাল।", "topic": "colors", "level": "A1" },
+    { "id": "v_l05_8", "german": "blau", "article": null, "pos": "adjective", "bengali": "নীল", "english": "blue", "pronunciationBn": "ব্লাউ", "example_de": "Das Hemd ist blau.", "example_bn": "শার্টটি নীল।", "topic": "colors", "level": "A1" }
+  ],
+  "grammarTip": {
+    "title_bn": "জার্মান অনানুষ্ঠানিক সময়: 'halb' এর বিশেষ নিয়ম",
+    "title_en": "Informal Time: The 'halb' Rule",
+    "content_bn": "কথ্য জার্মান ভাষায় 'halb' মানে 'পরবর্তী ঘণ্টার আধা ঘণ্টা বাকি'!\n• halb drei = ২:৩০ (তিনটার দিকে অর্ধেক পথ এগিয়ে গেছে, অর্থাৎ আড়াইটা!)\n• halb acht = ৭:৩০ (সাড়ে সাতটা!)\nআর বারের আগে সবসময় 'am' বসে: am Montag, am Dienstag, am Wochenende (সাপ্তাহিক ছুটিতে)।\nনির্দিষ্ট সময়ের আগে 'um' বসে: um 8 Uhr (আটটায়)।",
+    "rule_table": [
+      { "label": "halb drei", "value": "২:৩০", "note": "তিনটার আধা ঘণ্টা বাকি = আড়াইটা" },
+      { "label": "am Montag", "value": "সোমবারে", "note": "বারের সাথে 'am'" },
+      { "label": "um 8 Uhr", "value": "আটটায়", "note": "সময়ের সাথে 'um'" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ex_0_5_1",
+      "type": "multiple_choice",
+      "prompt_bn": "কথ্য জার্মানে 'halb vier' মানে কয়টা বাজে?",
+      "explanation_bn": "জার্মানে 'halb vier' মানে চারের অর্ধেক এগিয়ে গেছে, অর্থাৎ ৩:৩০ (সাড়ে তিনটা)।",
+      "question": "'halb vier' এর সঠিক সময় কোনটি?",
+      "options": ["৩:৩০ (সাড়ে তিনটা)", "৪:৩০ (সাড়ে চারটা)", "৪:০০ (চারটা)", "৩:১৫ (সোয়া তিনটা)"],
+      "correctAnswer": "৩:৩০ (সাড়ে তিনটা)"
+    },
+    {
+      "id": "ex_0_5_2",
+      "type": "fill_blank",
+      "prompt_bn": "সঠিক প্রেপজিশন বসান: '___ Montag arbeite ich.' (সোমবারে আমি কাজ করি)",
+      "explanation_bn": "সপ্তাহের দিনের সাথে সবসময় 'am' বসে (am Montag)।",
+      "sentenceWithBlank": "___ Montag arbeite ich.",
+      "blankType": "preposition",
+      "options": ["Am", "Um", "Im", "In"],
+      "correctAnswer": "Am",
+      "translation_bn": "সোমবারে আমি কাজ করি।"
+    },
+    {
+      "id": "ex_0_5_3",
+      "type": "matching_pairs",
+      "prompt_bn": "সপ্তাহের দিনের সঠিক বাংলা অর্থ মেলান:",
+      "explanation_bn": "Montag = সোমবার, Freitag = শুক্রবার, Sonntag = রবিবার, Mittwoch = বুধবার",
+      "pairs": [
+        { "german": "Montag", "bengali": "সোমবার" },
+        { "german": "Mittwoch", "bengali": "বুধবার" },
+        { "german": "Freitag", "bengali": "শুক্রবার" },
+        { "german": "Sonntag", "bengali": "রবিবার" }
+      ]
+    },
+    {
+      "id": "ex_0_5_4",
+      "type": "listening",
+      "prompt_bn": "অডিও শুনে বলুন কোন রংটির কথা বলা হয়েছে:",
+      "explanation_bn": "সঠিক উত্তর হলো 'blau' (নীল)।",
+      "audioText": "blau",
+      "options": ["blau (নীল)", "rot (লাল)", "grün (সবুজ)", "gelb (হলুদ)"],
+      "correctAnswer": "blau (নীল)"
+    },
+    {
+      "id": "ex_0_5_5",
+      "type": "sentence_builder",
+      "prompt_bn": "সাজিয়ে বাক্য তৈরি করুন: 'কয়টা বাজে?'",
+      "explanation_bn": "Wie viel Uhr ist es?",
+      "targetSentence": "Wie viel Uhr ist es?",
+      "scrambledWords": ["ist", "Uhr", "Wie", "es?", "viel"],
+      "meaning_bn": "কয়টা বাজে?"
+    },
+    {
+      "id": "ex_0_5_6",
+      "type": "typing",
+      "prompt_bn": "'আজ' এর জার্মান শব্দটি লিখুন (heute):",
+      "explanation_bn": "আজ = heute।",
+      "prompt": "আজ",
+      "correctAnswer": "heute",
+      "acceptedAnswers": ["heute", "Heute"],
+      "placeholder": "যেমন: heute"
+    },
+    {
+      "id": "ex_0_5_7",
+      "type": "fill_blank",
+      "prompt_bn": "সময়ের আগে সঠিক প্রেপজিশন বসান: 'Der Zug kommt ___ 8 Uhr.' (ট্রেনটি আটটায় আসবে)",
+      "explanation_bn": "নির্দিষ্ট ঘড়ির সময়ের আগে 'um' বসে (um 8 Uhr)।",
+      "sentenceWithBlank": "Der Zug kommt ___ 8 Uhr.",
+      "blankType": "preposition",
+      "options": ["um", "am", "im", "an"],
+      "correctAnswer": "um",
+      "translation_bn": "ট্রেনটি আটটায় আসবে।"
+    },
+    {
+      "id": "ex_0_5_8",
+      "type": "multiple_choice",
+      "prompt_bn": "'rot' রঙের বাংলা অর্থ কী?",
+      "explanation_bn": "rot মানে লাল (red)।",
+      "question": "'rot' এর সঠিক অর্থ কোনটি?",
+      "options": ["লাল", "নীল", "সবুজ", "হলুদ"],
+      "correctAnswer": "লাল"
+    }
+  ]
+}

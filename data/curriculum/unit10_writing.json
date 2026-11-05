@@ -1,0 +1,119 @@
+[
+  {
+    "id": "lesson_10_1",
+    "unitId": "unit_10",
+    "title_bn": "জার্মান ইমেইল, ফর্ম পূরণ ও অ্যাপয়েন্টমেন্ট",
+    "title_en": "Simple Writing: Emails, Forms & Appointments",
+    "subtitle_de": "Schreiben: E-Mails, Formulare und Termine",
+    "order": 18,
+    "content": {
+      "intro_bn": "Goethe A1 পরীক্ষার অন্যতম প্রধান অংশ হলো সংক্ষিপ্ত ইমেইল লেখা এবং অফিসিয়াল ফর্ম পূরণ করা:\n১. আনুষ্ঠানিক ইমেইলের শুরু ও শেষ:\n   • শুরু: 'Sehr geehrte Damen und Herren,' (সুধীবৃন্দ - নাম জানা না থাকলে)\n   • পরিচিত ভদ্রলোক: 'Sehr geehrter Herr Müller,'\n   • পরিচিত ভদ্রমহিলা: 'Sehr geehrte Frau Schmidt,'\n   • সমাপ্তি: 'Mit freundlichen Grüßen' (শ্রদ্ধান্তে / শুভেচ্ছা সহ)\n\n২. অনানুষ্ঠানিক (বন্ধুকে চিঠি):\n   • শুরু: 'Liebe Anna,' / 'Lieber Alex,'\n   • সমাপ্তি: 'Viele Grüße' / 'Herzliche Grüße'\n\n৩. ফর্ম পূরণের মূল পরিভাষা: Vorname (নামের প্রথম অংশ), Nachname / Familienname (পদবি / বংশনাম), Geburtsdatum (জন্মতারিখ), Staatsangehörigkeit (জাতীয়তা), Unterschrift (স্বাক্ষর)।",
+      "intro_en": "A1 writing essentials: Formal email salutations ('Sehr geehrte Damen und Herren', 'Sehr geehrte(r)...', 'Mit freundlichen Grüßen'), informal email greetings ('Liebe...', 'Viele Grüße'), and German form fields (Vorname, Nachname, Geburtsdatum, Unterschrift).",
+      "examples": [
+        { "de": "Sehr geehrte Damen und Herren,", "bn": "মাননীয় সুধীবৃন্দ,", "note": "আনুষ্ঠানিক ইমেইলের শুরু" },
+        { "de": "Mit freundlichen Grüßen", "bn": "শুভেচ্ছা সহ (আনুষ্ঠানিক সমাপ্তি)", "note": "ইমেইলের শেষ" },
+        { "de": "Ich möchte einen Termin vereinbaren.", "bn": "আমি একটি অ্যাপয়েন্টমেন্ট নির্ধারণ করতে চাই।", "note": "Termin = appointment" },
+        { "de": "Vorname: Talha | Nachname: Belal", "bn": "প্রথম নাম: তালহা | বংশনাম: বেলাল", "note": "ফর্ম পূরণ" }
+      ]
+    },
+    "vocabulary": [
+      { "id": "v_u10_1", "german": "Termin", "article": "der", "plural": "die Termine", "pos": "noun", "bengali": "অ্যাপয়েন্টমেন্ট / সাক্ষাতের সময়", "english": "appointment", "pronunciationBn": "টের্মিন", "example_de": "Ich habe einen Termin.", "example_bn": "আমার একটি অ্যাপয়েন্টমেন্ট আছে।", "topic": "basics", "level": "A1" },
+      { "id": "v_u10_2", "german": "Vorname", "article": "der", "plural": "die Vornamen", "pos": "noun", "bengali": "নামের প্রথম অংশ", "english": "first name", "pronunciationBn": "ফোরনামে", "example_de": "Mein Vorname ist...", "example_bn": "আমার প্রথম নাম...", "topic": "basics", "level": "A1" },
+      { "id": "v_u10_3", "german": "Nachname", "article": "der", "plural": "die Nachnamen", "pos": "noun", "bengali": "পদবি / পারিবারিক নাম", "english": "last name / surname", "pronunciationBn": "নাখনামে", "example_de": "Ihr Nachname, bitte.", "example_bn": "আপনার পদবি, দয়া করে।", "topic": "basics", "level": "A1" },
+      { "id": "v_u10_4", "german": "Geburtsdatum", "article": "das", "plural": "die Geburtsdaten", "pos": "noun", "bengali": "জন্ম তারিখ", "english": "date of birth", "pronunciationBn": "গেবুর্টস-ডাটুম", "example_de": "Wie ist Ihr Geburtsdatum?", "example_bn": "আপনার জন্মতারিখ কত?", "topic": "basics", "level": "A1" },
+      { "id": "v_u10_5", "german": "Unterschrift", "article": "die", "plural": "die Unterschriften", "pos": "noun", "bengali": "স্বাক্ষর / দস্তখত", "english": "signature", "pronunciationBn": "উন্টারশ্রিফ্ট", "example_de": "Ihre Unterschrift hier.", "example_bn": "এখানে আপনার স্বাক্ষর।", "topic": "basics", "level": "A1" },
+      { "id": "v_u10_6", "german": "schreiben", "article": null, "pos": "verb", "bengali": "লেখা", "english": "to write", "pronunciationBn": "শ্রাইবেন", "example_de": "Ich schreibe eine E-Mail.", "example_bn": "আমি একটি ইমেইল লিখছি।", "topic": "basics", "level": "A1" },
+      { "id": "v_u10_7", "german": "Grüße", "article": "die", "pos": "noun", "bengali": "শুভেচ্ছা (Regards)", "english": "greetings / regards", "pronunciationBn": "গ্র্যুসে", "example_de": "Viele Grüße!", "example_bn": "অনেক শুভেচ্ছা!", "topic": "greetings", "level": "A1" },
+      { "id": "v_u10_8", "german": "Hilfe", "article": "die", "pos": "noun", "bengali": "সাহায্য / সহায়তা", "english": "help", "pronunciationBn": "হিলফে", "example_de": "Vielen Dank für Ihre Hilfe.", "example_bn": "আপনার সাহায্যের জন্য অনেক ধন্যবাদ।", "topic": "basics", "level": "A1" }
+    ],
+    "grammarTip": {
+      "title_bn": "আনুষ্ঠানিক ইমেইলের গঠন ফ্রেমওয়ার্ক",
+      "title_en": "Formal Email Blueprint",
+      "content_bn": "১. সম্ভাষণ: Sehr geehrte Damen und Herren,\n২. মূল কথা: Ich möchte gerne... / Können Sie mir helfen?\n৩. সাক্ষাতের সময়: Passt Ihnen Dienstag um 10 Uhr?\n৪. সমাপ্তি: Vielen Dank im Voraus. Mit freundlichen Grüßen,\n[আপনার পূর্ণ নাম]",
+      "rule_table": [
+        { "label": "Start", "value": "Sehr geehrte Damen und Herren,", "note": "সুধীবৃন্দ," },
+        { "label": "End", "value": "Mit freundlichen Grüßen", "note": "শ্রদ্ধান্তে," }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_10_1_1",
+        "type": "multiple_choice",
+        "prompt_bn": "আনুষ্ঠানিক জার্মান ইমেইলের বিদায় সম্ভাষণ কোনটি?",
+        "explanation_bn": "আনুষ্ঠানিক ইমেইলের শেষে 'Mit freundlichen Grüßen' লেখা হয়।",
+        "question": "আনুষ্ঠানিক ইমেইলের সঠিক সমাপ্তি কোনটি?",
+        "options": ["Mit freundlichen Grüßen", "Tschüss", "Bis bald", "Gute Nacht"],
+        "correctAnswer": "Mit freundlichen Grüßen"
+      },
+      {
+        "id": "ex_10_1_2",
+        "type": "matching_pairs",
+        "prompt_bn": "ফর্মের পরিভাষার সাথে বাংলা অর্থ মেলান:",
+        "explanation_bn": "Vorname = প্রথম নাম, Nachname = পদবি, Geburtsdatum = জন্ম তারিখ, Unterschrift = স্বাক্ষর",
+        "pairs": [
+          { "german": "Vorname", "bengali": "নামের প্রথম অংশ" },
+          { "german": "Nachname", "bengali": "বংশনাম / পদবি" },
+          { "german": "Geburtsdatum", "bengali": "জন্ম তারিখ" },
+          { "german": "Unterschrift", "bengali": "স্বাক্ষর" }
+        ]
+      },
+      {
+        "id": "ex_10_1_3",
+        "type": "article_quiz",
+        "prompt_bn": "'Termin' (অ্যাপয়েন্টমেন্ট) শব্দের আর্টিকেল কোনটি?",
+        "explanation_bn": "Termin পুংলিঙ্গ (der Termin)।",
+        "noun": "Termin",
+        "meaning_bn": "অ্যাপয়েন্টমেন্ট / সময়",
+        "correctArticle": "der"
+      },
+      {
+        "id": "ex_10_1_4",
+        "type": "sentence_builder",
+        "prompt_bn": "বাক্য সাজান: 'আমি একটি ইমেইল লিখছি।' (Ich schreibe eine E-Mail.)",
+        "explanation_bn": "Ich schreibe eine E-Mail.",
+        "targetSentence": "Ich schreibe eine E-Mail.",
+        "scrambledWords": ["E-Mail.", "eine", "schreibe", "Ich"],
+        "meaning_bn": "আমি একটি ইমেইল লিখছি।"
+      },
+      {
+        "id": "ex_10_1_5",
+        "type": "article_quiz",
+        "prompt_bn": "'Unterschrift' (স্বাক্ষর) শব্দের আর্টিকেল কোনটি?",
+        "explanation_bn": "-schrift প্রত্যয়যুক্ত শব্দ স্ত্রীলিঙ্গ হয়, তাই 'die Unterschrift'।",
+        "noun": "Unterschrift",
+        "meaning_bn": "স্বাক্ষর",
+        "correctArticle": "die"
+      },
+      {
+        "id": "ex_10_1_6",
+        "type": "listening",
+        "prompt_bn": "অডিও শুনে শব্দটি চিনুন:",
+        "explanation_bn": "সঠিক শব্দ: 'Termin' (অ্যাপয়েন্টমেন্ট)।",
+        "audioText": "Termin",
+        "options": ["Termin", "Ticket", "Tag", "Tisch"],
+        "correctAnswer": "Termin"
+      },
+      {
+        "id": "ex_10_1_7",
+        "type": "typing",
+        "prompt_bn": "'অ্যাপয়েন্টমেন্ট' এর জার্মান শব্দটি আর্টিকেলসহ লিখুন (der Termin):",
+        "explanation_bn": "der Termin",
+        "prompt": "অ্যাপয়েন্টমেন্ট",
+        "correctAnswer": "der Termin",
+        "acceptedAnswers": ["der Termin", "Termin"],
+        "placeholder": "যেমন: der Termin"
+      },
+      {
+        "id": "ex_10_1_8",
+        "type": "fill_blank",
+        "prompt_bn": "সঠিক শব্দ বসান: 'Mit freundlichen ___' (শুভেচ্ছা সহ)",
+        "explanation_bn": "Grüßen",
+        "sentenceWithBlank": "Mit freundlichen ___",
+        "blankType": "noun",
+        "options": ["Grüßen", "Tagen", "Briefen", "Wörtern"],
+        "correctAnswer": "Grüßen",
+        "translation_bn": "শুভেচ্ছা সহ"
+      }
+    ]
+  }
+]

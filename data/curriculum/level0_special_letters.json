@@ -1,0 +1,119 @@
+{
+  "id": "lesson_0_2",
+  "unitId": "level_0",
+  "title_bn": "বিশেষ অক্ষর: Ä, Ö, Ü এবং ß",
+  "title_en": "Special Letters: Umlauts & Eszett",
+  "subtitle_de": "Umlaute und das Eszett",
+  "order": 2,
+  "content": {
+    "intro_bn": "জার্মান ভাষায় ৪টি বিশেষ বর্ণ রয়েছে যা সাধারণ ইংরেজি কিবোর্ডে থাকে না:\n১. Ä / ä (A-Umlaut): উচ্চারণ বাংলা 'অ্যা' (যেমন Mädchen = মেদশ্যেন / বালিকা)\n২. Ö / ö (O-Umlaut): ঠোঁট গোল করে 'ও' বলার মতো করে 'এ' বলা\n৩. Ü / ü (U-Umlaut): ঠোঁট গোল করে শিস দেওয়ার মতো 'উ' ও 'ই' এর মিশ্রণ\n৪. ß (Eszett / scharfes S): বাংলা যুক্ত 'স' বা তীব্র 'স্' এর মতো। কখনো বড় হাতের শুরুতে বসে না।",
+    "intro_en": "German has four special characters: three umlauts (ä, ö, ü) and the sharp S (ß). Umlauts modify the vowel sound by rounding the lips.",
+    "examples": [
+      { "de": "das Mädchen", "bn": "মেয়ে / বালিকা", "note": "ä এর উচ্চারণ 'অ্যা'" },
+      { "de": "schön", "bn": "সুন্দর", "note": "ö এর উচ্চারণ ঠোঁট গোল করে" },
+      { "de": "Tschüss", "bn": "বিদায়", "note": "ü শিস দেওয়ার মতো টান" },
+      { "de": "heißen", "bn": "নাম হওয়া", "note": "ß তীব্র 'স' এর মতো (ss)" }
+    ]
+  },
+  "vocabulary": [
+    { "id": "v_l02_1", "german": "Mädchen", "article": "das", "plural": "die Mädchen", "pos": "noun", "bengali": "বালিকা / মেয়ে", "english": "girl", "pronunciationBn": "মেডশ্যেন", "example_de": "Das Mädchen liest.", "example_bn": "মেয়েটি পড়ছে।", "topic": "family", "level": "A1" },
+    { "id": "v_l02_2", "german": "schön", "article": null, "pos": "adjective", "bengali": "সুন্দর", "english": "beautiful / nice", "pronunciationBn": "শ্যোন", "example_de": "Danke schön!", "example_bn": "অনেক ধন্যবাদ!", "topic": "greetings", "level": "A1" },
+    { "id": "v_l02_3", "german": "Tschüss", "article": null, "pos": "phrase", "bengali": "বিদায়", "english": "bye", "pronunciationBn": "চুউস", "example_de": "Tschüss, bis bald!", "example_bn": "বিদায়, শীগগিরই দেখা হবে!", "topic": "greetings", "level": "A1" },
+    { "id": "v_l02_4", "german": "heißen", "article": null, "pos": "verb", "bengali": "নাম হওয়া", "english": "to be called", "pronunciationBn": "হাইসেন", "example_de": "Ich heiße...", "example_bn": "আমার নাম...", "topic": "basics", "level": "A1" },
+    { "id": "v_l02_5", "german": "Äpfel", "article": "die", "plural": "die Äpfel", "pos": "noun", "bengali": "আপেলগুলো (বহুবচন)", "english": "apples", "pronunciationBn": "এপফেল", "example_de": "Zwei Äpfel.", "example_bn": "দুটি আপেল।", "topic": "food_drinks", "level": "A1" },
+    { "id": "v_l02_6", "german": "Käse", "article": "der", "pos": "noun", "bengali": "পনির", "english": "cheese", "pronunciationBn": "কেজে", "example_de": "Der Käse schmeckt gut.", "example_bn": "পনিরটি খেতে সুস্বাদু।", "topic": "food_drinks", "level": "A1" },
+    { "id": "v_l02_7", "german": "grün", "article": null, "pos": "adjective", "bengali": "সবুজ", "english": "green", "pronunciationBn": "গ্র্যুন", "example_de": "Der Baum ist grün.", "example_bn": "গাছটি সবুজ।", "topic": "colors", "level": "A1" },
+    { "id": "v_l02_8", "german": "groß", "article": null, "pos": "adjective", "bengali": "বড়", "english": "big / tall", "pronunciationBn": "গ্রোস", "example_de": "Das Haus ist groß.", "example_bn": "বাড়িটি বড়।", "topic": "home_city", "level": "A1" }
+  ],
+  "grammarTip": {
+    "title_bn": "উমলউট না থাকলে বিকল্প লেখা (Alternative Typing)",
+    "title_en": "Umlaut Keyboard Alternatives",
+    "content_bn": "যদি আপনার মোবাইলে জার্মান কীবোর্ড না থাকে, তবে জার্মান ব্যাকরণ অনুযায়ী বর্ণগুলো এভাবে লেখা সম্পূর্ণ বৈধ:\n• ä = ae (যেমন: Maedchen)\n• ö = oe (যেমন: schoen)\n• ü = ue (যেমন: Tschuess)\n• ß = ss (যেমন: heissen)\nএই অ্যাপটিতে আপনি ä/oe বা ß/ss যে কোনোভাবেই টাইপ করতে পারবেন!",
+    "rule_table": [
+      { "label": "ä", "value": "ae", "note": "Käse = Kaese" },
+      { "label": "ö", "value": "oe", "note": "schön = schoen" },
+      { "label": "ü", "value": "ue", "note": "grün = gruen" },
+      { "label": "ß", "value": "ss", "note": "groß = gross" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ex_0_2_1",
+      "type": "multiple_choice",
+      "prompt_bn": "জার্মান 'ß' (Eszett) অক্ষরের সমতুল্য বিকল্প বর্ণ কোনটি?",
+      "explanation_bn": "'ß' অক্ষরটি একটি দ্বৈত 'ss' নির্দেশ করে। যেমন: groß = gross, heißen = heissen।",
+      "question": "'ß' অক্ষরটিকে সাধারণ কীবোর্ডে কী লেখা যায়?",
+      "options": ["ss", "sz", "sh", "b"],
+      "correctAnswer": "ss"
+    },
+    {
+      "id": "ex_0_2_2",
+      "type": "matching_pairs",
+      "prompt_bn": "উমলউটের সাথে বিকল্প রূপ মেলান:",
+      "explanation_bn": "ä = ae, ö = oe, ü = ue, ß = ss",
+      "pairs": [
+        { "german": "ä (যেমন Käse)", "bengali": "ae (Kaese)" },
+        { "german": "ö (যেমন schön)", "bengali": "oe (schoen)" },
+        { "german": "ü (যেমন grün)", "bengali": "ue (gruen)" },
+        { "german": "ß (যেমন groß)", "bengali": "ss (gross)" }
+      ]
+    },
+    {
+      "id": "ex_0_2_3",
+      "type": "listening",
+      "prompt_bn": "অডিও শুনে বলুন কোন শব্দটি উচ্চারিত হয়েছে:",
+      "explanation_bn": "সঠিক শব্দ 'schön' যার অর্থ সুন্দর।",
+      "audioText": "schön",
+      "options": ["schön", "schon", "Sohn", "Sonne"],
+      "correctAnswer": "schön"
+    },
+    {
+      "id": "ex_0_2_4",
+      "type": "article_quiz",
+      "prompt_bn": "'Mädchen' (মেয়ে/বালিকা) শব্দের আর্টিকেল কোনটি?",
+      "explanation_bn": "জার্মান ভাষায় -chen প্রত্যয়যুক্ত শব্দ সবসময় ক্লীবলিঙ্গ (das) হয়, তাই 'das Mädchen'।",
+      "noun": "Mädchen",
+      "meaning_bn": "বালিকা / মেয়ে",
+      "correctArticle": "das"
+    },
+    {
+      "id": "ex_0_2_5",
+      "type": "fill_blank",
+      "prompt_bn": "শূন্যস্থান পূরণ করুন:",
+      "explanation_bn": "Ich heiße মানে আমার নাম...",
+      "sentenceWithBlank": "Ich ___ Rahul.",
+      "blankType": "verb",
+      "options": ["heiße", "heißt", "heißen", "haben"],
+      "correctAnswer": "heiße",
+      "translation_bn": "আমার নাম রাহুল।"
+    },
+    {
+      "id": "ex_0_2_6",
+      "type": "multiple_choice",
+      "prompt_bn": "'grün' শব্দের বাংলা অর্থ কী?",
+      "explanation_bn": "grün মানে সবুজ (green)।",
+      "question": "'grün' এর অর্থ কোনটি?",
+      "options": ["সবুজ", "লাল", "নীল", "কালো"],
+      "correctAnswer": "সবুজ"
+    },
+    {
+      "id": "ex_0_2_7",
+      "type": "typing",
+      "prompt_bn": "'বিদায়' এর অনানুষ্ঠানিক জার্মান শব্দটি লিখুন:",
+      "explanation_bn": "সঠিক উত্তর হলো Tschüss (বা Tschuess)।",
+      "prompt": "বিদায় (অনানুষ্ঠানিক)",
+      "correctAnswer": "Tschüss",
+      "acceptedAnswers": ["Tschuess", "tschüss", "tschuess"],
+      "placeholder": "যেমন: Tschüss"
+    },
+    {
+      "id": "ex_0_2_8",
+      "type": "flashcard_flip",
+      "prompt_bn": "অর্থটি মনে রাখুন:",
+      "explanation_bn": "groß মানে বড় (big)।",
+      "front": "groß",
+      "back": "বড় (big / tall)",
+      "hint_bn": "বিপরীত: klein (ছোট)"
+    }
+  ]
+}

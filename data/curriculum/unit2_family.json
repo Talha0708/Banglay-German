@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lesson_2_1",
+    "unitId": "unit_2",
+    "title_bn": "পরিবার ও 'haben' ক্রিয়ার ব্যবহার",
+    "title_en": "Family & The Verb 'haben'",
+    "subtitle_de": "Familie und das Verb haben",
+    "order": 10,
+    "content": {
+      "intro_bn": "পরিবারের সদস্যদের পরিচয় দিতে 'haben' (থাকা / আছে - have) ক্রিয়া এবং 'mein/dein' সম্বন্ধসূচক সর্বনাম ব্যবহার করা হয়।\n• mein Vater (আমার বাবা - পুংলিঙ্গ)\n• meine Mutter (আমার মা - স্ত্রীলিঙ্গ)\n• mein Kind (আমার সন্তান - ক্লীবলিঙ্গ)\n• meine Geschwister (আমার ভাই-বোন - বহুবচন)\n\n'haben' ক্রিয়ার রূপান্তর:\nich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben.",
+      "intro_en": "Learn to talk about your family members and conjugate the essential irregular verb 'haben' (to have). Remember possessives: 'mein' for masculine/neuter, 'meine' for feminine/plural.",
+      "examples": [
+        { "de": "Ich habe einen Bruder.", "bn": "আমার একজন ভাই আছে।", "note": "Akkusativ: einen Bruder" },
+        { "de": "Meine Mutter heißt Salma.", "bn": "আমার মায়ের নাম সালমা।", "note": "meine Mutter" },
+        { "de": "Hast du Geschwister?", "bn": "তোমার কি ভাই-বোন আছে?", "note": "hast du" },
+        { "de": "Wir haben zwei Kinder.", "bn": "আমাদের দুটি সন্তান আছে।", "note": "wir haben" }
+      ]
+    },
+    "vocabulary": [
+      { "id": "v_u2_1", "german": "Vater", "article": "der", "plural": "die Väter", "pos": "noun", "bengali": "বাবা", "english": "father", "pronunciationBn": "ফাটার", "example_de": "Mein Vater ist nett.", "example_bn": "আমার বাবা সদয়।", "topic": "family", "level": "A1" },
+      { "id": "v_u2_2", "german": "Mutter", "article": "die", "plural": "die Mütter", "pos": "noun", "bengali": "মা", "english": "mother", "pronunciationBn": "মুটার", "example_de": "Meine Mutter kocht gut.", "example_bn": "আমার মা ভালো রান্না করেন।", "topic": "family", "level": "A1" },
+      { "id": "v_u2_3", "german": "Bruder", "article": "der", "plural": "die Brüder", "pos": "noun", "bengali": "ভাই", "english": "brother", "pronunciationBn": "ব্রুডার", "example_de": "Er ist mein Bruder.", "example_bn": "তিনি আমার ভাই।", "topic": "family", "level": "A1" },
+      { "id": "v_u2_4", "german": "Schwester", "article": "die", "plural": "die Schwestern", "pos": "noun", "bengali": "বোন", "english": "sister", "pronunciationBn": "শ্ভেস্টার", "example_de": "Ich habe eine Schwester.", "example_bn": "আমার এক বোন আছে।", "topic": "family", "level": "A1" },
+      { "id": "v_u2_5", "german": "Kind", "article": "das", "plural": "die Kinder", "pos": "noun", "bengali": "সন্তান / বাচ্চা", "english": "child", "pronunciationBn": "কিন্ট", "example_de": "Das Kind lacht.", "example_bn": "বাচ্চাটি হাসছে।", "topic": "family", "level": "A1" },
+      { "id": "v_u2_6", "german": "Eltern", "article": "die", "plural": "die Eltern", "pos": "noun", "bengali": "বাবা-মা", "english": "parents", "pronunciationBn": "এলটার্ন", "example_de": "Meine Eltern sind alt.", "example_bn": "আমার বাবা-মা বৃদ্ধ।", "topic": "family", "level": "A1" },
+      { "id": "v_u2_7", "german": "haben", "article": null, "pos": "verb", "bengali": "থাকা / আছে", "english": "to have", "pronunciationBn": "হাবেন", "example_de": "Ich habe Zeit.", "example_bn": "আমার সময় আছে।", "topic": "family", "level": "A1" },
+      { "id": "v_u2_8", "german": "mein", "article": null, "pos": "pronoun", "bengali": "আমার", "english": "my", "pronunciationBn": "মাইন", "example_de": "Mein Sohn.", "example_bn": "আমার ছেলে।", "topic": "family", "level": "A1" }
+    ],
+    "grammarTip": {
+      "title_bn": "সম্পর্কসূচক সর্বনাম: mein বনাম meine",
+      "title_en": "Possessives: mein vs meine",
+      "content_bn": "স্ত্রীলিঙ্গ ও বহুবচনে 'mein' এর শেষে '-e' যুক্ত হয়:\n• der Vater -> mein Vater\n• das Kind -> mein Kind\n• die Mutter -> meine Mutter\n• die Eltern -> meine Eltern\nএকইভাবে du এর জন্য dein এবং deine ব্যবহৃত হয়!",
+      "rule_table": [
+        { "label": "der / das", "value": "mein / dein", "note": "mein Vater, mein Kind" },
+        { "label": "die (স্ত্রীলিঙ্গ)", "value": "meine / deine", "note": "meine Mutter" },
+        { "label": "die (বহুবচন)", "value": "meine / deine", "note": "meine Eltern" }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_2_1_1",
+        "type": "conjugation_quiz",
+        "prompt_bn": "'du' এর সাথে 'haben' ক্রিয়ার রূপ কোনটি?",
+        "explanation_bn": "du এর সাথে 'hast' হয় (Hast du Zeit?)।",
+        "verb": "haben",
+        "pronoun": "du",
+        "meaning_bn": "তোমার আছে",
+        "options": ["hast", "habe", "hat", "haben"],
+        "correctAnswer": "hast"
+      },
+      {
+        "id": "ex_2_1_2",
+        "type": "fill_blank",
+        "prompt_bn": "সঠিক সম্বন্ধসূচক পদ বসান: 'Das ist ___ Mutter.' (ইনি আমার মা)",
+        "explanation_bn": "Mutter স্ত্রীলিঙ্গ (die Mutter), তাই 'meine'।",
+        "sentenceWithBlank": "Das ist ___ Mutter.",
+        "blankType": "article",
+        "options": ["meine", "mein", "meinen", "meinem"],
+        "correctAnswer": "meine",
+        "translation_bn": "ইনি আমার মা।"
+      },
+      {
+        "id": "ex_2_1_3",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য তৈরি করুন: 'আমার একজন ভাই আছে।'",
+        "explanation_bn": "Ich habe einen Bruder.",
+        "targetSentence": "Ich habe einen Bruder.",
+        "scrambledWords": ["einen", "Bruder.", "Ich", "habe"],
+        "meaning_bn": "আমার একজন ভাই আছে।"
+      },
+      {
+        "id": "ex_2_1_4",
+        "type": "multiple_choice",
+        "prompt_bn": "'die Eltern' শব্দের অর্থ কী?",
+        "explanation_bn": "Eltern মানে পিতা-মাতা বা বাবা-মা (parents)।",
+        "question": "'die Eltern' এর বাংলা কী?",
+        "options": ["বাবা-মা (parents)", "ভাই-বোন", "ছেলে-মেয়ে", "দাদা-দাদী"],
+        "correctAnswer": "বাবা-মা (parents)"
+      },
+      {
+        "id": "ex_2_1_5",
+        "type": "article_quiz",
+        "prompt_bn": "'Kind' (বাচ্চা/সন্তান) শব্দের আর্টিকেল কোনটি?",
+        "explanation_bn": "Kind হলো ক্লীবলিঙ্গ (das Kind)।",
+        "noun": "Kind",
+        "meaning_bn": "বাচ্চা / শিশু",
+        "correctArticle": "das"
+      },
+      {
+        "id": "ex_2_1_6",
+        "type": "typing",
+        "prompt_bn": "'বাবা' এর জার্মান শব্দটি আর্টিকেলসহ লিখুন (der Vater):",
+        "explanation_bn": "der Vater",
+        "prompt": "বাবা",
+        "correctAnswer": "der Vater",
+        "acceptedAnswers": ["der Vater", "Vater"],
+        "placeholder": "যেমন: der Vater"
+      },
+      {
+        "id": "ex_2_1_7",
+        "type": "listening",
+        "prompt_bn": "অডিও শুনে বলুন কোন শব্দটি বলা হয়েছে:",
+        "explanation_bn": "সঠিক শব্দ: 'Mutter' (মা)।",
+        "audioText": "Mutter",
+        "options": ["Mutter", "Vater", "Bruder", "Schwester"],
+        "correctAnswer": "Mutter"
+      },
+      {
+        "id": "ex_2_1_8",
+        "type": "matching_pairs",
+        "prompt_bn": "পারিবারিক সম্পর্কের বাংলা ও জার্মান মেলান:",
+        "explanation_bn": "Bruder = ভাই, Schwester = বোন, Sohn = ছেলে, Tochter = মেয়ে",
+        "pairs": [
+          { "german": "Bruder", "bengali": "ভাই" },
+          { "german": "Schwester", "bengali": "বোন" },
+          { "german": "Sohn", "bengali": "ছেলে" },
+          { "german": "Tochter", "bengali": "মেয়ে" }
+        ]
+      }
+    ]
+  }
+]

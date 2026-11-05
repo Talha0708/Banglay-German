@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lesson_7_1",
+    "unitId": "unit_7",
+    "title_bn": "শখ ও মোডাল ভার্ব (können, müssen, wollen & Satzklammer)",
+    "title_en": "Hobbies & Modal Verbs (können, müssen, wollen)",
+    "subtitle_de": "Freizeit und Modalverben",
+    "order": 15,
+    "content": {
+      "intro_bn": "মোডাল ক্রিয়া (Modalverben) সামর্থ্য, বাধ্যবাধকতা ও ইচ্ছা প্রকাশ করতে ব্যবহৃত হয়:\n১. können (পারা - can/ability): Ich kann Deutsch sprechen.\n২. müssen (বাধ্য হওয়া - must/have to): Ich muss morgen arbeiten.\n৩. wollen (দৃঢ় ইচ্ছা - want to): Wir wollen nach Berlin fahren.\n৪. dürfen (অনুমতি থাকা - allowed to / may): Hier darf man nicht rauchen.\n\nসবচেয়ে গুরুত্বপূর্ণ ব্যাকরণ: মোডাল ক্রিয়াটি ২ নম্বরে বসে, এবং মূল ক্রিয়ার অপরিবর্তিত রূপ (Infinitiv) বাক্যের একদম শেষে চলে যায় (Satzklammer)!",
+      "intro_en": "Master modal verbs: können (ability), müssen (obligation), and wollen (strong desire). Notice the sentence bracket: the conjugated modal verb sits at Position 2, and the main verb (infinitive) moves to the end.",
+      "examples": [
+        { "de": "Ich kann sehr gut schwimmen.", "bn": "আমি খুব ভালো সাঁতার কাটতে পারি।", "note": "kann (2) ... schwimmen (শেষে)" },
+        { "de": "Er muss heute lange arbeiten.", "bn": "তাকে আজ দীর্ঘ সময় কাজ করতে হবে।", "note": "muss ... arbeiten" },
+        { "de": "Wir wollen Deutsch lernen.", "bn": "আমরা জার্মান শিখতে চাই।", "note": "wollen ... lernen" },
+        { "de": "In meiner Freizeit spiele ich Fußball.", "bn": "অবসর সময়ে আমি ফুটবল খেলি।", "note": "ফুটবল খেলা" }
+      ]
+    },
+    "vocabulary": [
+      {
+        "id": "v_u7_1",
+        "german": "können",
+        "article": null,
+        "pos": "verb",
+        "bengali": "পারা (ability)",
+        "english": "can / to be able to",
+        "pronunciationBn": "ক্যোন্নেন",
+        "example_de": "Kannst du mir helfen?",
+        "example_bn": "তুমি কি আমাকে সাহায্য করতে পারবে?",
+        "topic": "hobbies",
+        "level": "A1",
+        "conjugations": {
+          "ich": "kann",
+          "du": "kannst",
+          "er_sie_es": "kann",
+          "wir": "können",
+          "ihr": "könnt",
+          "sie_Sie": "können"
+        }
+      },
+      {
+        "id": "v_u7_2",
+        "german": "müssen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "বাধ্য হওয়া / করতেই হবে",
+        "english": "must / to have to",
+        "pronunciationBn": "ম্যুসেন",
+        "example_de": "Ich muss zum Arzt gehen.",
+        "example_bn": "আমাকে ডাক্তারের কাছে যেতে হবে।",
+        "topic": "hobbies",
+        "level": "A1",
+        "conjugations": {
+          "ich": "muss",
+          "du": "musst",
+          "er_sie_es": "muss",
+          "wir": "müssen",
+          "ihr": "müsst",
+          "sie_Sie": "müssen"
+        }
+      },
+      {
+        "id": "v_u7_3",
+        "german": "wollen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "চাওয়া / ইচ্ছা করা",
+        "english": "to want to",
+        "pronunciationBn": "ভোলেন",
+        "example_de": "Was willst du machen?",
+        "example_bn": "তুমি কী করতে চাও?",
+        "topic": "hobbies",
+        "level": "A1",
+        "conjugations": {
+          "ich": "will",
+          "du": "willst",
+          "er_sie_es": "will",
+          "wir": "wollen",
+          "ihr": "wollt",
+          "sie_Sie": "wollen"
+        }
+      },
+      { "id": "v_u7_4", "german": "Fußball", "article": "der", "pos": "noun", "bengali": "ফুটবল", "english": "football", "pronunciationBn": "ফুসবাল", "example_de": "Ich spiele Fußball.", "example_bn": "আমি ফুটবল খেলি।", "topic": "hobbies", "level": "A1" },
+      { "id": "v_u7_5", "german": "Musik", "article": "die", "pos": "noun", "bengali": "সঙ্গীত / গান", "english": "music", "pronunciationBn": "মুজিক", "example_de": "Schöne Musik.", "example_bn": "সুন্দর গান।", "topic": "hobbies", "level": "A1" },
+      { "id": "v_u7_6", "german": "schwimmen", "article": null, "pos": "verb", "bengali": "সাঁতার কাটা", "english": "to swim", "pronunciationBn": "শ্ভিমেন", "example_de": "Wir schwimmen gern.", "example_bn": "আমরা সাঁতার পছন্দ করি।", "topic": "hobbies", "level": "A1" },
+      { "id": "v_u7_7", "german": "kochen", "article": null, "pos": "verb", "bengali": "রান্না করা", "english": "to cook", "pronunciationBn": "কখেন", "example_de": "Kochen macht Spaß.", "example_bn": "রান্না করা আনন্দের।", "topic": "hobbies", "level": "A1" },
+      { "id": "v_u7_8", "german": "Freizeit", "article": "die", "pos": "noun", "bengali": "অবসর সময়", "english": "leisure / free time", "pronunciationBn": "ফ্রায়ৎসাইট", "example_de": "In der Freizeit.", "example_bn": "অবসর সময়ে।", "topic": "hobbies", "level": "A1" }
+    ],
+    "grammarTip": {
+      "title_bn": "মোডাল ক্রিয়ার রূপান্তরের নিয়ম (ich ও er/sie একই!)",
+      "title_en": "Modal Verb Endings (ich = er/sie)",
+      "content_bn": "মোডাল ক্রিয়ায় একটি চমৎকার নিয়ম মনে রাখুন: ich এবং er/sie/es এর রূপ একদম একই হয় (কোনো -e বা -t থাকে না):\n• können: ich kann, er/sie kann\n• müssen: ich muss, er/sie muss\n• wollen: ich will, er/sie will\nএবং দ্বিতীয় ক্রিয়াটি কোনো পরিবর্তন ছাড়াই (Infinitiv) বাক্যের একদম শেষে যায়!",
+      "rule_table": [
+        { "label": "ich / er / sie", "value": "kann / muss / will", "note": "উভয়ের রূপ একই!" },
+        { "label": "du", "value": "kannst / musst / willst", "note": "-st যুক্ত হয়" },
+        { "label": "Sentence End", "value": "Infinitiv Verb (sprechen, gehen)", "note": "বাক্যের শেষে মূল ক্রিয়া" }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_7_1_1",
+        "type": "fill_blank",
+        "prompt_bn": "শূন্যস্থানে সঠিক মোডাল ক্রিয়া বসান: 'Ich ___ gut Deutsch sprechen.' (আমি ভালো জার্মান বলতে পারি)",
+        "explanation_bn": "ich এর সাথে können এর রূপ হলো 'kann'।",
+        "sentenceWithBlank": "Ich ___ gut Deutsch sprechen.",
+        "blankType": "verb",
+        "options": ["kann", "kannst", "können", "könnt"],
+        "correctAnswer": "kann",
+        "translation_bn": "আমি ভালো জার্মান বলতে পারি।"
+      },
+      {
+        "id": "ex_7_1_2",
+        "type": "sentence_builder",
+        "prompt_bn": "বাক্য সাজান: 'আমরা জার্মান শিখতে চাই।' (Wir wollen Deutsch lernen.)",
+        "explanation_bn": "Wir wollen Deutsch lernen. (lernen বাক্যের শেষে)",
+        "targetSentence": "Wir wollen Deutsch lernen.",
+        "scrambledWords": ["lernen.", "wollen", "Wir", "Deutsch"],
+        "meaning_bn": "আমরা জার্মান শিখতে চাই।"
+      },
+      {
+        "id": "ex_7_1_3",
+        "type": "conjugation_quiz",
+        "prompt_bn": "'er' এর জন্য 'müssen' ক্রিয়ার রূপ কোনটি?",
+        "explanation_bn": "er এর সাথে 'muss' হয় (Er muss arbeiten)।",
+        "verb": "müssen",
+        "pronoun": "er/sie/es",
+        "meaning_bn": "তার করতে হবে / সে বাধ্য",
+        "options": ["muss", "müsst", "müsste", "müssen"],
+        "correctAnswer": "muss"
+      },
+      {
+        "id": "ex_7_1_4",
+        "type": "multiple_choice",
+        "prompt_bn": "মোডাল ক্রিয়ার সাথে বাক্যের দ্বিতীয় ক্রিয়াটি কোথায় অবস্থান করে?",
+        "explanation_bn": "বাক্যের একদম শেষে মূল ক্রিয়াটি অপরিবর্তিত রূপে (Infinitiv) বসে।",
+        "question": "দ্বিতীয় ক্রিয়াটি কোথায় বসে?",
+        "options": ["একদম বাক্যের শেষে", "মোডাল ক্রিয়ার ঠিক পরে", "বাক্যের শুরুতে", "বসার প্রয়োজন নেই"],
+        "correctAnswer": "একদম বাক্যের শেষে"
+      },
+      {
+        "id": "ex_7_1_5",
+        "type": "matching_pairs",
+        "prompt_bn": "মোডাল ক্রিয়ার সাথে সঠিক অর্থ মেলান:",
+        "explanation_bn": "können = পারা, müssen = করতেই হবে, wollen = ইচ্ছা থাকা, schwimmen = সাঁতার কাটা",
+        "pairs": [
+          { "german": "können", "bengali": "পারা (সামর্থ্য)" },
+          { "german": "müssen", "bengali": "বাধ্য হওয়া / করতেই হবে" },
+          { "german": "wollen", "bengali": "দৃঢ় ইচ্ছা থাকা" },
+          { "german": "schwimmen", "bengali": "সাঁতার কাটা" }
+        ]
+      },
+      {
+        "id": "ex_7_1_6",
+        "type": "article_quiz",
+        "prompt_bn": "'Musik' (সঙ্গীত) শব্দের আর্টিকেল কোনটি?",
+        "explanation_bn": "Musik স্ত্রীলিঙ্গ, তাই 'die Musik'।",
+        "noun": "Musik",
+        "meaning_bn": "সঙ্গীত / গান",
+        "correctArticle": "die"
+      },
+      {
+        "id": "ex_7_1_7",
+        "type": "listening",
+        "prompt_bn": "অডিও শুনে বাক্যটি চিনুন:",
+        "explanation_bn": "সঠিক বাক্য: 'Ich kann kochen.'",
+        "audioText": "Ich kann kochen.",
+        "options": ["Ich kann kochen.", "Ich muss kochen.", "Ich will kochen.", "Ich koche gern."],
+        "correctAnswer": "Ich kann kochen."
+      },
+      {
+        "id": "ex_7_1_8",
+        "type": "typing",
+        "prompt_bn": "'ফুটবল' এর জার্মান শব্দটি আর্টিকেলসহ লিখুন (der Fußball):",
+        "explanation_bn": "der Fußball",
+        "prompt": "ফুটবল",
+        "correctAnswer": "der Fußball",
+        "acceptedAnswers": ["der Fussball", "der Fußball", "Fußball", "Fussball"],
+        "placeholder": "যেমন: der Fußball"
+      }
+    ]
+  }
+]

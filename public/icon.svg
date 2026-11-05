@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- German Flag Tricolor Gradient (Schwarz - Rot - Gold) -->
+    <linearGradient id="germanFlagGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="32%" stop-color="#18181b" />
+      <stop offset="34%" stop-color="#e11d48" />
+      <stop offset="65%" stop-color="#e11d48" />
+      <stop offset="67%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+
+    <!-- German Flag Stripe Fill -->
+    <linearGradient id="germanFlagHorizontal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="33%" stop-color="#18181b" />
+      <stop offset="33.1%" stop-color="#e11d48" />
+      <stop offset="66%" stop-color="#e11d48" />
+      <stop offset="66.1%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#facc15" />
+    </linearGradient>
+
+    <!-- Soft Drop Shadow for Depth -->
+    <filter id="iconShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1e3a8a" flood-opacity="0.2" />
+    </filter>
+
+    <filter id="textGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Clean White Squircle with Elegant Royal Blue Border -->
+  <rect x="8" y="8" width="496" height="496" rx="116" fill="#ffffff" stroke="#2563eb" stroke-width="12" filter="url(#iconShadow)" />
+
+  <!-- Subtle Inner Card Container -->
+  <rect x="36" y="36" width="440" height="440" rx="92" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2" />
+
+  <!-- Top German Flag Tricolor Accent Bar -->
+  <g transform="translate(156, 76)">
+    <rect x="0" y="0" width="200" height="7" rx="3.5" fill="#18181b" />
+    <rect x="0" y="9" width="200" height="7" rx="3.5" fill="#e11d48" />
+    <rect x="0" y="18" width="200" height="7" rx="3.5" fill="#facc15" />
+  </g>
+
+  <!-- Big Central Bold "BG" with German Flag Color Filling -->
+  <g filter="url(#textGlow)">
+    <text x="256" y="325"
+          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+          font-size="210"
+          font-weight="900"
+          letter-spacing="-6"
+          text-anchor="middle"
+          fill="url(#germanFlagGradient)">
+      BG
+    </text>
+  </g>
+
+  <!-- Subtitle Ribbon: BANGLAY GERMAN -->
+  <rect x="116" y="375" width="280" height="42" rx="21" fill="#1e40af" />
+  <text x="256" y="402"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+        font-size="16"
+        font-weight="800"
+        letter-spacing="3"
+        text-anchor="middle"
+        fill="#ffffff">
+    BANGLAY GERMAN
+  </text>
+
+  <!-- Bengali Subtext -->
+  <text x="256" y="445"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+        font-size="18"
+        font-weight="700"
+        text-anchor="middle"
+        fill="#1e40af">
+    বাংলায় জার্মান • A1
+  </text>
+</svg>

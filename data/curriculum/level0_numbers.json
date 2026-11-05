@@ -1,0 +1,121 @@
+{
+  "id": "lesson_0_4",
+  "unitId": "level_0",
+  "title_bn": "জার্মান সংখ্যা (০–১০০+, দাম, সাল ও ফোন নম্বর)",
+  "title_en": "Numbers (0–100+, Prices, Years & Phone Numbers)",
+  "subtitle_de": "Zahlen und Preise",
+  "order": 4,
+  "content": {
+    "intro_bn": "জার্মান ভাষায় সংখ্যা গণনা শেখা অত্যন্ত চমকপ্রদ ও সহজ।\n০ থেকে ১২ পর্যন্ত মুখস্থ করতে হয় (null, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn, elf, zwölf)।\n১৩ থেকে ১৯ এর শেষে '-zehn' যুক্ত হয় (যেমন: dreizehn, vierzehn)।\nসবচেয়ে মজার বিষয় ২১ থেকে ৯৯ পর্যন্ত: বাংলায় যেমন 'একুশ', জার্মানে বলা হয় 'এক এবং বিশ' (ein-und-zwanzig)। অর্থাৎ এককের ঘরের সংখ্যা আগে, তারপর 'und', তারপর দশকের ঘরের সংখ্যা!",
+    "intro_en": "Learn German numbers 0–100+. Notice the unique rule for numbers 21–99: the ones digit comes first, followed by 'und', then the tens digit (e.g., 21 = einundzwanzig).",
+    "examples": [
+      { "de": "0–5: null, eins, zwei, drei, vier, fünf", "bn": "০-৫: শূন্য, এক, দুই, তিন, চার, পাঁচ" },
+      { "de": "6–12: sechs, sieben, acht, neun, zehn, elf, zwölf", "bn": "৬-১২: ছয়, সাত, আট, নয়, দশ, এগারো, বারো" },
+      { "de": "21: einundzwanzig (ein + und + zwanzig)", "bn": "২১: এক এবং বিশ" },
+      { "de": "45: fünfundvierzig", "bn": "৪৫: পাঁচ এবং চল্লিশ" },
+      { "de": "100: hundert | 1000: tausend", "bn": "১০০: হুন্ডার্ট | ১০০০: টাউজেন্ড" },
+      { "de": "Das kostet 3,50 € (drei Euro fünfzig).", "bn": "এটার দাম ৩ ইউরো ৫০ সেন্ট।" }
+    ]
+  },
+  "vocabulary": [
+    { "id": "v_l04_1", "german": "null", "article": null, "pos": "number", "bengali": "০ (শূন্য)", "english": "zero", "pronunciationBn": "নুল", "example_de": "Null Grad.", "example_bn": "শূন্য ডিগ্রি।", "topic": "numbers", "level": "A1" },
+    { "id": "v_l04_2", "german": "eins", "article": null, "pos": "number", "bengali": "১ (এক)", "english": "one", "pronunciationBn": "আইন্স", "example_de": "Eins, bitte.", "example_bn": "একটি, দয়া করে।", "topic": "numbers", "level": "A1" },
+    { "id": "v_l04_3", "german": "zwei", "article": null, "pos": "number", "bengali": "২ (দুই)", "english": "two", "pronunciationBn": "ৎস্ভাই", "example_de": "Zwei Kaffee.", "example_bn": "দুটো কফি।", "topic": "numbers", "level": "A1" },
+    { "id": "v_l04_4", "german": "drei", "article": null, "pos": "number", "bengali": "৩ (তিন)", "english": "three", "pronunciationBn": "ড্রাই", "example_de": "Drei Euro.", "example_bn": "তিন ইউরো।", "topic": "numbers", "level": "A1" },
+    { "id": "v_l04_5", "german": "zwölf", "article": null, "pos": "number", "bengali": "১২ (বারো)", "english": "twelve", "pronunciationBn": "ৎসভ্যোয়েল্ফ", "example_de": "Zwölf Monate.", "example_bn": "বারো মাস।", "topic": "numbers", "level": "A1" },
+    { "id": "v_l04_6", "german": "zwanzig", "article": null, "pos": "number", "bengali": "২০ (বিশ)", "english": "twenty", "pronunciationBn": "ৎসভান্সিগ", "example_de": "Zwanzig Jahre.", "example_bn": "বিশ বছর।", "topic": "numbers", "level": "A1" },
+    { "id": "v_l04_7", "german": "einundzwanzig", "article": null, "pos": "number", "bengali": "২১ (একুশ)", "english": "twenty-one", "pronunciationBn": "আইন-উন্ট-ৎসভান্সিগ", "example_de": "Einundzwanzig Euro.", "example_bn": "একুশ ইউরো।", "topic": "numbers", "level": "A1" },
+    { "id": "v_l04_8", "german": "hundert", "article": null, "pos": "number", "bengali": "১০০ (একশত)", "english": "hundred", "pronunciationBn": "হুন্ডার্ট", "example_de": "Hundert Prozent.", "example_bn": "শতভাগ।", "topic": "numbers", "level": "A1" }
+  ],
+  "grammarTip": {
+    "title_bn": "জার্মান সংখ্যা গঠনের মূল সূত্র (২১–৯৯)",
+    "title_en": "The 21–99 Compound Number Rule",
+    "content_bn": "২১ থেকে ৯৯ পর্যন্ত সংখ্যা সবসময় এক শব্দে লেখা হয়:\n[এককের ঘরের অঙ্ক] + und + [দশকের ঘরের অঙ্ক]\nউদাহরণ:\n• 21 = ein + und + zwanzig = einundzwanzig\n• 34 = vier + und + dreißig = vierunddreißig\n• 58 = acht + und + fünfzig = achtundfünfzig\nফোন নম্বর পড়ার সময় সাধারণত একটি বা দুটি করে সংখ্যা আলাদা করে উচ্চারণ করা হয় (যেমন: null-eins-sieben...)।",
+    "rule_table": [
+      { "label": "21", "value": "einundzwanzig", "note": "এক এবং বিশ" },
+      { "label": "35", "value": "fünfunddreißig", "note": "পাঁচ এবং ত্রিশ" },
+      { "label": "100", "value": "hundert", "note": "একশত" },
+      { "label": "1000", "value": "tausend", "note": "এক হাজার" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ex_0_4_1",
+      "type": "multiple_choice",
+      "prompt_bn": "জার্মান ভাষায় ২১ (একুশ) কীভাবে বলা হয়?",
+      "explanation_bn": "জার্মানে এককের অঙ্ক আগে আসে: ein + und + zwanzig = einundzwanzig।",
+      "question": "২১ এর সঠিক জার্মান রূপ কোনটি?",
+      "options": ["einundzwanzig", "zwanzigeins", "zwanzigundeins", "einszwanzig"],
+      "correctAnswer": "einundzwanzig"
+    },
+    {
+      "id": "ex_0_4_2",
+      "type": "matching_pairs",
+      "prompt_bn": "সংখ্যার সাথে সঠিক জার্মান বানান মেলান:",
+      "explanation_bn": "1 = eins, 2 = zwei, 12 = zwölf, 20 = zwanzig",
+      "pairs": [
+        { "german": "1", "bengali": "eins" },
+        { "german": "2", "bengali": "zwei" },
+        { "german": "12", "bengali": "zwölf" },
+        { "german": "20", "bengali": "zwanzig" }
+      ]
+    },
+    {
+      "id": "ex_0_4_3",
+      "type": "listening",
+      "prompt_bn": "অডিও শুনে বলুন কোন সংখ্যাটি উচ্চারিত হয়েছে:",
+      "explanation_bn": "সঠিক সংখ্যাটি হলো 'zwölf' (১২)।",
+      "audioText": "zwölf",
+      "options": ["zwölf (12)", "zwei (2)", "zwanzig (20)", "zehn (10)"],
+      "correctAnswer": "zwölf (12)"
+    },
+    {
+      "id": "ex_0_4_4",
+      "type": "multiple_choice",
+      "prompt_bn": "'Drei Euro' এর অর্থ কী?",
+      "explanation_bn": "Drei মানে ৩, Euro মানে ইউরো। তাই drei Euro = ৩ ইউরো।",
+      "question": "'Drei Euro' মানে কত?",
+      "options": ["৩ ইউরো", "২ ইউরো", "১৩ ইউরো", "৩০ ইউরো"],
+      "correctAnswer": "৩ ইউরো"
+    },
+    {
+      "id": "ex_0_4_5",
+      "type": "typing",
+      "prompt_bn": "'এক' এর জার্মান সংখ্যাটি লিখুন (eins):",
+      "explanation_bn": "এক = eins।",
+      "prompt": "এক (১)",
+      "correctAnswer": "eins",
+      "acceptedAnswers": ["eins", "Eins"],
+      "placeholder": "যেমন: eins"
+    },
+    {
+      "id": "ex_0_4_6",
+      "type": "fill_blank",
+      "prompt_bn": "শূন্যস্থান পূরণ করুন: 'Zwei Kaffee, ___' (দুটো কফি, দয়া করে)",
+      "explanation_bn": "দয়া করে = bitte।",
+      "sentenceWithBlank": "Zwei Kaffee, ___.",
+      "blankType": "noun",
+      "options": ["bitte", "danke", "guten", "null"],
+      "correctAnswer": "bitte",
+      "translation_bn": "দুটো কফি, দয়া করে।"
+    },
+    {
+      "id": "ex_0_4_7",
+      "type": "sentence_builder",
+      "prompt_bn": "সাজিয়ে বাক্য লিখুন: 'এটার দাম পাঁচ ইউরো।'",
+      "explanation_bn": "Das kostet fünf Euro.",
+      "targetSentence": "Das kostet fünf Euro.",
+      "scrambledWords": ["Euro.", "kostet", "fünf", "Das"],
+      "meaning_bn": "এটার দাম পাঁচ ইউরো।"
+    },
+    {
+      "id": "ex_0_4_8",
+      "type": "flashcard_flip",
+      "prompt_bn": "মনে রাখুন:",
+      "explanation_bn": "tausend মানে এক হাজার (1000)।",
+      "front": "tausend",
+      "back": "১০০০ (এক হাজার)",
+      "hint_bn": "ইংরেজি: thousand"
+    }
+  ]
+}

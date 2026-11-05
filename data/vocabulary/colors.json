@@ -1,0 +1,12 @@
+[
+  { "id": "v_rot", "german": "rot", "article": null, "pos": "adjective", "bengali": "লাল", "english": "red", "pronunciationBn": "রোট", "example_de": "Der Apfel ist rot.", "example_bn": "আপেলটি লাল।", "topic": "colors", "level": "A1" },
+  { "id": "v_blau", "german": "blau", "article": null, "pos": "adjective", "bengali": "নীল", "english": "blue", "pronunciationBn": "ব্লাউ", "example_de": "Der Himmel ist blau.", "example_bn": "আকাশ নীল।", "topic": "colors", "level": "A1" },
+  { "id": "v_gruen", "german": "grün", "article": null, "pos": "adjective", "bengali": "সবুজ", "english": "green", "pronunciationBn": "গ্র্যুন", "example_de": "Der Tee ist grün.", "example_bn": "চা-টি সবুজ।", "topic": "colors", "level": "A1" },
+  { "id": "v_gelb", "german": "gelb", "article": null, "pos": "adjective", "bengali": "হলুদ", "english": "yellow", "pronunciationBn": "গেল্ব", "example_de": "Die Sonne ist gelb.", "example_bn": "সূর্য হলুদ।", "topic": "colors", "level": "A1" },
+  { "id": "v_schwarz", "german": "schwarz", "article": null, "pos": "adjective", "bengali": "কালো", "english": "black", "pronunciationBn": "শোয়ার্ৎস", "example_de": "Ein schwarzer Kaffee.", "example_bn": "একটি ব্ল্যাক কফি।", "topic": "colors", "level": "A1" },
+  { "id": "v_weiss", "german": "weiß", "article": null, "pos": "adjective", "bengali": "সাদা", "english": "white", "pronunciationBn": "ভাইস", "example_de": "Die Milch ist weiß.", "example_bn": "দুধ সাদা।", "topic": "colors", "level": "A1" },
+  { "id": "v_grau", "german": "grau", "article": null, "pos": "adjective", "bengali": "ধূসর", "english": "gray", "pronunciationBn": "গ্রাউ", "example_de": "Das Auto ist grau.", "example_bn": "গাড়িটি ধূসর।", "topic": "colors", "level": "A1" },
+  { "id": "v_braun", "german": "braun", "article": null, "pos": "adjective", "bengali": "বাদামী", "english": "brown", "pronunciationBn": "ব্রাউন", "example_de": "Die Schokolade ist braun.", "example_bn": "চকলেটটি বাদামী।", "topic": "colors", "level": "A1" },
+  { "id": "v_orange", "german": "orange", "article": null, "pos": "adjective", "bengali": "কমলা", "english": "orange", "pronunciationBn": "ওরাঞ্জ", "example_de": "Die Orange ist orange.", "example_bn": "কমলালেবুটি কমলা রঙের।", "topic": "colors", "level": "A1" },
+  { "id": "v_rosa", "german": "rosa", "article": null, "pos": "adjective", "bengali": "গোলাপী", "english": "pink", "pronunciationBn": "রোজা", "example_de": "Die Blume ist rosa.", "example_bn": "ফুলটি গোলাপী।", "topic": "colors", "level": "A1" }
+]

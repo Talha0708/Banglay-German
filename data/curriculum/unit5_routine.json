@@ -1,0 +1,121 @@
+[
+  {
+    "id": "lesson_5_1",
+    "unitId": "unit_5",
+    "title_bn": "দৈনন্দিন রুটিন ও বিভাজ্য ক্রিয়া (Trennbare Verben)",
+    "title_en": "Daily Routine & Separable Verbs",
+    "subtitle_de": "Tagesablauf und trennbare Verben",
+    "order": 13,
+    "content": {
+      "intro_bn": "জার্মান ভাষার একটি আকর্ষণীয় বৈশিষ্ট্য হলো 'বিভাজ্য ক্রিয়া' (Trennbare Verben)। এই ক্রিয়াগুলোতে একটি উপসর্গ (Prefix) থাকে যা মূল বাক্য তৈরির সময় আলাদা হয়ে একদম বাক্যের শেষ প্রান্তে চলে যায়!\nউদাহরণ: aufstehen (ঘুম থেকে ওঠা):\n• মূল ক্রিয়া: 'stehen', উপসর্গ: 'auf'\n• বাক্যে প্রয়োগ: Ich [stehe] jeden Tag um sechs Uhr [auf]. (আমি প্রতিদিন সকাল ছয়টায় ঘুম থেকে উঠি।)\nঅন্যান্য উদাহরণ:\n• einkaufen -> Ich kaufe am Samstag ein.\n• anrufen -> Ich rufe dich morgen an.",
+      "intro_en": "Learn separable verbs (trennbare Verben) like aufstehen (auf + stehen) and einkaufen (ein + kaufen). The conjugated verb stays in Position 2, while the prefix moves to the very end of the sentence.",
+      "examples": [
+        { "de": "Ich stehe um 7 Uhr auf.", "bn": "আমি ৭টায় ঘুম থেকে উঠি।", "note": "auf বাক্যের শেষে" },
+        { "de": "Wann stehst du auf?", "bn": "তুমি কখন ঘুম থেকে ওঠো?", "note": "W-Frage এও auf শেষে" },
+        { "de": "Er kauft im Supermarkt ein.", "bn": "সে সুপারমার্কেটে কেনাকাটা করে।", "note": "einkaufen" },
+        { "de": "Wir sehen abends fern.", "bn": "আমরা সন্ধ্যায় টিভি দেখি।", "note": "fernsehen" }
+      ]
+    },
+    "vocabulary": [
+      { "id": "v_u5_1", "german": "aufstehen", "article": null, "pos": "verb", "bengali": "ঘুম থেকে ওঠা", "english": "to wake up / get up", "pronunciationBn": "আউফ-শ্টেহ্যান", "example_de": "Ich stehe früh auf.", "example_bn": "আমি ভোরে উঠি।", "topic": "daily_routine", "level": "A1" },
+      { "id": "v_u5_2", "german": "einkaufen", "article": null, "pos": "verb", "bengali": "কেনাকাটা করা", "english": "to grocery shop", "pronunciationBn": "আইন-কাউফেন", "example_de": "Ich kaufe Obst ein.", "example_bn": "আমি ফল কিনি।", "topic": "daily_routine", "level": "A1" },
+      { "id": "v_u5_3", "german": "anrufen", "article": null, "pos": "verb", "bengali": "ফোন করা", "english": "to call (phone)", "pronunciationBn": "আন-রুফেন", "example_de": "Ich rufe dich an.", "example_bn": "আমি তোমাকে ফোন করব।", "topic": "daily_routine", "level": "A1" },
+      { "id": "v_u5_4", "german": "fernsehen", "article": null, "pos": "verb", "bengali": "টিভি দেখা", "english": "to watch TV", "pronunciationBn": "ফের্ন-জেহ্যান", "example_de": "Er sieht fern.", "example_bn": "সে টিভি দেখছে।", "topic": "daily_routine", "level": "A1" },
+      { "id": "v_u5_5", "german": "frühstücken", "article": null, "pos": "verb", "bengali": "নাস্তা করা", "english": "to have breakfast", "pronunciationBn": "ফ্রিউশ্ট্যুকেন", "example_de": "Wir frühstücken um 8.", "example_bn": "আমরা ৮টায় নাস্তা করি।", "topic": "daily_routine", "level": "A1" },
+      { "id": "v_u5_6", "german": "schlafen", "article": null, "pos": "verb", "bengali": "ঘুমানো", "english": "to sleep", "pronunciationBn": "শ্লাফেন", "example_de": "Gute Nacht, schlaf gut!", "example_bn": "শুভ রাত্রি, ভালো ঘুমাও!", "topic": "daily_routine", "level": "A1" },
+      { "id": "v_u5_7", "german": "früh", "article": null, "pos": "adverb", "bengali": "ভোরে / তাড়াতাড়ি", "english": "early", "pronunciationBn": "ফ্রিউ", "example_de": "Es ist noch früh.", "example_bn": "এখনো অনেক সকাল।", "topic": "time_calendar", "level": "A1" },
+      { "id": "v_u5_8", "german": "spät", "article": null, "pos": "adverb", "bengali": "দেরি / গভীর", "english": "late", "pronunciationBn": "শ্পেট", "example_de": "Es ist schon spät.", "example_bn": "অনেক দেরি হয়ে গেছে।", "topic": "time_calendar", "level": "A1" }
+    ],
+    "grammarTip": {
+      "title_bn": "বিভাজ্য ক্রিয়ার বাক্যের গঠন কাঠামো (Satzklammer)",
+      "title_en": "Separable Verb Sentence Bracket",
+      "content_bn": "বিভাজ্য ক্রিয়ায় বাক্য যেন একটি বন্ধনী (Bracket) তৈরি করে:\n[Subjekt] + [ক্রিয়াপদ (Position 2)] + [অন্যান্য তথ্য] + [উপসর্গ (Prefix - একদম শেষে)]!\nউদাহরণ: Ich [stehe] (2) um 7 Uhr morgens [auf] (শেষ)।",
+      "rule_table": [
+        { "label": "Position 2", "value": "Conjugated Verb (stehe / kaufe / rufe)", "note": "মূল ক্রিয়া ২ নম্বরে" },
+        { "label": "End of clause", "value": "Prefix (auf / ein / an)", "note": "উপসর্গটি সবার শেষে!" }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_5_1_1",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য তৈরি করুন: 'আমি সকাল সাতটায় ঘুম থেকে উঠি।'",
+        "explanation_bn": "Ich stehe um 7 Uhr auf. (auf বাক্যের শেষে)",
+        "targetSentence": "Ich stehe um 7 Uhr auf.",
+        "scrambledWords": ["7 Uhr", "stehe", "auf.", "um", "Ich"],
+        "meaning_bn": "আমি ৭টায় ঘুম থেকে উঠি।"
+      },
+      {
+        "id": "ex_5_1_2",
+        "type": "fill_blank",
+        "prompt_bn": "বাক্যের শেষে সঠিক উপসর্গ বসান: 'Ich kaufe heute im Supermarkt ___.'",
+        "explanation_bn": "einkaufen ক্রিয়ায় উপসর্গ হলো 'ein'।",
+        "sentenceWithBlank": "Ich kaufe heute im Supermarkt ___.",
+        "blankType": "verb",
+        "options": ["ein", "auf", "an", "aus"],
+        "correctAnswer": "ein",
+        "translation_bn": "আমি আজ সুপারমার্কেটে কেনাকাটা করব।"
+      },
+      {
+        "id": "ex_5_1_3",
+        "type": "multiple_choice",
+        "prompt_bn": "বিভাজ্য ক্রিয়ায় বাক্যের মধ্যে উপসর্গটি (Prefix) কোথায় বসে?",
+        "explanation_bn": "সাধারণ বর্ণনামূলক বাক্যে উপসর্গটি একদম বাক্যের শেষে বসে।",
+        "question": "উপসর্গটি বাক্যের কোথায় বসে?",
+        "options": ["একদম বাক্যের শেষে", "বাক্যের শুরুতে", "ক্রিয়াপদের ঠিক সাথে", "যে কোনো জায়গায়"],
+        "correctAnswer": "একদম বাক্যের শেষে"
+      },
+      {
+        "id": "ex_5_1_4",
+        "type": "listening",
+        "prompt_bn": "অডিও শুনে বাক্যটি চিনুন:",
+        "explanation_bn": "সঠিক বাক্য: 'Ich stehe früh auf.'",
+        "audioText": "Ich stehe früh auf.",
+        "options": ["Ich stehe früh auf.", "Ich gehe früh schlafen.", "Ich frühstücke früh.", "Ich kaufe früh ein."],
+        "correctAnswer": "Ich stehe früh auf."
+      },
+      {
+        "id": "ex_5_1_5",
+        "type": "matching_pairs",
+        "prompt_bn": "রুটিন ক্রিয়ার সাথে বাংলা অর্থ মেলান:",
+        "explanation_bn": "aufstehen = ঘুম থেকে ওঠা, einkaufen = কেনাকাটা করা, frühstücken = নাস্তা করা, schlafen = ঘুমানো",
+        "pairs": [
+          { "german": "aufstehen", "bengali": "ঘুম থেকে ওঠা" },
+          { "german": "einkaufen", "bengali": "কেনাকাটা করা" },
+          { "german": "frühstücken", "bengali": "নাস্তা করা" },
+          { "german": "schlafen", "bengali": "ঘুমানো" }
+        ]
+      },
+      {
+        "id": "ex_5_1_6",
+        "type": "typing",
+        "prompt_bn": "'দেরি' এর বিপরীত জার্মান শব্দ 'তাড়াতাড়ি / ভোরে' লিখুন (früh):",
+        "explanation_bn": "ভোরে / তাড়াতাড়ি = früh।",
+        "prompt": "ভোরে / তাড়াতাড়ি",
+        "correctAnswer": "früh",
+        "acceptedAnswers": ["früh", "frueh"],
+        "placeholder": "যেমন: früh"
+      },
+      {
+        "id": "ex_5_1_7",
+        "type": "conjugation_quiz",
+        "prompt_bn": "'du' এর সাথে 'schlafen' ক্রিয়ার রূপ কোনটি?",
+        "explanation_bn": "schlafen একটি vowel changing verb, du এর সাথে হয় 'schläfst'।",
+        "verb": "schlafen",
+        "pronoun": "du",
+        "meaning_bn": "তুমি ঘুমাও",
+        "options": ["schläfst", "schlafst", "schlaft", "schläft"],
+        "correctAnswer": "schläfst"
+      },
+      {
+        "id": "ex_5_1_8",
+        "type": "flashcard_flip",
+        "prompt_bn": "মনে রাখুন:",
+        "explanation_bn": "anrufen মানে কাউকে টেলিফোন করা।",
+        "front": "anrufen",
+        "back": "ফোন করা (to call)",
+        "hint_bn": "Ich rufe dich an."
+      }
+    ]
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "lesson_8_1",
+    "unitId": "unit_8",
+    "title_bn": "অতীত কাল (Perfekt, war ও hatte)",
+    "title_en": "Past Tense (Perfekt with haben/sein, war & hatte)",
+    "subtitle_de": "Vergangenheit: Perfekt und Präteritum",
+    "order": 16,
+    "content": {
+      "intro_bn": "কথ্য জার্মান ভাষায় অতীতে ঘটে যাওয়া কথা বলতে 'Perfekt' কাল ব্যবহৃত হয়।\nPerfekt গঠনের নিয়ম:\n[haben / sein (Position 2)] + ... + [Partizip II (ge- + verb + -t/en - বাক্যের শেষে)]\nউদাহরণ:\n• machen -> gemacht: Ich habe Deutsch gelernt.\n• spielen -> gespielt: Wir haben Fußball gespielt.\n\nআর গতিবিধি বা স্থান পরিবর্তনমূলক ক্রিয়ার সাথে 'sein' বসে:\n• gehen -> gegangen: Ich bin nach Hause gegangen.\n• kommen -> gekommen: Er ist gestern gekommen.\n\nsein এবং haben এর সাধারণ অতীত (Präteritum) হিসেবে 'war' (ছিলাম) এবং 'hatte' (ছিল) প্রচুর ব্যবহৃত হয়:\n• Ich war in Berlin. (আমি বার্লিনে ছিলাম।)\n• Ich hatte keine Zeit. (আমার সময় ছিল না।)",
+      "intro_en": "In spoken German, the Perfekt tense is used for past events: auxiliary verb (haben/sein) in Position 2, and Partizip II (e.g. gelernt, gemacht, gegangen) at the very end. Use 'war' (was) and 'hatte' (had).",
+      "examples": [
+        { "de": "Ich habe Deutsch gelernt.", "bn": "আমি জার্মান শিখেছি।", "note": "haben + gelernt" },
+        { "de": "Wir haben Pizza gegessen.", "bn": "আমরা পিৎজা খেয়েছি।", "note": "haben + gegessen" },
+        { "de": "Er ist nach Berlin gefahren.", "bn": "সে বার্লিনে গেছে (গতিবিধি -> sein)।", "note": "ist + gefahren" },
+        { "de": "Gestern war ich zu Hause.", "bn": "গতকাল আমি বাড়িতে ছিলাম।", "note": "war (ছিলাম)" }
+      ]
+    },
+    "vocabulary": [
+      { "id": "v_u8_1", "german": "gelernt", "article": null, "pos": "verb", "bengali": "শিখেছি / শিখেছিল (Partizip II)", "english": "learned", "pronunciationBn": "গেলের্নট", "example_de": "Ich habe viel gelernt.", "example_bn": "আমি অনেক শিখেছি।", "topic": "daily_routine", "level": "A1" },
+      { "id": "v_u8_2", "german": "gemacht", "article": null, "pos": "verb", "bengali": "করেছি / করেছিল", "english": "done / made", "pronunciationBn": "গেমাখট", "example_de": "Was hast du gemacht?", "example_bn": "তুমি কী করেছো?", "topic": "basics", "level": "A1" },
+      { "id": "v_u8_3", "german": "gegangen", "article": null, "pos": "verb", "bengali": "গিয়েছি / গিয়েছিল", "english": "gone / went", "pronunciationBn": "গেগাঙেন", "example_de": "Er ist gegangen.", "example_bn": "সে চলে গেছে।", "topic": "daily_routine", "level": "A1" },
+      { "id": "v_u8_4", "german": "gestern", "article": null, "pos": "adverb", "bengali": "গতকাল", "english": "yesterday", "pronunciationBn": "গেস্টার্ন", "example_de": "Gestern war schön.", "example_bn": "গতকাল সুন্দর ছিল।", "topic": "time_calendar", "level": "A1" },
+      { "id": "v_u8_5", "german": "war", "article": null, "pos": "verb", "bengali": "ছিল / ছিলাম (was / were)", "english": "was / were", "pronunciationBn": "ভার", "example_de": "Ich war krank.", "example_bn": "আমি অসুস্থ ছিলাম।", "topic": "basics", "level": "A1" },
+      { "id": "v_u8_6", "german": "hatte", "article": null, "pos": "verb", "bengali": "ছিল (আমার/তার ছিল - had)", "english": "had", "pronunciationBn": "হাটে", "example_de": "Ich hatte Glück.", "example_bn": "আমার ভাগ্য ভালো ছিল।", "topic": "basics", "level": "A1" },
+      { "id": "v_u8_7", "german": "gegessen", "article": null, "pos": "verb", "bengali": "খেয়েছি (eaten)", "english": "eaten", "pronunciationBn": "গেগেসেন", "example_de": "Hast du gegessen?", "example_bn": "তুমি কি খেয়েছো?", "topic": "food_drinks", "level": "A1" },
+      { "id": "v_u8_8", "german": "getrunken", "article": null, "pos": "verb", "bengali": "পান করেছি (drunk)", "english": "drunk", "pronunciationBn": "গেট্রুঙ্কেন", "example_de": "Ich habe Tee getrunken.", "example_bn": "আমি চা পান করেছি।", "topic": "food_drinks", "level": "A1" }
+    ],
+    "grammarTip": {
+      "title_bn": "Perfekt এ haben নাকি sein?",
+      "title_en": "Auxiliary in Perfekt: haben or sein?",
+      "content_bn": "• ৯০% ক্রিয়ায় 'haben' সাহায্যকারী ক্রিয়া হিসেবে বসে (যেমন: habe gelernt, habe gemacht, habe gegessen)।\n• কিন্তু কোনো স্থান পরিবর্তন (Movement: gehen, fahren, kommen) বা অবস্থার পরিবর্তন (যেমন: aufstehen) বোঝালে 'sein' বসে:\n  - Ich bin gekommen (আমি এসেছি)।\n  - Er ist gefahren (সে গাড়ি চালিয়ে গেছে)।",
+      "rule_table": [
+        { "label": "haben + Partizip II", "value": "সাধারণ ক্রিয়া", "note": "Ich habe gelernt." },
+        { "label": "sein + Partizip II", "value": "স্থান/অবস্থা পরিবর্তন", "note": "Ich bin gefahren." }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_8_1_1",
+        "type": "fill_blank",
+        "prompt_bn": "সঠিক সাহায্যকারী ক্রিয়া বসান: 'Ich ___ gestern Deutsch gelernt.'",
+        "explanation_bn": "lernen ক্রিয়ার সাথে haben হয়, তাই 'habe'।",
+        "sentenceWithBlank": "Ich ___ gestern Deutsch gelernt.",
+        "blankType": "verb",
+        "options": ["habe", "bin", "hatte", "war"],
+        "correctAnswer": "habe",
+        "translation_bn": "আমি গতকাল জার্মান শিখেছি।"
+      },
+      {
+        "id": "ex_8_1_2",
+        "type": "fill_blank",
+        "prompt_bn": "স্থান পরিবর্তনের ক্ষেত্রে সঠিক সাহায্যকারী ক্রিয়া বসান: 'Er ___ nach Berlin gefahren.'",
+        "explanation_bn": "fahren স্থান পরিবর্তনমূলক ক্রিয়া, তাই 'ist' (sein) হবে।",
+        "sentenceWithBlank": "Er ___ nach Berlin gefahren.",
+        "blankType": "verb",
+        "options": ["ist", "hat", "war", "hatte"],
+        "correctAnswer": "ist",
+        "translation_bn": "সে বার্লিনে গেছে।"
+      },
+      {
+        "id": "ex_8_1_3",
+        "type": "sentence_builder",
+        "prompt_bn": "বাক্য সাজান: 'গতকাল আমি অসুস্থ ছিলাম।' (Gestern war ich krank.)",
+        "explanation_bn": "Gestern war ich krank. (ক্রিয়া war ২ নম্বরে)",
+        "targetSentence": "Gestern war ich krank.",
+        "scrambledWords": ["krank.", "Gestern", "ich", "war"],
+        "meaning_bn": "গতকাল আমি অসুস্থ ছিলাম।"
+      },
+      {
+        "id": "ex_8_1_4",
+        "type": "matching_pairs",
+        "prompt_bn": "অতীতের রূপের সাথে বাংলা অর্থ মেলান:",
+        "explanation_bn": "gelernt = শিখেছি, gegessen = খেয়েছি, war = ছিলাম, hatte = ছিল",
+        "pairs": [
+          { "german": "gelernt", "bengali": "শিখেছি" },
+          { "german": "gegessen", "bengali": "খেয়েছি" },
+          { "german": "war", "bengali": "ছিলাম" },
+          { "german": "hatte", "bengali": "ছিল" }
+        ]
+      },
+      {
+        "id": "ex_8_1_5",
+        "type": "multiple_choice",
+        "prompt_bn": "'Ich hatte keine Zeit.' এর অর্থ কী?",
+        "explanation_bn": "hatte মানে ছিল, তাই অর্থ: আমার সময় ছিল না।",
+        "question": "'Ich hatte keine Zeit.' এর বাংলা কী?",
+        "options": ["আমার সময় ছিল না।", "আমি অসুস্থ ছিলাম।", "আমার টাকা ছিল না।", "আমি গিয়েছিলাম।"],
+        "correctAnswer": "আমার সময় ছিল না।"
+      },
+      {
+        "id": "ex_8_1_6",
+        "type": "listening",
+        "prompt_bn": "অডিও শুনে বলুন কোন বাক্যটি বলা হয়েছে:",
+        "explanation_bn": "সঠিক বাক্য: 'Was hast du gemacht?'",
+        "audioText": "Was hast du gemacht?",
+        "options": ["Was hast du gemacht?", "Was hast du gegessen?", "Wo bist du gewesen?", "Wie hast du geschlafen?"],
+        "correctAnswer": "Was hast du gemacht?"
+      },
+      {
+        "id": "ex_8_1_7",
+        "type": "typing",
+        "prompt_bn": "'গতকাল' এর জার্মান শব্দটি লিখুন (gestern):",
+        "explanation_bn": "gestern",
+        "prompt": "গতকাল",
+        "correctAnswer": "gestern",
+        "acceptedAnswers": ["gestern", "Gestern"],
+        "placeholder": "যেমন: gestern"
+      },
+      {
+        "id": "ex_8_1_8",
+        "type": "flashcard_flip",
+        "prompt_bn": "মনে রাখুন:",
+        "explanation_bn": "Ich war মানে আমি ছিলাম (I was)।",
+        "front": "Ich war",
+        "back": "আমি ছিলাম (I was)",
+        "hint_bn": "sein ক্রিয়ার অতীত রূপ"
+      }
+    ]
+  }
+]

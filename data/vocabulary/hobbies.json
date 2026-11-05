@@ -1,0 +1,174 @@
+[
+  { "id": "v_musik", "german": "Musik", "article": "die", "pos": "noun", "bengali": "গান / সঙ্গীত", "english": "music", "pronunciationBn": "মুজিক", "example_de": "Ich höre gern Musik.", "example_bn": "আমি গান শুনতে পছন্দ করি।", "topic": "hobbies", "level": "A1" },
+  { "id": "v_sport", "german": "Sport", "article": "der", "pos": "noun", "bengali": "খেলাধুলা / ব্যায়াম", "english": "sport", "pronunciationBn": "শ্পোর্ট", "example_de": "Machst du gern Sport?", "example_bn": "তুমি কি খেলাধুলা করতে পছন্দ করো?", "topic": "hobbies", "level": "A1" },
+  { "id": "v_fussball", "german": "Fußball", "article": "der", "pos": "noun", "bengali": "ফুটবল", "english": "football / soccer", "pronunciationBn": "ফুসবাল", "example_de": "Deutschland spielt Fußball.", "example_bn": "জার্মানি ফুটবল খেলে।", "topic": "hobbies", "level": "A1" },
+  { "id": "v_buch", "german": "Buch", "article": "das", "plural": "die Bücher", "pos": "noun", "bengali": "বই", "english": "book", "pronunciationBn": "বুখ", "example_de": "Das Buch ist sehr spannend.", "example_bn": "বইটি খুবই রোমাঞ্চকর।", "topic": "hobbies", "level": "A1" },
+  {
+    "id": "v_lesen",
+    "german": "lesen",
+    "article": null,
+    "pos": "verb",
+    "bengali": "পড়া",
+    "english": "to read",
+    "pronunciationBn": "লেজেন",
+    "example_de": "Ich lese deutsche Zeitungen.",
+    "example_bn": "আমি জার্মান পত্রিকা পড়ি।",
+    "topic": "hobbies",
+    "level": "A1",
+    "conjugations": {
+      "ich": "lese",
+      "du": "liest",
+      "er_sie_es": "liest",
+      "wir": "lesen",
+      "ihr": "lest",
+      "sie_Sie": "lesen"
+    }
+  },
+  {
+    "id": "v_spielen",
+    "german": "spielen",
+    "article": null,
+    "pos": "verb",
+    "bengali": "খেলা / বাজানো",
+    "english": "to play",
+    "pronunciationBn": "শ্পীলেন",
+    "example_de": "Wir spielen Gitarre.",
+    "example_bn": "আমরা গিটার বাজাই।",
+    "topic": "hobbies",
+    "level": "A1",
+    "conjugations": {
+      "ich": "spiele",
+      "du": "spielst",
+      "er_sie_es": "spielt",
+      "wir": "spielen",
+      "ihr": "spielt",
+      "sie_Sie": "spielen"
+    }
+  },
+  {
+    "id": "v_schwimmen",
+    "german": "schwimmen",
+    "article": null,
+    "pos": "verb",
+    "bengali": "সাঁতার কাটা",
+    "english": "to swim",
+    "pronunciationBn": "শ্ভিমেন",
+    "example_de": "Im Sommer schwimme ich oft.",
+    "example_bn": "গ্রীষ্মকালে আমি প্রায়ই সাঁতার কাটি।",
+    "topic": "hobbies",
+    "level": "A1",
+    "conjugations": {
+      "ich": "schwimme",
+      "du": "schwimmst",
+      "er_sie_es": "schwimmt",
+      "wir": "schwimmen",
+      "ihr": "schwimmt",
+      "sie_Sie": "schwimmen"
+    }
+  },
+  {
+    "id": "v_reisen",
+    "german": "reisen",
+    "article": null,
+    "pos": "verb",
+    "bengali": "ভ্রমণ করা",
+    "english": "to travel",
+    "pronunciationBn": "রাইজেন",
+    "example_de": "Ich reise gern nach Europa.",
+    "example_bn": "আমি ইউরোপে ভ্রমণ করতে পছন্দ করি।",
+    "topic": "hobbies",
+    "level": "A1",
+    "conjugations": {
+      "ich": "reise",
+      "du": "reist",
+      "er_sie_es": "reist",
+      "wir": "reisen",
+      "ihr": "reist",
+      "sie_Sie": "reisen"
+    }
+  },
+  {
+    "id": "v_kochen",
+    "german": "kochen",
+    "article": null,
+    "pos": "verb",
+    "bengali": "রান্না করা",
+    "english": "to cook",
+    "pronunciationBn": "কখেন",
+    "example_de": "Er kocht gerne Biryani.",
+    "example_bn": "সে বিরিয়ানি রান্না করতে পছন্দ করে।",
+    "topic": "hobbies",
+    "level": "A1",
+    "conjugations": {
+      "ich": "koche",
+      "du": "kochst",
+      "er_sie_es": "kocht",
+      "wir": "kochen",
+      "ihr": "kocht",
+      "sie_Sie": "kochen"
+    }
+  },
+  {
+    "id": "v_koennen",
+    "german": "können",
+    "article": null,
+    "pos": "verb",
+    "bengali": "পারা (can / able to)",
+    "english": "can / to be able to",
+    "pronunciationBn": "ক্যোন্নেন",
+    "example_de": "Ich kann gut Deutsch sprechen.",
+    "example_bn": "আমি ভালো জার্মান বলতে পারি।",
+    "topic": "hobbies",
+    "level": "A1",
+    "conjugations": {
+      "ich": "kann",
+      "du": "kannst",
+      "er_sie_es": "kann",
+      "wir": "können",
+      "ihr": "könnt",
+      "sie_Sie": "können"
+    }
+  },
+  {
+    "id": "v_muessen",
+    "german": "müssen",
+    "article": null,
+    "pos": "verb",
+    "bengali": "বাধ্য হওয়া / করতেই হবে (must / have to)",
+    "english": "must / have to",
+    "pronunciationBn": "ম্যুসেন",
+    "example_de": "Ich muss jetzt Deutsch lernen.",
+    "example_bn": "আমাকে এখন জার্মান শিখতেই হবে।",
+    "topic": "hobbies",
+    "level": "A1",
+    "conjugations": {
+      "ich": "muss",
+      "du": "musst",
+      "er_sie_es": "muss",
+      "wir": "müssen",
+      "ihr": "müsst",
+      "sie_Sie": "müssen"
+    }
+  },
+  {
+    "id": "v_wollen",
+    "german": "wollen",
+    "article": null,
+    "pos": "verb",
+    "bengali": "দৃঢ় ইচ্ছা থাকা / চাওয়া (want to)",
+    "english": "to want (strong intention)",
+    "pronunciationBn": "ভোলেন",
+    "example_de": "Ich will in Deutschland studieren.",
+    "example_bn": "আমি জার্মানিতে পড়াশোনা করতে চাই।",
+    "topic": "hobbies",
+    "level": "A1",
+    "conjugations": {
+      "ich": "will",
+      "du": "willst",
+      "er_sie_es": "will",
+      "wir": "wollen",
+      "ihr": "wollt",
+      "sie_Sie": "wollen"
+    }
+  }
+]

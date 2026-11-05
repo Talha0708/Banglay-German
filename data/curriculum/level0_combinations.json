@@ -1,0 +1,120 @@
+{
+  "id": "lesson_0_3",
+  "unitId": "level_0",
+  "title_bn": "বর্ণের মেলবন্ধন ও উচ্চারণ সূত্র (Letter Combinations)",
+  "title_en": "Letter Combinations & Pronunciation Rules",
+  "subtitle_de": "Buchstabenkombinationen",
+  "order": 3,
+  "content": {
+    "intro_bn": "জার্মান ভাষায় কয়েকটি বর্ণের জোড়া নির্দিষ্ট উচ্চারণ তৈরি করে। এগুলো একবার শিখে নিলে যেকোনো জার্মান শব্দ আপনি নির্ভুলভাবে পড়তে পারবেন:\n• 'ei' উচ্চারণ হয় 'আই' (যেমন: mein = মাইন)\n• 'ie' উচ্চারণ হয় দীর্ঘ 'ঈ' (যেমন: sie = জি, wie = ভি)\n• 'eu' এবং 'äu' উচ্চারণ হয় 'অয়' (যেমন: Deutsch = ডয়চ্)\n• 'au' উচ্চারণ হয় 'আউ' (যেমন: Haus = হাউস)\n• 'sch' উচ্চারণ হয় 'শ' (যেমন: Schule = শুলে)\n• শব্দের শুরুতে 'sp' ও 'st' হয় 'শ্প' ও 'শ্ট' (যেমন: Sport = শ্পোর্ট, Stadt = শ্টাট)",
+    "intro_en": "Key German digraphs: 'ei' sounds like 'eye', 'ie' sounds like 'ee', 'eu' and 'äu' sound like 'oy', 'sch' sounds like 'sh', and initial 'sp'/'st' become 'shp'/'sht'.",
+    "examples": [
+      { "de": "mein (ei)", "bn": "মাইন (আমার)", "note": "ei = আই" },
+      { "de": "wie (ie)", "bn": "ভি (কীভাবে / কেমন)", "note": "ie = দীর্ঘ ঈ" },
+      { "de": "Deutsch (eu)", "bn": "ডয়চ্ (জার্মান)", "note": "eu = অয়" },
+      { "de": "das Haus (au)", "bn": "হাউস (বাড়ি)", "note": "au = আউ" },
+      { "de": "die Schule (sch)", "bn": "শুলে (স্কুল)", "note": "sch = শ" },
+      { "de": "der Sport (sp)", "bn": "শ্পোর্ট (খেলাধুলা)", "note": "শব্দের শুরুতে sp = শ্প" },
+      { "de": "die Stadt (st)", "bn": "শ্টাট (শহর)", "note": "শব্দের শুরুতে st = শ্ট" }
+    ]
+  },
+  "vocabulary": [
+    { "id": "v_l03_1", "german": "mein", "article": null, "pos": "pronoun", "bengali": "আমার", "english": "my / mine", "pronunciationBn": "মাইন", "example_de": "Mein Name ist...", "example_bn": "আমার নাম...", "topic": "basics", "level": "A1" },
+    { "id": "v_l03_2", "german": "wie", "article": null, "pos": "adverb", "bengali": "কীভাবে / কেমন", "english": "how / as", "pronunciationBn": "ভি", "example_de": "Wie heißt du?", "example_bn": "তোমার নাম কী?", "topic": "basics", "level": "A1" },
+    { "id": "v_l03_3", "german": "Haus", "article": "das", "plural": "die Häuser", "pos": "noun", "bengali": "বাড়ি", "english": "house", "pronunciationBn": "হাউস", "example_de": "Das Haus ist neu.", "example_bn": "বাড়িটি নতুন।", "topic": "home_city", "level": "A1" },
+    { "id": "v_l03_4", "german": "Schule", "article": "die", "plural": "die Schulen", "pos": "noun", "bengali": "বিদ্যালয় / স্কুল", "english": "school", "pronunciationBn": "শুলে", "example_de": "Die Schule ist groß.", "example_bn": "বিদ্যালয়টি বড়।", "topic": "home_city", "level": "A1" },
+    { "id": "v_l03_5", "german": "Sport", "article": "der", "pos": "noun", "bengali": "খেলাধুলা", "english": "sport", "pronunciationBn": "শ্পোর্ট", "example_de": "Ich mache Sport.", "example_bn": "আমি খেলাধুলা করি।", "topic": "hobbies", "level": "A1" },
+    { "id": "v_l03_6", "german": "Stadt", "article": "die", "plural": "die Städte", "pos": "noun", "bengali": "শহর", "english": "city", "pronunciationBn": "শ্টাট", "example_de": "Berlin ist eine Stadt.", "example_bn": "বার্লিন একটি শহর।", "topic": "home_city", "level": "A1" },
+    { "id": "v_l03_7", "german": "ich", "article": null, "pos": "pronoun", "bengali": "আমি", "english": "I", "pronunciationBn": "ইশ / ইখ", "example_de": "Ich bin hier.", "example_bn": "আমি এখানে আছি।", "topic": "basics", "level": "A1" },
+    { "id": "v_l03_8", "german": "Platz", "article": "der", "plural": "die Plätze", "pos": "noun", "bengali": "স্থান / চত্বর / আসন", "english": "place / square / seat", "pronunciationBn": "প্লাৎস", "example_de": "Nehmen Sie Platz!", "example_bn": "আসন গ্রহণ করুন!", "topic": "home_city", "level": "A1" }
+  ],
+  "grammarTip": {
+    "title_bn": "খুব সতর্ক থাকুন: 'ei' বনাম 'ie'",
+    "title_en": "Common Trap: 'ei' vs 'ie'",
+    "content_bn": "নতুন শিক্ষার্থীদের সবচেয়ে বেশি ভুল হয় 'ei' আর 'ie' নিয়ে:\n• E আগে থাকলে 'ei' = 'আই' (যেমন: mein = মাইন, nein = নাইন, ein = আইন)।\n• I আগে থাকলে 'ie' = 'ঈ' (যেমন: sie = জি, wie = ভি, hier = হিয়ার)।\nমনে রাখার সহজ নিয়ম: দ্বিতীয় বর্ণটির মতো ধ্বনি প্রাধান্য পায় (i ইংরেজি বর্ণমালার 'আই', আর e ইংরেজি বর্ণমালার 'ই')!",
+    "rule_table": [
+      { "label": "ei", "value": "আই", "note": "mein (মাইন), nein (নাইন)" },
+      { "label": "ie", "value": "ঈ", "note": "sie (জি), hier (হিয়ার)" },
+      { "label": "eu / äu", "value": "অয়", "note": "Deutsch (ডয়চ্)" },
+      { "label": "sch", "value": "শ", "note": "Schule (শুলে)" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "ex_0_3_1",
+      "type": "multiple_choice",
+      "prompt_bn": "'mein' শব্দটিতে 'ei' এর উচ্চারণ কেমন?",
+      "explanation_bn": "'ei' এর উচ্চারণ বাংলা 'আই' এর মতো। তাই mein = মাইন।",
+      "question": "'mein' শব্দের সঠিক উচ্চারণ কোনটি?",
+      "options": ["মাইন", "মিন", "মেন", "মুন"],
+      "correctAnswer": "মাইন"
+    },
+    {
+      "id": "ex_0_3_2",
+      "type": "multiple_choice",
+      "prompt_bn": "'wie' শব্দটিতে 'ie' এর উচ্চারণ কেমন?",
+      "explanation_bn": "'ie' এর উচ্চারণ বাংলা দীর্ঘ 'ঈ' এর মতো। তাই wie = ভি।",
+      "question": "'wie' শব্দের সঠিক উচ্চারণ কোনটি?",
+      "options": ["ভি (Vee)", "ভায় (Vye)", "ভো (Vo)", "ভে (Vay)"],
+      "correctAnswer": "ভি (Vee)"
+    },
+    {
+      "id": "ex_0_3_3",
+      "type": "matching_pairs",
+      "prompt_bn": "বর্ণের জোড়ার সাথে সঠিক বাংলা উচ্চারণ মেলান:",
+      "explanation_bn": "ei = আই, ie = ঈ, eu = অয়, au = আউ",
+      "pairs": [
+        { "german": "ei (যেমন mein)", "bengali": "আই (মাইন)" },
+        { "german": "ie (যেমন wie)", "bengali": "ঈ (ভি)" },
+        { "german": "eu (যেমন Deutsch)", "bengali": "অয় (ডয়চ্)" },
+        { "german": "au (যেমন Haus)", "bengali": "আউ (হাউস)" }
+      ]
+    },
+    {
+      "id": "ex_0_3_4",
+      "type": "listening",
+      "prompt_bn": "অডিও শুনে বলুন কোন শব্দটি উচ্চারিত হচ্ছে:",
+      "explanation_bn": "উচ্চারিত শব্দটি হলো 'Deutsch' (ডয়চ্ = জার্মান)।",
+      "audioText": "Deutsch",
+      "options": ["Deutsch", "Danke", "Das", "Dort"],
+      "correctAnswer": "Deutsch"
+    },
+    {
+      "id": "ex_0_3_5",
+      "type": "article_quiz",
+      "prompt_bn": "'Schule' (বিদ্যালয়/স্কুল) শব্দের আর্টিকেল কোনটি?",
+      "explanation_bn": "-e দিয়ে শেষ হওয়া বেশিরভাগ শব্দ স্ত্রীলিঙ্গ (die) হয়, যেমন 'die Schule'।",
+      "noun": "Schule",
+      "meaning_bn": "বিদ্যালয় / স্কুল",
+      "correctArticle": "die"
+    },
+    {
+      "id": "ex_0_3_6",
+      "type": "article_quiz",
+      "prompt_bn": "'Haus' (বাড়ি) শব্দের আর্টিকেল কোনটি?",
+      "explanation_bn": "Haus একটি ক্লীবলিঙ্গ শব্দ, এর আর্টিকেল 'das' (das Haus)।",
+      "noun": "Haus",
+      "meaning_bn": "বাড়ি",
+      "correctArticle": "das"
+    },
+    {
+      "id": "ex_0_3_7",
+      "type": "sentence_builder",
+      "prompt_bn": "সঠিক ক্রম সাজিয়ে বাক্য তৈরি করুন: 'আমার নাম...'",
+      "explanation_bn": "Mein Name ist... (আমার নাম...)",
+      "targetSentence": "Mein Name ist Talha.",
+      "scrambledWords": ["ist", "Name", "Talha.", "Mein"],
+      "meaning_bn": "আমার নাম তালহা।"
+    },
+    {
+      "id": "ex_0_3_8",
+      "type": "typing",
+      "prompt_bn": "'আমি' এর জার্মান সর্বনাম লিখুন:",
+      "explanation_bn": "আমি হলো 'ich' (ইশ/ইখ)।",
+      "prompt": "আমি",
+      "correctAnswer": "ich",
+      "acceptedAnswers": ["ich", "Ich"],
+      "placeholder": "যেমন: ich"
+    }
+  ]
+}

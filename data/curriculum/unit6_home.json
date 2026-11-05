@@ -1,0 +1,118 @@
+[
+  {
+    "id": "lesson_6_1",
+    "unitId": "unit_6",
+    "title_bn": "বাড়ি, শহর ও দিকনির্দেশনা (Dativ ও Prepositions)",
+    "title_en": "Home, City & Directions (Introduction to Dativ)",
+    "subtitle_de": "Wohnung, Stadt und Wegbeschreibung",
+    "order": 14,
+    "content": {
+      "intro_bn": "শহরে কোনো জায়গা খোঁজা ও পথ দেখানোর ক্ষেত্রে দিকনির্দেশনামূলক শব্দ জানা জরুরি:\n• links (বামে), rechts (ডানে), geradeaus (সোজা সামনে)\n• 'Wo ist der Bahnhof?' (স্টেশনটি কোথায়?)\n• 'Gehen Sie geradeaus und dann nach links.' (সোজা যান এবং তারপর বামে মোড় নিন।)\n\nডাটিভ (Dativ) কারক পরিচয়:\nযখন কোনো স্থানে স্থিতি (Wo? কোথায়?) বোঝায় বা mit (সাথে/দ্বারা) ব্যবহৃত হয়, তখন আর্টিকেলে পরিবর্তন ঘটে:\n• der -> dem (mit dem Bus, mit dem Zug)\n• das -> dem (in dem Haus -> im Haus)\n• die -> der (in der Stadt, in der Schule)",
+      "intro_en": "Learn to give and ask for directions: links (left), rechts (right), geradeaus (straight ahead). Introduction to Dativ with 'mit' (mit dem Bus/Zug) and fixed location (in der Stadt).",
+      "examples": [
+        { "de": "Wo ist die Apotheke?", "bn": "ফার্মেসিটি কোথায়?", "note": "দিকনির্দেশনা অনুসন্ধান" },
+        { "de": "Gehen Sie geradeaus.", "bn": "সোজা সামনে এগিয়ে যান।", "note": "নির্দেশনা" },
+        { "de": "Die Bank ist auf der rechten Seite.", "bn": "ব্যাংকটি ডান পাশে।", "note": "অবস্থান" },
+        { "de": "Ich fahre mit dem Bus.", "bn": "আমি বাসে করে যাই।", "note": "mit + Dativ (dem Bus)" }
+      ]
+    },
+    "vocabulary": [
+      { "id": "v_u6_1", "german": "Bahnhof", "article": "der", "plural": "die Bahnhöfe", "pos": "noun", "bengali": "রেলওয়ে স্টেশন", "english": "train station", "pronunciationBn": "বানহোফ", "example_de": "Zum Bahnhof, bitte.", "example_bn": "স্টেশনের দিকে, দয়া করে।", "topic": "home_city", "level": "A1" },
+      { "id": "v_u6_2", "german": "Apotheke", "article": "die", "plural": "die Apotheken", "pos": "noun", "bengali": "ওষুধের দোকান / ফার্মেসি", "english": "pharmacy", "pronunciationBn": "আপোথেকে", "example_de": "Wo ist eine Apotheke?", "example_bn": "ফার্মেসি কোথায়?", "topic": "home_city", "level": "A1" },
+      { "id": "v_u6_3", "german": "Supermarkt", "article": "der", "plural": "die Supermärkte", "pos": "noun", "bengali": "সুপারমার্কেট", "english": "supermarket", "pronunciationBn": "সুপারমার্কট", "example_de": "Der Supermarkt ist nah.", "example_bn": "সুপারমার্কেটটি কাছেই।", "topic": "home_city", "level": "A1" },
+      { "id": "v_u6_4", "german": "Bank", "article": "die", "plural": "die Banken", "pos": "noun", "bengali": "ব্যাংক", "english": "bank", "pronunciationBn": "বাঙ্ক", "example_de": "Die Bank ist links.", "example_bn": "ব্যাংকটি বামে।", "topic": "home_city", "level": "A1" },
+      { "id": "v_u6_5", "german": "links", "article": null, "pos": "adverb", "bengali": "বাম / বামে", "english": "left", "pronunciationBn": "লিংকস", "example_de": "Biegen Sie links ab.", "example_bn": "বামে মোড় নিন।", "topic": "home_city", "level": "A1" },
+      { "id": "v_u6_6", "german": "rechts", "article": null, "pos": "adverb", "bengali": "ডান / ডানে", "english": "right", "pronunciationBn": "রেশ্টস", "example_de": "Die Post ist rechts.", "example_bn": "ডাকঘরটি ডানে।", "topic": "home_city", "level": "A1" },
+      { "id": "v_u6_7", "german": "geradeaus", "article": null, "pos": "adverb", "bengali": "সোজা সামনে", "english": "straight ahead", "pronunciationBn": "গেরাডে-আউস", "example_de": "Immer geradeaus.", "example_bn": "সবসময় সোজা।", "topic": "home_city", "level": "A1" },
+      { "id": "v_u6_8", "german": "Bus", "article": "der", "plural": "die Busse", "pos": "noun", "bengali": "বাস", "english": "bus", "pronunciationBn": "বুস", "example_de": "Der Bus fährt ab.", "example_bn": "বাসটি ছেড়ে যাচ্ছে।", "topic": "home_city", "level": "A1" }
+    ],
+    "grammarTip": {
+      "title_bn": "'mit' এর সাথে Dativ রূপান্তর",
+      "title_en": "'mit' + Dativ Rule",
+      "content_bn": "জার্মান ভাষায় 'mit' (দ্বারা/সাথে) প্রেপজিশনটির পর সবসময় Dativ কারক হয়:\n• der Bus -> mit dem Bus\n• der Zug -> mit dem Zug\n• das Auto -> mit dem Auto\n• das Fahrrad -> mit dem Fahrrad\n• die Bahn -> mit der Bahn",
+      "rule_table": [
+        { "label": "der / das", "value": "+ dem", "note": "mit dem Bus, mit dem Auto" },
+        { "label": "die", "value": "+ der", "note": "mit der Bahn" }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_6_1_1",
+        "type": "fill_blank",
+        "prompt_bn": "সঠিক Dativ আর্টিকেল বসান: 'Ich fahre mit ___ Bus.'",
+        "explanation_bn": "der Bus পুংলিঙ্গ, mit এর পরে Dativ এ 'dem' হয়।",
+        "sentenceWithBlank": "Ich fahre mit ___ Bus.",
+        "blankType": "article",
+        "options": ["dem", "den", "der", "das"],
+        "correctAnswer": "dem",
+        "translation_bn": "আমি বাসে করে যাই।"
+      },
+      {
+        "id": "ex_6_1_2",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য লিখুন: 'সোজা যান এবং তারপর বামে।'",
+        "explanation_bn": "Gehen Sie geradeaus und dann links.",
+        "targetSentence": "Gehen Sie geradeaus und dann links.",
+        "scrambledWords": ["geradeaus", "links.", "Gehen", "und", "dann", "Sie"],
+        "meaning_bn": "সোজা যান এবং তারপর বামে।"
+      },
+      {
+        "id": "ex_6_1_3",
+        "type": "matching_pairs",
+        "prompt_bn": "দিকের সাথে সঠিক বাংলা মেলান:",
+        "explanation_bn": "links = বামে, rechts = ডানে, geradeaus = সোজা সামনে",
+        "pairs": [
+          { "german": "links", "bengali": "বামে" },
+          { "german": "rechts", "bengali": "ডানে" },
+          { "german": "geradeaus", "bengali": "সোজা সামনে" }
+        ]
+      },
+      {
+        "id": "ex_6_1_4",
+        "type": "article_quiz",
+        "prompt_bn": "'Bahnhof' (রেল স্টেশন) শব্দের আর্টিকেল কোনটি?",
+        "explanation_bn": "Bahnhof পুংলিঙ্গ, তাই 'der Bahnhof'।",
+        "noun": "Bahnhof",
+        "meaning_bn": "রেলওয়ে স্টেশন",
+        "correctArticle": "der"
+      },
+      {
+        "id": "ex_6_1_5",
+        "type": "article_quiz",
+        "prompt_bn": "'Apotheke' (ফার্মেসি) শব্দের আর্টিকেল কোনটি?",
+        "explanation_bn": "-e প্রত্যয়যুক্ত Apotheke স্ত্রীলিঙ্গ, তাই 'die Apotheke'।",
+        "noun": "Apotheke",
+        "meaning_bn": "ফার্মেসি / ওষুধের দোকান",
+        "correctArticle": "die"
+      },
+      {
+        "id": "ex_6_1_6",
+        "type": "listening",
+        "prompt_bn": "অডিও শুনে বলুন কোন দিকটি বলা হয়েছে:",
+        "explanation_bn": "সঠিক উত্তর হলো 'geradeaus' (সোজা সামনে)।",
+        "audioText": "geradeaus",
+        "options": ["geradeaus", "links", "rechts", "hier"],
+        "correctAnswer": "geradeaus"
+      },
+      {
+        "id": "ex_6_1_7",
+        "type": "typing",
+        "prompt_bn": "'ডানে' এর জার্মান শব্দটি লিখুন (rechts):",
+        "explanation_bn": "rechts",
+        "prompt": "ডানে",
+        "correctAnswer": "rechts",
+        "acceptedAnswers": ["rechts", "Rechts"],
+        "placeholder": "যেমন: rechts"
+      },
+      {
+        "id": "ex_6_1_8",
+        "type": "multiple_choice",
+        "prompt_bn": "'Entschuldigung, wo ist der Bahnhof?' এর অর্থ কী?",
+        "explanation_bn": "মাফ করবেন, রেলওয়ে স্টেশনটি কোথায়?",
+        "question": "'Wo ist der Bahnhof?' এর অর্থ কোনটি?",
+        "options": ["রেলওয়ে স্টেশনটি কোথায়?", "ট্রেনটি কখন আসবে?", "বাস কোথায় থামবে?", "সুপারমার্কেটটি কোথায়?"],
+        "correctAnswer": "রেলওয়ে স্টেশনটি কোথায়?"
+      }
+    ]
+  }
+]

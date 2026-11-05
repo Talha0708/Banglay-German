@@ -1,0 +1,117 @@
+[
+  {
+    "id": "lesson_3_1",
+    "unitId": "unit_3",
+    "title_bn": "বিশেষ্য ও আর্টিকেল (der / die / das & ein / kein)",
+    "title_en": "Nouns & Articles (Definite, Indefinite & Negative)",
+    "subtitle_de": "Nomen und Artikel",
+    "order": 11,
+    "content": {
+      "intro_bn": "জার্মান ভাষার প্রতিটি বিশেষ্যের একটি লিঙ্গ (Gender) থাকে এবং প্রতিটি বিশেষ্য সবসময় বড় হাতের বর্ণ (Capital letter) দিয়ে শুরু হয়!\n১. পুংলিঙ্গ (Maskulin - নীল): der Tisch (টেবিল), der Apfel (আপেল) -> ein / kein\n২. স্ত্রীলিঙ্গ (Feminin - লাল): die Lampe (বাতি), die Schule (স্কুল) -> eine / keine\n৩. ক্লীবলিঙ্গ (Neutral - সবুজ): das Buch (বই), das Auto (গাড়ি) -> ein / kein\n৪. বহুবচন (Plural - কমলা/গোলাপী): die Bücher, die Äpfel -> viele / keine\n\nআকুজাটিভ (Akkusativ - কর্মকারক): যখন কোনো পুংলিঙ্গ বিশেষ্যের ওপর ক্রিয়ার কাজ ঘটে, তখন 'der' হয়ে যায় 'den' এবং 'ein' হয়ে যায় 'einen'!",
+      "intro_en": "Every German noun has a grammatical gender and is always capitalized. Color coding: der = blue (masculine), die = red (feminine), das = green (neuter). In Akkusativ, masculine 'der/ein' changes to 'den/einen'.",
+      "examples": [
+        { "de": "Das ist ein Apfel (der Apfel).", "bn": "এটি একটি আপেল (Nominativ)।", "note": "der -> ein" },
+        { "de": "Ich esse einen Apfel.", "bn": "আমি একটি আপেল খাচ্ছি (Akkusativ)।", "note": "der -> den / einen" },
+        { "de": "Das ist eine Lampe.", "bn": "এটি একটি বাতি।", "note": "die -> eine" },
+        { "de": "Ich habe kein Geld.", "bn": "আমার কোনো টাকা নেই।", "note": "das Geld -> kein" }
+      ]
+    },
+    "vocabulary": [
+      { "id": "v_u3_1", "german": "Tisch", "article": "der", "plural": "die Tische", "pos": "noun", "bengali": "টেবিল", "english": "table", "pronunciationBn": "টিশ", "example_de": "Der Tisch ist aus Holz.", "example_bn": "টেবিলটি কাঠের।", "topic": "home_city", "level": "A1" },
+      { "id": "v_u3_2", "german": "Stuhl", "article": "der", "plural": "die Stühle", "pos": "noun", "bengali": "চেয়ার", "english": "chair", "pronunciationBn": "শ্টুল", "example_de": "Der Stuhl ist bequem.", "example_bn": "চেয়ারটি আরামদায়ক।", "topic": "home_city", "level": "A1" },
+      { "id": "v_u3_3", "german": "Lampe", "article": "die", "plural": "die Lampen", "pos": "noun", "bengali": "বাতি / ল্যাম্প", "english": "lamp", "pronunciationBn": "লাম্পে", "example_de": "Die Lampe ist hell.", "example_bn": "বাতিটি উজ্জ্বল।", "topic": "home_city", "level": "A1" },
+      { "id": "v_u3_4", "german": "Auto", "article": "das", "plural": "die Autos", "pos": "noun", "bengali": "গাড়ি", "english": "car", "pronunciationBn": "আউটো", "example_de": "Das Auto fährt schnell.", "example_bn": "গাড়িটি দ্রুত চলে।", "topic": "home_city", "level": "A1" },
+      { "id": "v_u3_5", "german": "Geld", "article": "das", "pos": "noun", "bengali": "টাকা / অর্থ", "english": "money", "pronunciationBn": "গেল্ট", "example_de": "Ich brauche Geld.", "example_bn": "আমার টাকা প্রয়োজন।", "topic": "basics", "level": "A1" },
+      { "id": "v_u3_6", "german": "Kugelschreiber", "article": "der", "plural": "die Kugelschreiber", "pos": "noun", "bengali": "কলম", "english": "pen", "pronunciationBn": "কুগেল-শ্রাইবার", "example_de": "Hast du einen Kugelschreiber?", "example_bn": "তোমার কি একটি কলম আছে?", "topic": "basics", "level": "A1" },
+      { "id": "v_u3_7", "german": "Tasche", "article": "die", "plural": "die Taschen", "pos": "noun", "bengali": "ব্যাগ", "english": "bag", "pronunciationBn": "তাশে", "example_de": "Meine Tasche ist schwer.", "example_bn": "আমার ব্যাগটি ভারী।", "topic": "basics", "level": "A1" },
+      { "id": "v_u3_8", "german": "Handy", "article": "das", "plural": "die Handys", "pos": "noun", "bengali": "মোবাইল ফোন", "english": "mobile phone", "pronunciationBn": "হ্যান্ডি", "example_de": "Das Handy klingelt.", "example_bn": "মোবাইলটি বাজছে।", "topic": "basics", "level": "A1" }
+    ],
+    "grammarTip": {
+      "title_bn": "Nominativ বনাম Akkusativ ছক",
+      "title_en": "Nominativ vs Akkusativ Table",
+      "content_bn": "Akkusativ এ শুধুমাত্র পুংলিঙ্গ (der) পরিবর্তিত হয়! স্ত্রীলিঙ্গ (die) এবং ক্লীবলিঙ্গ (das) অপরিবর্তিত থাকে:\n• der -> den (ein -> einen, kein -> keinen)\n• die -> die (eine -> eine, keine -> keine)\n• das -> das (ein -> ein, kein -> kein)",
+      "rule_table": [
+        { "label": "Maskulin (পুংলিঙ্গ)", "value": "der -> den (einen / keinen)", "note": "পরিবর্তিত হয়!" },
+        { "label": "Feminin (স্ত্রীলিঙ্গ)", "value": "die -> die (eine / keine)", "note": "একই থাকে" },
+        { "label": "Neutral (ক্লীবলিঙ্গ)", "value": "das -> das (ein / kein)", "note": "একই থাকে" }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_3_1_1",
+        "type": "fill_blank",
+        "prompt_bn": "Akkusativ এ সঠিক অনির্দিষ্ট আর্টিকেল বসান: 'Ich habe ___ Bruder.'",
+        "explanation_bn": "der Bruder পুংলিঙ্গ, তাই Akkusativ এ 'einen' হবে।",
+        "sentenceWithBlank": "Ich habe ___ Bruder.",
+        "blankType": "article",
+        "options": ["einen", "ein", "eine", "einem"],
+        "correctAnswer": "einen",
+        "translation_bn": "আমার একজন ভাই আছে।"
+      },
+      {
+        "id": "ex_3_1_2",
+        "type": "article_quiz",
+        "prompt_bn": "'Tisch' (টেবিল) শব্দের আর্টিকেল কোনটি?",
+        "explanation_bn": "Tisch পুংলিঙ্গ, তাই 'der Tisch'।",
+        "noun": "Tisch",
+        "meaning_bn": "টেবিল",
+        "correctArticle": "der"
+      },
+      {
+        "id": "ex_3_1_3",
+        "type": "article_quiz",
+        "prompt_bn": "'Auto' (গাড়ি) শব্দের আর্টিকেল কোনটি?",
+        "explanation_bn": "Auto ক্লীবলিঙ্গ, তাই 'das Auto'।",
+        "noun": "Auto",
+        "meaning_bn": "গাড়ি",
+        "correctArticle": "das"
+      },
+      {
+        "id": "ex_3_1_4",
+        "type": "article_quiz",
+        "prompt_bn": "'Tasche' (ব্যাগ) শব্দের আর্টিকেল কোনটি?",
+        "explanation_bn": "Tasche স্ত্রীলিঙ্গ, তাই 'die Tasche'।",
+        "noun": "Tasche",
+        "meaning_bn": "ব্যাগ",
+        "correctArticle": "die"
+      },
+      {
+        "id": "ex_3_1_5",
+        "type": "sentence_builder",
+        "prompt_bn": "বাক্য সাজান: 'আমার কোনো টাকা নেই।' (Ich habe kein Geld.)",
+        "explanation_bn": "Ich habe kein Geld.",
+        "targetSentence": "Ich habe kein Geld.",
+        "scrambledWords": ["Geld.", "kein", "habe", "Ich"],
+        "meaning_bn": "আমার কোনো টাকা নেই।"
+      },
+      {
+        "id": "ex_3_1_6",
+        "type": "multiple_choice",
+        "prompt_bn": "Akkusativ কারকে কোন লিঙ্গের আর্টিকেলে পরিবর্তন ঘটে?",
+        "explanation_bn": "শুধুমাত্র পুংলিঙ্গ (der -> den, ein -> einen) পরিবর্তিত হয়।",
+        "question": "Akkusativ এ কোন আর্টিকেল পরিবর্তিত হয়?",
+        "options": ["শুধুমাত্র পুংলিঙ্গ (der / ein)", "শুধুমাত্র স্ত্রীলিঙ্গ (die)", "শুধুমাত্র ক্লীবলিঙ্গ (das)", "সবগুলো"],
+        "correctAnswer": "শুধুমাত্র পুংলিঙ্গ (der / ein)"
+      },
+      {
+        "id": "ex_3_1_7",
+        "type": "listening",
+        "prompt_bn": "অডিও শুনে বলুন কোন শব্দটি উচ্চারিত হয়েছে:",
+        "explanation_bn": "সঠিক শব্দ: 'Kugelschreiber' (কলম)।",
+        "audioText": "Kugelschreiber",
+        "options": ["Kugelschreiber", "Tasche", "Tisch", "Stuhl"],
+        "correctAnswer": "Kugelschreiber"
+      },
+      {
+        "id": "ex_3_1_8",
+        "type": "typing",
+        "prompt_bn": "'গাড়ি' এর জার্মান শব্দটি আর্টিকেলসহ লিখুন (das Auto):",
+        "explanation_bn": "das Auto",
+        "prompt": "গাড়ি",
+        "correctAnswer": "das Auto",
+        "acceptedAnswers": ["das Auto", "Auto"],
+        "placeholder": "যেমন: das Auto"
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "appName": "Banglay German",
+  "appName_bn": "বাংলায় জার্মান",
+  "tagline_bn": "বাংলায় জার্মান, অক্ষর থেকে A1",
+  "tagline_en": "Learn German in Bengali, from the alphabet to A1",
+  "version": "1.0.0",
+  "year": 2026,
+  "developer": {
+    "name": "Talha Belal",
+    "role_bn": "প্রতিষ্ঠাতা ও ডেভেলপার",
+    "role_en": "Founder & Developer",
+    "facebook": "https://www.facebook.com/talha.belal.92",
+    "phone": "01987573397",
+    "phoneIntl": "+8801987573397"
+  },
+  "mission_bn": "বাংলাভাষী শিক্ষার্থীদের জন্য জার্মান ভাষা শেখা সহজ, ধাপে ধাপে এবং সবার নাগালের মধ্যে আনা।",
+  "mission_en": "To make learning German simple, structured and accessible for Bengali-speaking learners.",
+  "purpose_bn": "এই অ্যাপটি তৈরি করা হয়েছে বাংলাভাষী শিক্ষার্থীদের জন্য, যাতে তারা একদম অক্ষর (Alphabet) থেকে শুরু করে সম্পূর্ণ A1 লেভেল পর্যন্ত সহজ বাংলায় শিখতে পারে। এখানে আছে ১৪০০+ শব্দ, বাক্য গঠন, উচ্চারণ ও অনুশীলন, এবং ইন্টারনেট ছাড়াও ব্যবহার করা যায়।",
+  "purpose_en": "Built for Bengali-speaking learners to learn German from the very first letter up to complete CEFR A1 in simple Bengali, with 1400+ words, sentence making, audio practice and full offline use.",
+  "whyBuilt_bn": [
+    "বাংলায় মানসম্মত জার্মান শেখার রিসোর্সের ঘাটতি পূরণ করা",
+    "মোবাইলে সহজে ব্যবহারযোগ্য ও বিনামূল্যের শেখার প্ল্যাটফর্ম দেওয়া",
+    "জার্মানিতে পড়াশোনা, কাজ বা Goethe A1 পরীক্ষার প্রস্তুতিতে সাহায্য করা"
+  ],
+  "whyBuilt_en": [
+    "Fill the gap of quality German learning resources in Bengali",
+    "Provide a free, mobile-friendly learning platform",
+    "Support learners preparing for study, work or the Goethe A1 exam in Germany"
+  ],
+  "highlights": [
+    { "value": "1400+", "label_bn": "শব্দভান্ডার", "label_en": "Words" },
+    { "value": "A1", "label_bn": "সম্পূর্ণ কোর্স", "label_en": "Full course" },
+    { "value": "Offline", "label_bn": "ইন্টারনেট ছাড়াই", "label_en": "No internet needed" }
+  ]
+}
