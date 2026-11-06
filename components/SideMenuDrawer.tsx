@@ -19,6 +19,7 @@ import {
   Flame,
   FileText,
   MessageSquareQuote,
+  Video,
 } from 'lucide-react';
 import { TabId } from './TabBar';
 import { useAppStore } from '../store/useAppStore';
@@ -301,6 +302,21 @@ export const SideMenuDrawer: React.FC<SideMenuDrawerProps> = ({
               </div>
               <ChevronRight className="w-4 h-4 opacity-40" />
             </button>
+
+            {/* Paid A1 Video Course Link */}
+            <Link
+              href="/about#a1-course"
+              onClick={onClose}
+              className="w-full flex items-center justify-between p-3 rounded-2xl text-xs font-bold text-amber-700 dark:text-amber-400 bg-amber-50/70 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-800/60 hover:bg-amber-100/70 transition min-h-[44px]"
+            >
+              <div className="flex items-center gap-3">
+                <Video className="w-4 h-4 text-amber-600 dark:text-amber-400" />
+                <span>পেইড A1 ভিডিও কোর্স (One-Shot)</span>
+              </div>
+              <span className="text-[10px] font-black uppercase tracking-wider bg-amber-500 text-white px-2 py-0.5 rounded-full">
+                Hot
+              </span>
+            </Link>
 
             {/* About Page Link */}
             <Link

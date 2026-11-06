@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const viewport: Viewport = {
-  themeColor: '#1e40af',
+  themeColor: '#ffffff',
   width: 'device-width',
   initialScale: 1,
   maximumScale: 1,
@@ -59,6 +59,34 @@ export default function RootLayout({
         suppressHydrationWarning
         className="font-sans antialiased bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-[100dvh] overflow-x-hidden selection:bg-blue-600/20 selection:text-blue-700"
       >
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var raw = localStorage.getItem('banglay-german-storage');
+                  var isDark = false;
+                  if (raw) {
+                    var parsed = JSON.parse(raw);
+                    if (parsed && parsed.state && parsed.state.settings && parsed.state.settings.darkMode === true) {
+                      isDark = true;
+                    }
+                  }
+                  if (isDark) {
+                    document.documentElement.classList.add('dark');
+                    document.documentElement.style.colorScheme = 'dark';
+                  } else {
+                    document.documentElement.classList.remove('dark');
+                    document.documentElement.style.colorScheme = 'light';
+                  }
+                } catch(e) {
+                  document.documentElement.classList.remove('dark');
+                  document.documentElement.style.colorScheme = 'light';
+                }
+              })();
+            `,
+          }}
+        />
         {children}
         <script
           dangerouslySetInnerHTML={{

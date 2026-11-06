@@ -7,12 +7,26 @@ import { ArrowLeft, Check, Phone, Copy, ChevronRight, CheckCircle2 } from 'lucid
 import aboutData from '../../data/about.json';
 import { BrandFooter } from '../../components/BrandFooter';
 import { AdBanner } from '../../components/AdBanner';
+import { A1CourseBanner } from '../../components/A1CourseBanner';
 import { useAppStore } from '../../store/useAppStore';
 
 export default function AboutPage() {
   const explanationLang = useAppStore((state) => state.settings.explanationLang);
+  const darkMode = useAppStore((state) => state.settings.darkMode);
   const isEn = explanationLang === 'en';
   const [copiedToast, setCopiedToast] = useState(false);
+
+  React.useEffect(() => {
+    if (typeof document !== 'undefined') {
+      if (darkMode) {
+        document.documentElement.classList.add('dark');
+        document.documentElement.style.colorScheme = 'dark';
+      } else {
+        document.documentElement.classList.remove('dark');
+        document.documentElement.style.colorScheme = 'light';
+      }
+    }
+  }, [darkMode]);
 
   const handleCopyPhone = async () => {
     try {
@@ -220,6 +234,11 @@ export default function AboutPage() {
             </button>
           </div>
         </section>
+
+        {/* Paid German A1 One-Shot Video Course Section (Directly under Developer Contact) */}
+        <div id="a1-course" className="scroll-mt-16">
+          <A1CourseBanner className="mt-4" />
+        </div>
 
         {/* Advertisement Placement */}
         <AdBanner slot="300x250" />

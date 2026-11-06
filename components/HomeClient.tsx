@@ -10,6 +10,7 @@ import { InstallGuideModal } from './InstallGuideModal';
 import { BrandFooter } from './BrandFooter';
 import { InstallBanner } from './InstallBanner';
 import { AdBanner } from './AdBanner';
+import { A1CourseBanner } from './A1CourseBanner';
 import { SentenceOfTheDay } from './SentenceOfTheDay';
 import { WordBankView } from './WordBankView';
 import { PatternPractice } from './PatternPractice';
@@ -76,8 +77,10 @@ export default function HomeClient() {
     if (typeof document !== 'undefined') {
       if (settings.darkMode) {
         document.documentElement.classList.add('dark');
+        document.documentElement.style.colorScheme = 'dark';
       } else {
         document.documentElement.classList.remove('dark');
+        document.documentElement.style.colorScheme = 'light';
       }
     }
   }, [settings.darkMode]);
@@ -879,6 +882,9 @@ export default function HomeClient() {
                 <ChevronRight className="w-4 h-4 text-slate-400" />
               </Link>
             </div>
+
+            {/* Paid German A1 One-Shot Video Course Banner */}
+            <A1CourseBanner className="my-1" />
 
             {/* Reset Progress Action */}
             <div className="p-4 rounded-2xl border border-rose-200 dark:border-rose-950 bg-rose-50/50 dark:bg-rose-950/20 space-y-2">
