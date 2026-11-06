@@ -23,6 +23,7 @@ import {
 import { getAllWords, getWordsByTopic, getNouns, getTopics, TOPIC_METADATA } from '../data/vocabulary';
 import { Word, Article } from '../types/vocabulary';
 import { SpeakerButton } from './SpeakerButton';
+import { AdBanner } from './AdBanner';
 import { useAppStore } from '../store/useAppStore';
 
 type TrainerMode = 'hub' | 'article' | 'flashcards' | 'quiz' | 'spelling' | 'goethe_exam';
@@ -389,6 +390,9 @@ export function VocabularyTrainer({ onClose }: { onClose?: () => void }) {
                 পরীক্ষা প্রস্তুতি দেখুন →
               </button>
             </div>
+
+            {/* Advertisement */}
+            <AdBanner slot="300x250" />
           </div>
         )}
 

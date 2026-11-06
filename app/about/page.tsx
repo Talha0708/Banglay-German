@@ -39,7 +39,10 @@ export default function AboutPage() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 flex flex-col antialiased">
+    <div
+      suppressHydrationWarning
+      className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 flex flex-col antialiased"
+    >
       {/* Sticky Header with Back Button */}
       <header className="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800/80 px-4 py-3">
         <div className="max-w-md mx-auto flex items-center justify-between">
@@ -173,6 +176,13 @@ export default function AboutPage() {
               </div>
               <ChevronRight className="w-4 h-4 text-slate-400" />
             </a>
+
+            {/* Note under Facebook Profile */}
+            <div className="px-5 py-3 bg-blue-50/70 dark:bg-blue-950/40 border-t border-blue-100/70 dark:border-blue-900/50">
+              <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                {isEn ? aboutData.developer.support_message_en : aboutData.developer.support_message_bn}
+              </p>
+            </div>
 
             {/* Contact Action Row 2: Call */}
             <a

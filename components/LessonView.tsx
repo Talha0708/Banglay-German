@@ -6,6 +6,7 @@ import { WordCard } from './WordCard';
 import { SpeakerButton } from './SpeakerButton';
 import { ExerciseRunner } from './exercises/ExerciseRunner';
 import { LessonSummary } from './LessonSummary';
+import { AdBanner } from './AdBanner';
 import { useAppStore } from '../store/useAppStore';
 import { getNextLesson, getUnitTopics } from '../data/curriculum';
 import { getWordsByTopic, TOPIC_METADATA } from '../data/vocabulary';
@@ -260,6 +261,9 @@ export const LessonView: React.FC<LessonViewProps> = ({
               </div>
             )}
           </section>
+
+          {/* User-friendly Advertisement */}
+          <AdBanner slot="300x250" />
 
           {/* Button to start exercises */}
           <div className="sticky bottom-4 pt-2">

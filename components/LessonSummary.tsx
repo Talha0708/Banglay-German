@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import { Trophy, CheckCircle, ArrowRight, RotateCcw } from 'lucide-react';
 import { Lesson } from '../types/curriculum';
+import { AdBanner } from './AdBanner';
 
 interface LessonSummaryProps {
   lesson: Lesson;
@@ -81,6 +82,9 @@ export const LessonSummary: React.FC<LessonSummaryProps> = ({
           </span>
         </div>
       </div>
+
+      {/* User-friendly Advertisement */}
+      <AdBanner slot="300x250" />
 
       {/* Actions */}
       <div className="w-full space-y-2 pt-2">

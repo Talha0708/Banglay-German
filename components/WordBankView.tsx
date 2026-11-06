@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { Search, Filter, CheckCircle2 } from 'lucide-react';
 import { WordCard } from './WordCard';
+import { AdBanner } from './AdBanner';
 import { getTopics, searchWords, ALL_WORDS } from '../data/vocabulary';
 import { useAppStore } from '../store/useAppStore';
 
@@ -107,6 +108,9 @@ export const WordBankView: React.FC = () => {
           filteredWords.map((word) => <WordCard key={word.id} word={word} />)
         )}
       </div>
+
+      {/* User-friendly Advertisement */}
+      <AdBanner slot="300x250" />
     </div>
   );
 };

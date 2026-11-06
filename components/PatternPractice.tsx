@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { PATTERN_PRACTICE_TEMPLATES } from '../data/curriculum';
 import { SpeakerButton } from './SpeakerButton';
+import { AdBanner } from './AdBanner';
 import { Sparkles, Check, ChevronRight } from 'lucide-react';
 
 export const PatternPractice: React.FC = () => {
@@ -122,6 +123,9 @@ export const PatternPractice: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Advertisement */}
+      <AdBanner slot="300x250" />
     </div>
   );
 };

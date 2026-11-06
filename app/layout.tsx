@@ -55,12 +55,6 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${inter.variable} ${notoSansBengali.variable}`}
     >
-      <head>
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="mobile-web-app-capable" content="yes" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-      </head>
       <body
         suppressHydrationWarning
         className="font-sans antialiased bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-[100dvh] overflow-x-hidden selection:bg-blue-600/20 selection:text-blue-700"

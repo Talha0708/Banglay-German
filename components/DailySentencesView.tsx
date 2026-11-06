@@ -10,6 +10,7 @@ import {
 import { speakGerman } from '../lib/speech';
 import { useAppStore } from '../store/useAppStore';
 import { createInitialCard } from '../lib/srs';
+import { AdBanner } from './AdBanner';
 import {
   Volume2,
   Search,
@@ -423,6 +424,9 @@ export const DailySentencesView: React.FC<DailySentencesViewProps> = ({
               </div>
             );
           })}
+
+          {/* Advertisement in Sentences List */}
+          <AdBanner slot="300x250" />
         </div>
       )}
 
@@ -532,6 +536,9 @@ export const DailySentencesView: React.FC<DailySentencesViewProps> = ({
               <ChevronRight className="w-4 h-4" />
             </button>
           </div>
+
+          {/* Advertisement in Flashcard Mode */}
+          <AdBanner slot="300x250" />
         </div>
       )}
     </div>

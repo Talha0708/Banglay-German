@@ -7,6 +7,7 @@ import { isDue } from '../lib/srs';
 import { SpeakerButton } from './SpeakerButton';
 import { ArrowLeft, RotateCcw, Check, Sparkles, Trophy } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import { AdBanner } from './AdBanner';
 
 interface SRSReviewModalProps {
   onClose: () => void;
@@ -195,6 +196,7 @@ export const SRSReviewModal: React.FC<SRSReviewModalProps> = ({ onClose }) => {
           <p className="text-xs text-slate-500 dark:text-slate-400">
             আপনি আজ {reviewedCount}টি কার্ড সফলভাবে ঝালাই করেছেন। SM-2 অ্যালগরিদম অনুযায়ী সময়মতো কার্ডগুলো আবার ফিরে আসবে।
           </p>
+          <AdBanner slot="300x250" />
           <button
             type="button"
             onClick={onClose}

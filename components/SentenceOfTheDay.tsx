@@ -1,17 +1,21 @@
 'use client';
 
-import React, { useSyncExternalStore } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Sparkles } from 'lucide-react';
 import { getSentenceOfTheDay, SENTENCES_OF_THE_DAY } from '../data/curriculum';
 import { SpeakerButton } from './SpeakerButton';
 
-const emptySubscribe = () => () => {};
-
 export const SentenceOfTheDay: React.FC = () => {
-  const isClient = useSyncExternalStore(emptySubscribe, () => true, () => false);
-  // Default to first sentence on server so initial render is 100% deterministic,
-  // then client smoothly synchronizes to today's date-based sentence without hydration error.
-  const sentence = isClient ? getSentenceOfTheDay() : SENTENCES_OF_THE_DAY[0];
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setMounted(true);
+    }, 0);
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Default to first sentence on server and initial hydration, then update after mount
+  const sentence = mounted ? getSentenceOfTheDay() : SENTENCES_OF_THE_DAY[0];
 
   return (
     <div className="rounded-2xl p-4 bg-gradient-to-br from-blue-900 via-blue-950 to-slate-950 text-white shadow-lg border border-blue-800/60 relative overflow-hidden">
