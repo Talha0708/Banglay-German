@@ -10,29 +10,153 @@
       "intro_bn": "জার্মান দৈনন্দিন জীবনের কয়েকটি অতি দরকারী পরিস্থিতি:\n১. ডাক্তারের কাছে শারীরিক সমস্যা বলা: 'Mein Kopf tut weh.' (আমার মাথা ব্যথা করছে।)\n২. পেশা সংক্রান্ত কথা: 'Ich arbeite als Ingenieur bei Siemens.' (আমি প্রকৌশলী হিসেবে কাজ করি।)\n৩. টিকিট কেনা ও ভ্রমণ: 'Eine Fahrkarte nach München, bitte.' (মিউনিখের একটি ট্রেনের টিকিট, দয়া করে।)\n৪. আবহাওয়া বর্ণনা: 'Wie ist das Wetter? - Es ist sonnig / Es regnet.' (আবহাওয়া কেমন? - রোদোজ্জ্বল / বৃষ্টি হচ্ছে।)",
       "intro_en": "Essential vocabulary for doctor visits (tut weh), talking about jobs (arbeiten als...), train travel (Fahrkarte), and weather expressions (es regnet, die Sonne scheint).",
       "examples": [
-        { "de": "Mein Kopf tut weh.", "bn": "আমার মাথা ব্যথা করছে।", "note": "weh tun = ব্যথা করা" },
-        { "de": "Ich muss zum Arzt gehen.", "bn": "আমাকে ডাক্তারের কাছে যেতে হবে।", "note": "zum Arzt" },
-        { "de": "Wie ist das Wetter heute?", "bn": "আজকের আবহাওয়া কেমন?", "note": "আবহাওয়া জিজ্ঞাসা" },
-        { "de": "Die Sonne scheint und es ist warm.", "bn": "সূর্য কিরণ দিচ্ছে এবং উষ্ণ।", "note": "আবহাওয়ার উত্তর" }
+        {
+          "de": "Mein Kopf tut weh.",
+          "bn": "আমার মাথা ব্যথা করছে।",
+          "note": "weh tun = ব্যথা করা"
+        },
+        {
+          "de": "Ich muss zum Arzt gehen.",
+          "bn": "আমাকে ডাক্তারের কাছে যেতে হবে।",
+          "note": "zum Arzt"
+        },
+        {
+          "de": "Wie ist das Wetter heute?",
+          "bn": "আজকের আবহাওয়া কেমন?",
+          "note": "আবহাওয়া জিজ্ঞাসা"
+        },
+        {
+          "de": "Die Sonne scheint und es ist warm.",
+          "bn": "সূর্য কিরণ দিচ্ছে এবং উষ্ণ।",
+          "note": "আবহাওয়ার উত্তর"
+        }
       ]
     },
     "vocabulary": [
-      { "id": "v_u9_1", "german": "Kopf", "article": "der", "plural": "die Köpfe", "pos": "noun", "bengali": "মাথা", "english": "head", "pronunciationBn": "কপফ", "example_de": "Mein Kopf tut weh.", "example_bn": "আমার মাথা ব্যথা করছে।", "topic": "health_travel", "level": "A1" },
-      { "id": "v_u9_2", "german": "Arzt", "article": "der", "plural": "die Ärzte", "pos": "noun", "bengali": "ডাক্তার", "english": "doctor", "pronunciationBn": "আরৎসট", "example_de": "Der Arzt hilft mir.", "example_bn": "ডাক্তার আমাকে সাহায্য করছেন।", "topic": "health_travel", "level": "A1" },
-      { "id": "v_u9_3", "german": "Apotheke", "article": "die", "plural": "die Apotheken", "pos": "noun", "bengali": "ওষুধের দোকান", "english": "pharmacy", "pronunciationBn": "আপোথেকে", "example_de": "Zur Apotheke gehen.", "example_bn": "ওষুধের দোকানে যাওয়া।", "topic": "health_travel", "level": "A1" },
-      { "id": "v_u9_4", "german": "Wetter", "article": "das", "pos": "noun", "bengali": "আবহাওয়া", "english": "weather", "pronunciationBn": "ভেটার", "example_de": "Schönes Wetter.", "example_bn": "সুন্দর আবহাওয়া।", "topic": "health_travel", "level": "A1" },
-      { "id": "v_u9_5", "german": "Sonne", "article": "die", "pos": "noun", "bengali": "সূর্য", "english": "sun", "pronunciationBn": "জোনে", "example_de": "Die Sonne scheint.", "example_bn": "সূর্য কিরণ দিচ্ছে।", "topic": "health_travel", "level": "A1" },
-      { "id": "v_u9_6", "german": "Regen", "article": "der", "pos": "noun", "bengali": "বৃষ্টি", "english": "rain", "pronunciationBn": "রেগেন", "example_de": "Viel Regen heute.", "example_bn": "আজ প্রচুর বৃষ্টি।", "topic": "health_travel", "level": "A1" },
-      { "id": "v_u9_7", "german": "Fahrkarte", "article": "die", "plural": "die Fahrkarten", "pos": "noun", "bengali": "ভ্রমণের টিকিট", "english": "ticket (transit)", "pronunciationBn": "ফারকার্টে", "example_de": "Eine Fahrkarte, bitte.", "example_bn": "একটি টিকিট, দয়া করে।", "topic": "health_travel", "level": "A1" },
-      { "id": "v_u9_8", "german": "krank", "article": null, "pos": "adjective", "bengali": "অসুস্থ", "english": "sick", "pronunciationBn": "ক্রাঙ্ক", "example_de": "Ich bin krank.", "example_bn": "আমি অসুস্থ।", "topic": "health_travel", "level": "A1" }
+      {
+        "id": "v_u9_1",
+        "german": "Kopf",
+        "article": "der",
+        "plural": "die Köpfe",
+        "pos": "noun",
+        "bengali": "মাথা",
+        "english": "head",
+        "pronunciationBn": "কপফ",
+        "example_de": "Mein Kopf tut weh.",
+        "example_bn": "আমার মাথা ব্যথা করছে।",
+        "topic": "health_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_2",
+        "german": "Arzt",
+        "article": "der",
+        "plural": "die Ärzte",
+        "pos": "noun",
+        "bengali": "ডাক্তার",
+        "english": "doctor",
+        "pronunciationBn": "আরৎসট",
+        "example_de": "Der Arzt hilft mir.",
+        "example_bn": "ডাক্তার আমাকে সাহায্য করছেন।",
+        "topic": "health_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_3",
+        "german": "Apotheke",
+        "article": "die",
+        "plural": "die Apotheken",
+        "pos": "noun",
+        "bengali": "ওষুধের দোকান",
+        "english": "pharmacy",
+        "pronunciationBn": "আপোথেকে",
+        "example_de": "Zur Apotheke gehen.",
+        "example_bn": "ওষুধের দোকানে যাওয়া।",
+        "topic": "health_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_4",
+        "german": "Wetter",
+        "article": "das",
+        "pos": "noun",
+        "bengali": "আবহাওয়া",
+        "english": "weather",
+        "pronunciationBn": "ভেটার",
+        "example_de": "Schönes Wetter.",
+        "example_bn": "সুন্দর আবহাওয়া।",
+        "topic": "health_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_5",
+        "german": "Sonne",
+        "article": "die",
+        "pos": "noun",
+        "bengali": "সূর্য",
+        "english": "sun",
+        "pronunciationBn": "জোনে",
+        "example_de": "Die Sonne scheint.",
+        "example_bn": "সূর্য কিরণ দিচ্ছে।",
+        "topic": "health_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_6",
+        "german": "Regen",
+        "article": "der",
+        "pos": "noun",
+        "bengali": "বৃষ্টি",
+        "english": "rain",
+        "pronunciationBn": "রেগেন",
+        "example_de": "Viel Regen heute.",
+        "example_bn": "আজ প্রচুর বৃষ্টি।",
+        "topic": "health_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_7",
+        "german": "Fahrkarte",
+        "article": "die",
+        "plural": "die Fahrkarten",
+        "pos": "noun",
+        "bengali": "ভ্রমণের টিকিট",
+        "english": "ticket (transit)",
+        "pronunciationBn": "ফারকার্টে",
+        "example_de": "Eine Fahrkarte, bitte.",
+        "example_bn": "একটি টিকিট, দয়া করে।",
+        "topic": "health_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_8",
+        "german": "krank",
+        "article": null,
+        "pos": "adjective",
+        "bengali": "অসুস্থ",
+        "english": "sick",
+        "pronunciationBn": "ক্রাঙ্ক",
+        "example_de": "Ich bin krank.",
+        "example_bn": "আমি অসুস্থ।",
+        "topic": "health_travel",
+        "level": "A1"
+      }
     ],
     "grammarTip": {
       "title_bn": "'weh tun' (ব্যথা করা) এর ব্যবহার",
       "title_en": "Using 'weh tun' (to hurt)",
       "content_bn": "শরীরের কোনো অংশে ব্যথা প্রকাশ করতে 'weh tun' ব্যবহৃত হয়:\n• একবচনে (যেমন মাথা, পেট): Mein Kopf / Bauch tut weh.\n• বহুবচনে (যেমন দুই চোখ, দুই পা): Meine Augen / Beine tun weh.",
       "rule_table": [
-        { "label": "Singular (একবচন)", "value": "... tut weh", "note": "Mein Kopf tut weh." },
-        { "label": "Plural (বহুবচন)", "value": "... tun weh", "note": "Meine Augen tun weh." }
+        {
+          "label": "Singular (একবচন)",
+          "value": "... tut weh",
+          "note": "Mein Kopf tut weh."
+        },
+        {
+          "label": "Plural (বহুবচন)",
+          "value": "... tun weh",
+          "note": "Meine Augen tun weh."
+        }
       ]
     },
     "exercises": [
@@ -42,7 +166,12 @@
         "prompt_bn": "সাজিয়ে বাক্য তৈরি করুন: 'আমার মাথা ব্যথা করছে।' (Mein Kopf tut weh.)",
         "explanation_bn": "Mein Kopf tut weh.",
         "targetSentence": "Mein Kopf tut weh.",
-        "scrambledWords": ["weh.", "Kopf", "tut", "Mein"],
+        "scrambledWords": [
+          "weh.",
+          "Kopf",
+          "tut",
+          "Mein"
+        ],
         "meaning_bn": "আমার মাথা ব্যথা করছে।"
       },
       {
@@ -70,7 +199,12 @@
         "explanation_bn": "Fahrkarte মানে টিকিট।",
         "sentenceWithBlank": "Eine ___, bitte.",
         "blankType": "noun",
-        "options": ["Fahrkarte", "Sonne", "Kopf", "Arzt"],
+        "options": [
+          "Fahrkarte",
+          "Sonne",
+          "Kopf",
+          "Arzt"
+        ],
         "correctAnswer": "Fahrkarte",
         "translation_bn": "একটি টিকিট, দয়া করে।"
       },
@@ -80,7 +214,12 @@
         "prompt_bn": "'krank' শব্দের বাংলা অর্থ কী?",
         "explanation_bn": "krank মানে অসুস্থ।",
         "question": "'krank' এর অর্থ কোনটি?",
-        "options": ["অসুস্থ", "সুস্থ", "ক্লান্ত", "খুশি"],
+        "options": [
+          "অসুস্থ",
+          "সুস্থ",
+          "ক্লান্ত",
+          "খুশি"
+        ],
         "correctAnswer": "অসুস্থ"
       },
       {
@@ -89,10 +228,22 @@
         "prompt_bn": "শব্দের সাথে বাংলা অর্থ মেলান:",
         "explanation_bn": "Arzt = ডাক্তার, Sonne = সূর্য, Regen = বৃষ্টি, Kopf = মাথা",
         "pairs": [
-          { "german": "Arzt", "bengali": "ডাক্তার" },
-          { "german": "Sonne", "bengali": "সূর্য" },
-          { "german": "Regen", "bengali": "বৃষ্টি" },
-          { "german": "Kopf", "bengali": "মাথা" }
+          {
+            "german": "Arzt",
+            "bengali": "ডাক্তার"
+          },
+          {
+            "german": "Sonne",
+            "bengali": "সূর্য"
+          },
+          {
+            "german": "Regen",
+            "bengali": "বৃষ্টি"
+          },
+          {
+            "german": "Kopf",
+            "bengali": "মাথা"
+          }
         ]
       },
       {
@@ -101,7 +252,12 @@
         "prompt_bn": "অডিও শুনে বলুন কোন শব্দটি উচ্চারিত হয়েছে:",
         "explanation_bn": "সঠিক শব্দ: 'Wetter' (আবহাওয়া)।",
         "audioText": "Wetter",
-        "options": ["Wetter", "Wasser", "Winter", "Weiter"],
+        "options": [
+          "Wetter",
+          "Wasser",
+          "Winter",
+          "Weiter"
+        ],
         "correctAnswer": "Wetter"
       },
       {
@@ -111,8 +267,666 @@
         "explanation_bn": "der Arzt",
         "prompt": "ডাক্তার",
         "correctAnswer": "der Arzt",
-        "acceptedAnswers": ["der Arzt", "Arzt"],
+        "acceptedAnswers": [
+          "der Arzt",
+          "Arzt"
+        ],
         "placeholder": "যেমন: der Arzt"
+      }
+    ]
+  },
+  {
+    "id": "lesson_9_2",
+    "unitId": "unit_9",
+    "title_bn": "অসুস্থতা ও ব্যথা প্রকাশ: tut weh ও Schmerzen",
+    "title_en": "Expressing Pain, Illness & \"tut weh\"",
+    "subtitle_de": "Krankheit, Schmerzen und Beschwerden",
+    "order": 39,
+    "content": {
+      "intro_bn": "জার্মানিতে কোথাও ব্যথা বা যন্ত্রণা হলে দুটি প্রধান উপায়ে প্রকাশ করা হয়:\n\n১. \"weh tun\" ক্রিয়া ব্যবহার করে:\n• একবচন ব্যথায়: \"Mein Kopf tut weh.\" (আমার মাথা ব্যথা করছে।)\n• বহুবচন ব্যথায়: \"Meine Augen tun weh.\" (আমার চোখ দুটো ব্যথা করছে - এখানে tun!)\n\n২. \"haben + Schmerzen\" ব্যবহার করে:\n• \"Ich habe Kopfschmerzen.\" (আমার মাথা ব্যথা আছে।)\n• \"Ich habe Bauchschmerzen.\" (আমার পেট ব্যথা।)\n• \"Ich habe Halsschmerzen.\" (আমার গলা ব্যথা।)\n• \"Ich habe Fieber.\" (আমার জ্বর এসেছে।)\n• \"Ich habe Husten und Schnupfen.\" (আমার কাশি ও সর্দি হয়েছে)।",
+      "intro_en": "Express pain: \"Mein Kopf tut weh\" (singular: tut weh) or \"Meine Beine tun weh\" (plural: tun weh). Alternatively use noun compounds with -schmerzen: Kopfschmerzen, Bauchschmerzen, Halsschmerzen, plus Fieber (fever) and Husten (cough).",
+      "examples": [
+        {
+          "de": "Mein Rücken tut sehr weh.",
+          "bn": "আমার পিঠ খুব ব্যথা করছে।",
+          "note": "tut weh"
+        },
+        {
+          "de": "Ich habe starke Kopfschmerzen.",
+          "bn": "আমার তীব্র মাথা ব্যথা হচ্ছে।",
+          "note": "Kopfschmerzen"
+        },
+        {
+          "de": "Haben Sie Fieber? - Ja, 38,5 Grad.",
+          "bn": "আপনার কি জ্বর আছে? - হ্যাঁ, ৩৮.৫ ডিগ্রি।",
+          "note": "Fieber"
+        },
+        {
+          "de": "Gute Besserung!",
+          "bn": "দ্রুত সুস্থ হয়ে উঠুন!",
+          "note": "সুস্থতা কামনা"
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "id": "v_u9_2_1",
+        "german": "Kopfschmerzen",
+        "article": "die",
+        "plural": "die Kopfschmerzen",
+        "pos": "noun",
+        "bengali": "মাথা ব্যথা",
+        "english": "headache",
+        "pronunciationBn": "কপফশমেরৎসেন",
+        "example_de": "Ich habe Kopfschmerzen.",
+        "example_bn": "আমার মাথা ব্যথা করছে।",
+        "topic": "health_body",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_2_2",
+        "german": "Bauchschmerzen",
+        "article": "die",
+        "plural": "die Bauchschmerzen",
+        "pos": "noun",
+        "bengali": "পেট ব্যথা",
+        "english": "stomach ache",
+        "pronunciationBn": "বাউখশমেরৎসেন",
+        "example_de": "Das Kind hat Bauchschmerzen.",
+        "example_bn": "বাচ্চাটির পেট ব্যথা।",
+        "topic": "health_body",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_2_3",
+        "german": "Fieber",
+        "article": "das",
+        "plural": null,
+        "pos": "noun",
+        "bengali": "জ্বর",
+        "english": "fever",
+        "pronunciationBn": "ফিবার",
+        "example_de": "Er hat hohes Fieber.",
+        "example_bn": "তার অনেক জ্বর।",
+        "topic": "health_body",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_2_4",
+        "german": "Husten",
+        "article": "der",
+        "plural": null,
+        "pos": "noun",
+        "bengali": "কাশি",
+        "english": "cough",
+        "pronunciationBn": "হুস্টেন",
+        "example_de": "Ich habe Husten.",
+        "example_bn": "আমার কাশি হয়েছে।",
+        "topic": "health_body",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_2_5",
+        "german": "Schnupfen",
+        "article": "der",
+        "plural": null,
+        "pos": "noun",
+        "bengali": "সর্দি / ঠান্ডা লাগা",
+        "english": "runny nose / cold",
+        "pronunciationBn": "শনুপফেন",
+        "example_de": "Ich habe Schnupfen.",
+        "example_bn": "আমার সর্দি হয়েছে।",
+        "topic": "health_body",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_2_6",
+        "german": "weh tun",
+        "article": null,
+        "pos": "verb",
+        "bengali": "ব্যথা করা / আঘাত পাওয়া",
+        "english": "to hurt",
+        "pronunciationBn": "ভে তুন",
+        "example_de": "Was tut weh?",
+        "example_bn": "কোথায় ব্যথা করছে?",
+        "topic": "health_body",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_2_7",
+        "german": "krank",
+        "article": null,
+        "pos": "adj",
+        "bengali": "অসুস্থ / রোগাক্রান্ত",
+        "english": "sick / ill",
+        "pronunciationBn": "ক্রাঙ্ক",
+        "example_de": "Ich bin heute krank.",
+        "example_bn": "আমি আজ অসুস্থ।",
+        "topic": "health_body",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_2_8",
+        "german": "Gute Besserung",
+        "article": null,
+        "pos": "phrase",
+        "bengali": "দ্রুত আরোগ্য কামনা করি!",
+        "english": "get well soon",
+        "pronunciationBn": "গুটে বেসারুং",
+        "example_de": "Gute Besserung, Herr Meier!",
+        "example_bn": "দ্রুত সুস্থ হয়ে উঠুন, মিস্টার মেয়ার!",
+        "topic": "health_body",
+        "level": "A1"
+      }
+    ],
+    "grammarTip": {
+      "title_bn": "tut weh বনাম tun weh",
+      "title_en": "Singular vs Plural Pain: tut vs tun",
+      "content_bn": "• একবচন অঙ্গ হলে: tut weh (Mein Kopf tut weh).\n• বহুবচন অঙ্গ (চোখ, কান, পা) হলে: tun weh (Meine Beine tun weh).",
+      "rule_table": [
+        {
+          "label": "একবচন",
+          "value": "tut weh",
+          "note": "Mein Zahn tut weh (একটি দাঁত)"
+        },
+        {
+          "label": "বহুবচন",
+          "value": "tun weh",
+          "note": "Meine Zähne tun weh (দাঁতগুলো)"
+        }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_9_2_1",
+        "type": "multiple_choice",
+        "prompt_bn": "কোনো অসুস্থ রোগীকে জার্মানিতে কী শুভেচ্ছা জানানো হয়?",
+        "explanation_bn": "'Gute Besserung!' অর্থ দ্রুত আরোগ্য লাভ করুন (Get well soon)।",
+        "question": "অসুস্থ ব্যক্তিকে সুস্থতা কামনায় কী বলতে হয়?",
+        "options": [
+          "Gute Besserung!",
+          "Guten Appetit!",
+          "Gute Fahrt!",
+          "Herzlichen Glückwunsch!"
+        ],
+        "correctAnswer": "Gute Besserung!"
+      },
+      {
+        "id": "ex_9_2_2",
+        "type": "fill_blank",
+        "prompt_bn": "সঠিক রূপটি বসান: 'Mein Bauch ___ weh.' (আমার পেট ব্যথা করছে)",
+        "explanation_bn": "Bauch একবচন, তাই 'tut weh' হবে।",
+        "sentenceWithBlank": "Mein Bauch ___ weh.",
+        "blankType": "verb",
+        "options": [
+          "tut",
+          "tun",
+          "macht",
+          "geht"
+        ],
+        "correctAnswer": "tut",
+        "translation_bn": "আমার পেট ব্যথা করছে।"
+      },
+      {
+        "id": "ex_9_2_3",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য লিখুন: 'আমার তীব্র মাথা ব্যথা এবং জ্বর আছে।'",
+        "explanation_bn": "Ich habe Kopfschmerzen und Fieber.",
+        "targetSentence": "Ich habe Kopfschmerzen und Fieber.",
+        "scrambledWords": [
+          "Fieber.",
+          "habe",
+          "und",
+          "Ich",
+          "Kopfschmerzen"
+        ],
+        "meaning_bn": "আমার তীব্র মাথা ব্যথা এবং জ্বর আছে।"
+      }
+    ]
+  },
+  {
+    "id": "lesson_9_3",
+    "unitId": "unit_9",
+    "title_bn": "ডাক্তারের কাছে ও ফার্মেসিতে (Beim Arzt und Apotheke)",
+    "title_en": "Doctor Appointments & Pharmacy",
+    "subtitle_de": "Beim Arzt und in der Apotheke: Termine & Medikamente",
+    "order": 40,
+    "content": {
+      "intro_bn": "জার্মানিতে অসুস্থ হলে সরাসরি ডাক্তারের চেম্বারে (Arztpraxis) ফোন করে অ্যাপয়েন্টমেন্ট (Termin) নিতে হয়:\n• \"Guten Tag, ich möchte einen Termin vereinbaren.\" (শুভ দিন, আমি একটি অ্যাপয়েন্টমেন্ট নিতে চাই।)\n• \"Haben Sie heute noch einen Termin frei?\" (আজকে কি কোনো ফাঁকা সময় আছে?)\n\nপ্রেসক্রিপশন ও ফার্মেসি:\nডাক্তার ওষুধ লিখলে প্রেসক্রিপশনকে বলা হয় \"das Rezept\"।\nফার্মেসিতে গিয়ে বলতে হয়:\n• \"Ich habe ein Rezept vom Arzt.\" (আমার কাছে ডাক্তারের প্রেসক্রিপশন আছে।)\n• \"Wie oft muss ich die Tabletten nehmen?\" (দিনে কতবার এই ট্যাবলেটগুলো খেতে হবে?)\n• \"Dreimal täglich vor dem Essen.\" (দিনে তিনবার খাওয়ার আগে)।",
+      "intro_en": "Book an appointment: \"Ich brauche einen Termin beim Arzt\". In the pharmacy (Apotheke), hand over your prescription: \"Hier ist mein Rezept\". Ask dosage: \"Wie oft soll ich das nehmen?\" (dreimal täglich = 3 times a day).",
+      "examples": [
+        {
+          "de": "Ich möchte bitte einen Termin beim Arzt vereinbaren.",
+          "bn": "আমি দয়া করে ডাক্তারের কাছে একটি অ্যাপয়েন্টমেন্ট নিতে চাই।",
+          "note": "Termin vereinbaren"
+        },
+        {
+          "de": "Hier ist mein Rezept von Frau Doktor Weber.",
+          "bn": "এই যে ডক্টর ওয়েবারের দেওয়া আমার প্রেসক্রিপশন।",
+          "note": "das Rezept"
+        },
+        {
+          "de": "Nehmen Sie die Tabletten dreimal täglich mit Wasser.",
+          "bn": "পানির সাথে দিনে তিনবার এই ট্যাবলেটগুলো সেবন করুন।",
+          "note": "dreimal täglich"
+        },
+        {
+          "de": "Ich bin für drei Tage krankgeschrieben.",
+          "bn": "আমাকে তিন দিনের জন্য অসুস্থতাজনিত ছুটি দেওয়া হয়েছে।",
+          "note": "krankgeschrieben"
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "id": "v_u9_3_1",
+        "german": "Termin",
+        "article": "der",
+        "plural": "die Termine",
+        "pos": "noun",
+        "bengali": "অ্যাপয়েন্টমেন্ট / নির্ধারিত সময়",
+        "english": "appointment",
+        "pronunciationBn": "টেরমিন",
+        "example_de": "Ich habe um 10 Uhr einen Termin.",
+        "example_bn": "সকাল ১০টায় আমার একটি অ্যাপয়েন্টমেন্ট আছে।",
+        "topic": "work_office_education",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_3_2",
+        "german": "Rezept",
+        "article": "das",
+        "plural": "die Rezepte",
+        "pos": "noun",
+        "bengali": "প্রেসক্রিপশন / রান্নার প্রণালী",
+        "english": "prescription / recipe",
+        "pronunciationBn": "রেৎসেপ্ট",
+        "example_de": "Das Rezept ist vom Arzt.",
+        "example_bn": "প্রেসক্রিপশনটি ডাক্তারের।",
+        "topic": "health_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_3_3",
+        "german": "Medikament",
+        "article": "das",
+        "plural": "die Medikamente",
+        "pos": "noun",
+        "bengali": "ওষুধ",
+        "english": "medicine / medication",
+        "pronunciationBn": "মেডিকামেন্ট",
+        "example_de": "Ich brauche dieses Medikament.",
+        "example_bn": "আমার এই ওষুধটি প্রয়োজন।",
+        "topic": "health_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_3_4",
+        "german": "Tablette",
+        "article": "die",
+        "plural": "die Tabletten",
+        "pos": "noun",
+        "bengali": "ট্যাবলেট / বড়ি",
+        "english": "pill / tablet",
+        "pronunciationBn": "টাবলেটে",
+        "example_de": "Zwei Tabletten am Tag.",
+        "example_bn": "দিনে দুটি ট্যাবলেট।",
+        "topic": "health_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_3_5",
+        "german": "Praxis",
+        "article": "die",
+        "plural": "die Praxen",
+        "pos": "noun",
+        "bengali": "ডাক্তারের চেম্বার",
+        "english": "doctor's office",
+        "pronunciationBn": "প্রাক্সিস",
+        "example_de": "Die Praxis öffnet um 8 Uhr.",
+        "example_bn": "চেম্বারটি সকাল ৮টায় খোলে।",
+        "topic": "health_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_3_6",
+        "german": "täglich",
+        "article": null,
+        "pos": "adv",
+        "bengali": "প্রতিদিন / দৈনিক",
+        "english": "daily",
+        "pronunciationBn": "টেগলিশ",
+        "example_de": "Einmal täglich einnehmen.",
+        "example_bn": "দৈনিক একবার সেব্য।",
+        "topic": "health_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_3_7",
+        "german": "untersuchen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "পরীক্ষা করা (চিকিৎসা)",
+        "english": "to examine",
+        "pronunciationBn": "উন্টারজুখেন",
+        "example_de": "Der Arzt untersucht mich.",
+        "example_bn": "ডাক্তার আমাকে পরীক্ষা করছেন।",
+        "topic": "health_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_3_8",
+        "german": "helfen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "সাহায্য করা / কাজ দেওয়া",
+        "english": "to help",
+        "pronunciationBn": "হেলফেন",
+        "example_de": "Das Medikament hilft schnell.",
+        "example_bn": "ওষুধটি দ্রুত কাজ করে।",
+        "topic": "health_travel",
+        "level": "A1"
+      }
+    ],
+    "grammarTip": {
+      "title_bn": "অ্যাপয়েন্টমেন্ট নেওয়ার ৩টি প্রধান ক্রিয়া",
+      "title_en": "Making, Changing & Cancelling Appointments",
+      "content_bn": "১. Termin vereinbaren / machen = অ্যাপয়েন্টমেন্ট নেওয়া।\n২. Termin verschieben = সময় পিছিয়ে নেওয়া / পরিবর্তন করা।\n৩. Termin absagen = অ্যাপয়েন্টমেন্ট বাতিল করা।",
+      "rule_table": [
+        {
+          "label": "vereinbaren",
+          "value": "সময় নেওয়া",
+          "note": "Ich möchte einen Termin vereinbaren"
+        },
+        {
+          "label": "verschieben",
+          "value": "সময় বদলানো",
+          "note": "Kann ich den Termin verschieben?"
+        },
+        {
+          "label": "absagen",
+          "value": "বাতিল করা",
+          "note": "Ich muss den Termin leider absagen"
+        }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_9_3_1",
+        "type": "fill_blank",
+        "prompt_bn": "সঠিক পদটি বসান: 'Ich möchte einen Termin beim Arzt ___.' (অ্যাপয়েন্টমেন্ট নিতে চাই)",
+        "explanation_bn": "অ্যাপয়েন্টমেন্ট নেওয়ার সঠিক ক্রিয়া হলো 'vereinbaren' (Termin vereinbaren)।",
+        "sentenceWithBlank": "Ich möchte einen Termin beim Arzt ___.",
+        "blankType": "verb",
+        "options": [
+          "vereinbaren",
+          "essen",
+          "kaufen",
+          "trinken"
+        ],
+        "correctAnswer": "vereinbaren",
+        "translation_bn": "আমি ডাক্তারের কাছে একটি অ্যাপয়েন্টমেন্ট নিতে চাই।"
+      },
+      {
+        "id": "ex_9_3_2",
+        "type": "multiple_choice",
+        "prompt_bn": "ডাক্তারের দেওয়া প্রেসক্রিপশনকে জার্মান ভাষায় কী বলা হয়?",
+        "explanation_bn": "প্রেসক্রিপশন হলো 'das Rezept' (ক্লীবলিঙ্গ)।",
+        "question": "প্রেসক্রিপশন এর সঠিক জার্মান কোনটি?",
+        "options": [
+          "das Rezept",
+          "die Rechnung",
+          "der Brief",
+          "das Ticket"
+        ],
+        "correctAnswer": "das Rezept"
+      },
+      {
+        "id": "ex_9_3_3",
+        "type": "matching_pairs",
+        "prompt_bn": "চিকিৎসা পরিভাষার জোড়া মেলান:",
+        "explanation_bn": "Termin = অ্যাপয়েন্টমেন্ট, Rezept = প্রেসক্রিপশন, Tablette = ট্যাবলেট, Praxis = চেম্বার",
+        "pairs": [
+          {
+            "german": "der Termin",
+            "bengali": "অ্যাপয়েন্টমেন্ট"
+          },
+          {
+            "german": "das Rezept",
+            "bengali": "প্রেসক্রিপশন"
+          },
+          {
+            "german": "die Tablette",
+            "bengali": "ট্যাবলেট"
+          },
+          {
+            "german": "die Praxis",
+            "bengali": "চেম্বার"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lesson_9_4",
+    "unitId": "unit_9",
+    "title_bn": "আবহাওয়া, চার ঋতু ও পোশাক-পরিচ্ছদ",
+    "title_en": "Weather, Four Seasons & Clothing",
+    "subtitle_de": "Das Wetter, die Jahreszeiten und Kleidung",
+    "order": 41,
+    "content": {
+      "intro_bn": "জার্মানিতে আবহাওয়া নিয়ে কথা বলা সবচেয়ে প্রচলিত বিষয়:\n• প্রশ্ন: \"Wie ist das Wetter heute?\" (আজকের আবহাওয়া কেমন?)\n• উত্তর:\n১. \"Die Sonne scheint.\" (সূর্য কিরণ দিচ্ছে।)\n২. \"Es regnet.\" (বৃষ্টি হচ্ছে।)\n৩. \"Es schneit.\" (তুষারপাত হচ্ছে।)\n৪. \"Es ist warm / kalt / windig.\" (উষ্ণ / ঠান্ডা / বাতাস বইছে।)\n\nচার ঋতু (Die vier Jahreszeiten - সবই পুংলিঙ্গ der!):\n• der Frühling (বসন্ত), der Sommer (গ্রীষ্ম), der Herbst (শরৎ/হেমন্ত), der Winter (শীতকাল)।\nমাসের মতো ঋতুর ক্ষেত্রেও \"im\" বসে (im Winter, im Sommer)।",
+      "intro_en": "Talk about weather: \"Wie ist das Wetter heute?\" Answers: \"Die Sonne scheint\", \"Es regnet\" (raining), \"Es schneit\" (snowing), \"Es ist kalt/warm\". All four seasons are masculine: der Frühling, der Sommer, der Herbst, der Winter (use \"im Sommer\").",
+      "examples": [
+        {
+          "de": "Wie ist das Wetter heute? - Es ist sehr schön und warm.",
+          "bn": "আজকের আবহাওয়া কেমন? - খুব সুন্দর এবং উষ্ণ।",
+          "note": "Wie ist das Wetter?"
+        },
+        {
+          "de": "Nehmen Sie einen Regenschirm mit, es regnet!",
+          "bn": "একটি ছাতা সাথে নিন, বৃষ্টি হচ্ছে!",
+          "note": "es regnet"
+        },
+        {
+          "de": "Im Winter ist es in Deutschland sehr kalt.",
+          "bn": "শীতকালে জার্মানি খুব ঠান্ডা থাকে।",
+          "note": "im Winter"
+        },
+        {
+          "de": "Die Sonne scheint und der Himmel ist blau.",
+          "bn": "সূর্য কিরণ দিচ্ছে এবং আকাশ নীল।",
+          "note": "Die Sonne scheint"
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "id": "v_u9_4_1",
+        "german": "Wetter",
+        "article": "das",
+        "plural": null,
+        "pos": "noun",
+        "bengali": "আবহাওয়া",
+        "english": "weather",
+        "pronunciationBn": "ভেটার",
+        "example_de": "Das Wetter ist herrlich.",
+        "example_bn": "আবহাওয়া চমৎকার।",
+        "topic": "basics_personal",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_4_2",
+        "german": "Sonne",
+        "article": "die",
+        "plural": null,
+        "pos": "noun",
+        "bengali": "সূর্য",
+        "english": "sun",
+        "pronunciationBn": "জোনে",
+        "example_de": "Die Sonne scheint.",
+        "example_bn": "সূর্য কিরণ দিচ্ছে।",
+        "topic": "basics_personal",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_4_3",
+        "german": "Regen",
+        "article": "der",
+        "plural": null,
+        "pos": "noun",
+        "bengali": "বৃষ্টি",
+        "english": "rain",
+        "pronunciationBn": "রেগেন",
+        "example_de": "Es gibt viel Regen.",
+        "example_bn": "প্রচুর বৃষ্টি হচ্ছে।",
+        "topic": "basics_personal",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_4_4",
+        "german": "Schnee",
+        "article": "der",
+        "plural": null,
+        "pos": "noun",
+        "bengali": "তুষার / বরফ",
+        "english": "snow",
+        "pronunciationBn": "শনে",
+        "example_de": "Überall liegt Schnee.",
+        "example_bn": "সবখানে তুষার জমেছে।",
+        "topic": "basics_personal",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_4_5",
+        "german": "kalt",
+        "article": null,
+        "pos": "adj",
+        "bengali": "ঠান্ডা / শীতল",
+        "english": "cold",
+        "pronunciationBn": "কাল্ট",
+        "example_de": "Mir ist kalt.",
+        "example_bn": "আমার ঠান্ডা লাগছে।",
+        "topic": "essential_adjectives",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_4_6",
+        "german": "warm",
+        "article": null,
+        "pos": "adj",
+        "bengali": "উষ্ণ / গরম",
+        "english": "warm",
+        "pronunciationBn": "ভার্ম",
+        "example_de": "Heute ist es angenehm warm.",
+        "example_bn": "আজ বেশ মনোরম উষ্ণতা।",
+        "topic": "essential_adjectives",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_4_7",
+        "german": "Sommer",
+        "article": "der",
+        "plural": "die Sommer",
+        "pos": "noun",
+        "bengali": "গ্রীষ্মকাল",
+        "english": "summer",
+        "pronunciationBn": "জোমার",
+        "example_de": "Im Sommer fahre ich ans Meer.",
+        "example_bn": "গ্রীষ্মে আমি সমুদ্রে যাই।",
+        "topic": "daily_routine_time",
+        "level": "A1"
+      },
+      {
+        "id": "v_u9_4_8",
+        "german": "Winter",
+        "article": "der",
+        "plural": "die Winter",
+        "pos": "noun",
+        "bengali": "শীতকাল",
+        "english": "winter",
+        "pronunciationBn": "ভিন্টার",
+        "example_de": "Der Winter ist lang.",
+        "example_bn": "শীতকাল অনেক দীর্ঘ।",
+        "topic": "daily_routine_time",
+        "level": "A1"
+      }
+    ],
+    "grammarTip": {
+      "title_bn": "আবহাওয়া বাক্যে রহস্যময় কর্তা: \"Es\"",
+      "title_en": "Impersonal Pronoun \"Es\" for Weather",
+      "content_bn": "আবহাওয়ার সব বাক্যে একটি অদৃশ্য কর্তা থাকে, যা হলো \"Es\":\n• Es regnet (বৃষ্টি হচ্ছে)\n• Es schneit (তুষারপাত হচ্ছে)\n• Es ist windig (বাতাস বইছে)\n• Es ist kalt (ঠান্ডা লাগছে)",
+      "rule_table": [
+        {
+          "label": "Es regnet",
+          "value": "বৃষ্টি হচ্ছে",
+          "note": "regnen ক্রিয়া"
+        },
+        {
+          "label": "Es schneit",
+          "value": "তুষার পড়ছে",
+          "note": "schneien ক্রিয়া"
+        },
+        {
+          "label": "Es ist kalt / warm",
+          "value": "ঠান্ডা / উষ্ণ",
+          "note": "sein + বিশেষণ"
+        }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_9_4_1",
+        "type": "multiple_choice",
+        "prompt_bn": "জার্মান ভাষায় 'বৃষ্টি হচ্ছে' কীভাবে বলা হয়?",
+        "explanation_bn": "'Es regnet.' অর্থ বৃষ্টি হচ্ছে (regnen ক্রিয়ার রূপান্তর)।",
+        "question": "'বৃষ্টি হচ্ছে' এর সঠিক রূপ কোনটি?",
+        "options": [
+          "Es regnet.",
+          "Es schneit.",
+          "Die Sonne scheint.",
+          "Es ist sonnig."
+        ],
+        "correctAnswer": "Es regnet."
+      },
+      {
+        "id": "ex_9_4_2",
+        "type": "matching_pairs",
+        "prompt_bn": "চার ঋতুর বাংলা ও জার্মান মেলান:",
+        "explanation_bn": "Frühling = বসন্ত, Sommer = গ্রীষ্ম, Herbst = শরৎ, Winter = শীতকাল",
+        "pairs": [
+          {
+            "german": "der Frühling",
+            "bengali": "বসন্তকাল"
+          },
+          {
+            "german": "der Sommer",
+            "bengali": "গ্রীষ্মকাল"
+          },
+          {
+            "german": "der Herbst",
+            "bengali": "শরৎ / হেমন্ত"
+          },
+          {
+            "german": "der Winter",
+            "bengali": "শীতকাল"
+          }
+        ]
+      },
+      {
+        "id": "ex_9_4_3",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য লিখুন: 'আজকের আবহাওয়া কেমন?'",
+        "explanation_bn": "Wie ist das Wetter heute?",
+        "targetSentence": "Wie ist das Wetter heute?",
+        "scrambledWords": [
+          "heute?",
+          "das",
+          "Wetter",
+          "Wie",
+          "ist"
+        ],
+        "meaning_bn": "আজকের আবহাওয়া কেমন?"
       }
     ]
   }

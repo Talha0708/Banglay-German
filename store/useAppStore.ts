@@ -68,7 +68,7 @@ export const useAppStore = create<AppState>()(
       knownWords: {},
       srsCards: {},
       settings: {
-        darkMode: true, // Defaulting to sleek dark mode
+        darkMode: false, // Default to clean white theme; dark mode activates only when turned on in settings
         speechSpeed: 'normal',
         explanationLang: 'bn',
       },

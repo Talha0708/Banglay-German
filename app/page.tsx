@@ -9,13 +9,15 @@ import { SideMenuDrawer } from '../components/SideMenuDrawer';
 import { InstallGuideModal } from '../components/InstallGuideModal';
 import { BrandFooter } from '../components/BrandFooter';
 import { InstallBanner } from '../components/InstallBanner';
-import { OfflineIndicator } from '../components/OfflineIndicator';
+import { AdBanner } from '../components/AdBanner';
 import { SentenceOfTheDay } from '../components/SentenceOfTheDay';
 import { WordBankView } from '../components/WordBankView';
 import { PatternPractice } from '../components/PatternPractice';
 import { LessonView } from '../components/LessonView';
 import { SRSReviewModal } from '../components/SRSReviewModal';
 import { VocabularyTrainer } from '../components/VocabularyTrainer';
+import { DailySentencesView } from '../components/DailySentencesView';
+import { DAILY_SENTENCES } from '../data/daily-sentences';
 import {
   UNITS,
   ALL_LESSONS,
@@ -39,6 +41,7 @@ import {
   Flame,
   Award,
   GraduationCap,
+  MessageSquareQuote,
 } from 'lucide-react';
 
 const emptySubscribe = () => () => {};
@@ -51,7 +54,7 @@ export default function HomePage() {
   const [showResetConfirm, setShowResetConfirm] = useState(false);
   const [showMenuDrawer, setShowMenuDrawer] = useState(false);
   const [showInstallGuideModal, setShowInstallGuideModal] = useState(false);
-  const [practiceSection, setPracticeSection] = useState<'trainer' | 'srs' | 'words' | 'patterns'>('trainer');
+  const [practiceSection, setPracticeSection] = useState<'trainer' | 'sentences' | 'srs' | 'words' | 'patterns'>('trainer');
 
   const {
     completedLessons,
@@ -89,9 +92,8 @@ export default function HomePage() {
   return (
     <div
       suppressHydrationWarning
-      className="min-h-screen flex flex-col bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors pb-20"
+      className="min-h-screen flex flex-col bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors pb-28"
     >
-      <OfflineIndicator />
       <AppHeader
         onOpenMenu={() => setShowMenuDrawer(true)}
         onOpenInstallGuide={() => setShowInstallGuideModal(true)}
@@ -214,6 +216,53 @@ export default function HomePage() {
               </div>
             </div>
 
+            {/* 200+ Daily Sentences Spotlight Card */}
+            <div
+              onClick={() => {
+                setActiveTab('practice');
+                setPracticeSection('sentences');
+              }}
+              className="rounded-3xl p-5 bg-gradient-to-br from-white to-blue-50/40 dark:from-slate-900 dark:to-blue-950/20 border border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white shadow-sm relative overflow-hidden space-y-3 cursor-pointer group active:scale-98 transition hover:border-blue-400 dark:hover:border-blue-500"
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-[11px] font-black uppercase tracking-wider bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-800/80 px-2.5 py-0.5 rounded-full flex items-center gap-1.5">
+                  <MessageSquareQuote className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" /> দৈনন্দিন ব্যবহার
+                </span>
+                <span className="text-[11px] font-bold text-blue-700 dark:text-blue-300 bg-blue-50 dark:bg-blue-950/60 border border-blue-200 dark:border-blue-800/60 px-2 py-0.5 rounded-full">
+                  {DAILY_SENTENCES.length}টি বাস্তব বাক্য
+                </span>
+              </div>
+
+              <div>
+                <h3 className="text-base sm:text-lg font-black text-slate-900 dark:text-white tracking-tight flex items-center gap-1.5">
+                  দৈনিক প্রয়োজনীয় ২০০+ বাক্য
+                  <ArrowRight className="w-4 h-4 text-blue-600 dark:text-blue-400 group-hover:translate-x-1 transition-transform" />
+                </h3>
+                <p className="text-xs text-slate-600 dark:text-slate-300 mt-1 leading-relaxed">
+                  রেস্তোরাঁ, কেনাকাটা, রাস্তাঘাট, ভ্রমণ, ডাক্তার ও জরুরি অবস্থার বাস্তব বাক্য, বাংলা উচ্চারণ ও অডিও
+                </p>
+              </div>
+
+              <div className="grid grid-cols-4 gap-1.5 pt-1 text-center">
+                <div className="p-2 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700/60">
+                  <span className="text-[10px] text-slate-500 dark:text-slate-400 block">রেস্তোরাঁ</span>
+                  <span className="text-xs font-black text-blue-600 dark:text-blue-400">খাবার অর্ডার</span>
+                </div>
+                <div className="p-2 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700/60">
+                  <span className="text-[10px] text-slate-500 dark:text-slate-400 block">কেনাকাটা</span>
+                  <span className="text-xs font-black text-slate-900 dark:text-white">সুপারমার্কেট</span>
+                </div>
+                <div className="p-2 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700/60">
+                  <span className="text-[10px] text-slate-500 dark:text-slate-400 block">যাতায়াত</span>
+                  <span className="text-xs font-black text-slate-900 dark:text-white">বাস ও ট্রেন</span>
+                </div>
+                <div className="p-2 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700/60">
+                  <span className="text-[10px] text-slate-500 dark:text-slate-400 block">চিকিৎসা</span>
+                  <span className="text-xs font-black text-emerald-600 dark:text-emerald-400">ডাক্তার</span>
+                </div>
+              </div>
+            </div>
+
             {/* App Download & Install Guide Banner on Home */}
             <div
               onClick={() => setShowInstallGuideModal(true)}
@@ -225,7 +274,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <h3 className="text-sm font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
-                    অ্যাপ ডাউনলোড ও অফলাইন ব্যবহারের নিয়ম
+                    অ্যাপ ইনস্টল ও সহজ ব্যবহারের নির্দেশিকা
                     <span className="bg-emerald-500 text-white text-[9px] font-bold px-1.5 py-0.2 rounded-full">
                       PWA
                     </span>
@@ -307,8 +356,11 @@ export default function HomePage() {
               </div>
             </div>
 
+            {/* Advertisement Placement */}
+            <AdBanner slot="300x250" />
+
             {/* Footer */}
-            <BrandFooter className="pt-4" />
+            <BrandFooter className="pt-2" />
           </div>
         )}
 
@@ -328,6 +380,41 @@ export default function HomePage() {
                 প্রতিটি পাঠ সম্পন্ন করলে পরবর্তী পাঠ উন্মুক্ত হবে
               </p>
             </header>
+
+            {/* Featured Sentence Lesson Banner in Curriculum */}
+            <div
+              onClick={() => {
+                setActiveTab('practice');
+                setPracticeSection('sentences');
+              }}
+              className="p-4 sm:p-5 rounded-3xl bg-gradient-to-r from-emerald-600 to-teal-700 text-white shadow-md relative overflow-hidden cursor-pointer group active:scale-98 transition hover:shadow-lg space-y-2.5"
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-[10px] font-black uppercase tracking-wider bg-white/20 backdrop-blur-xs px-2.5 py-0.5 rounded-full flex items-center gap-1.5">
+                  <MessageSquareQuote className="w-3.5 h-3.5 text-amber-300" /> বিশেষ ব্যবহারিক পাঠ
+                </span>
+                <span className="text-[11px] font-bold bg-amber-400 text-slate-950 px-2 py-0.5 rounded-full">
+                  {DAILY_SENTENCES.length}টি বাক্য
+                </span>
+              </div>
+
+              <div>
+                <h3 className="text-base sm:text-lg font-black text-white tracking-tight flex items-center gap-2">
+                  দৈনিক প্রয়োজনীয় ২০০+ বাক্য পাঠ
+                  <ArrowRight className="w-4 h-4 text-white group-hover:translate-x-1 transition-transform" />
+                </h3>
+                <p className="text-xs text-white/90 leading-relaxed mt-0.5">
+                  রেস্তোরাঁ, কেনাকাটা, ভ্রমণ, ডাক্তার ও জরুরি অবস্থার বাস্তব বাক্য, স্পষ্ট জার্মান উচ্চারণ ও বাংলা অর্থ
+                </p>
+              </div>
+
+              <div className="pt-1 flex items-center justify-between text-xs font-bold text-white/90">
+                <span>১১টি বাস্তব লাইফ ক্যাটাগরি</span>
+                <span className="underline underline-offset-2 flex items-center gap-1 text-white">
+                  এখনই শুরু করুন <ChevronRight className="w-3.5 h-3.5" />
+                </span>
+              </div>
+            </div>
 
             {/* Units & Lessons Timeline */}
             <div className="space-y-8">
@@ -415,7 +502,10 @@ export default function HomePage() {
               ))}
             </div>
 
-            <BrandFooter className="pt-6" />
+            {/* Advertisement Placement */}
+            <AdBanner slot="300x250" />
+
+            <BrandFooter className="pt-2" />
           </div>
         )}
 
@@ -433,12 +523,12 @@ export default function HomePage() {
               </h2>
             </header>
 
-            {/* Segmented Navigation */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-1 p-1 rounded-2xl bg-slate-200 dark:bg-slate-800 text-xs font-bold">
+            {/* Segmented Navigation with Horizontal Scroll Pills */}
+            <div className="flex gap-1.5 overflow-x-auto pb-1 scrollbar-none p-1 rounded-2xl bg-slate-100 dark:bg-slate-800/80 text-xs font-bold">
               <button
                 type="button"
                 onClick={() => setPracticeSection('trainer')}
-                className={`py-2 px-2 rounded-xl transition min-h-[42px] flex items-center justify-center gap-1.5 ${
+                className={`py-2 px-3 rounded-xl transition whitespace-nowrap min-h-[40px] flex items-center justify-center gap-1.5 shrink-0 ${
                   practiceSection === 'trainer'
                     ? 'bg-blue-600 text-white shadow-md'
                     : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
@@ -447,21 +537,39 @@ export default function HomePage() {
                 <Sparkles className="w-3.5 h-3.5 text-amber-300" />
                 <span>১৪০০+ ড্রিল</span>
               </button>
+
               <button
                 type="button"
-                onClick={() => setPracticeSection('words')}
-                className={`py-2 px-2 rounded-xl transition min-h-[42px] ${
-                  practiceSection === 'words'
+                onClick={() => setPracticeSection('sentences')}
+                className={`py-2 px-3 rounded-xl transition whitespace-nowrap min-h-[40px] flex items-center justify-center gap-1.5 shrink-0 ${
+                  practiceSection === 'sentences'
                     ? 'bg-blue-600 text-white shadow-md'
                     : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
                 }`}
               >
-                শব্দকোষ ({ALL_WORDS.length})
+                <MessageSquareQuote className="w-3.5 h-3.5 text-emerald-400" />
+                <span>২০০+ বাক্য</span>
+                <span className="text-[10px] bg-emerald-500 text-white px-1.5 py-0.2 rounded-full font-black">
+                  ২২০
+                </span>
               </button>
+
+              <button
+                type="button"
+                onClick={() => setPracticeSection('patterns')}
+                className={`py-2 px-3 rounded-xl transition whitespace-nowrap min-h-[40px] shrink-0 ${
+                  practiceSection === 'patterns'
+                    ? 'bg-blue-600 text-white shadow-md'
+                    : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+                }`}
+              >
+                বাক্য তৈরি
+              </button>
+
               <button
                 type="button"
                 onClick={() => setPracticeSection('srs')}
-                className={`py-2 px-2 rounded-xl transition min-h-[42px] flex items-center justify-center gap-1 ${
+                className={`py-2 px-3 rounded-xl transition whitespace-nowrap min-h-[40px] flex items-center justify-center gap-1 shrink-0 ${
                   practiceSection === 'srs'
                     ? 'bg-blue-600 text-white shadow-md'
                     : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
@@ -474,21 +582,25 @@ export default function HomePage() {
                   </span>
                 )}
               </button>
+
               <button
                 type="button"
-                onClick={() => setPracticeSection('patterns')}
-                className={`py-2 px-2 rounded-xl transition min-h-[42px] ${
-                  practiceSection === 'patterns'
+                onClick={() => setPracticeSection('words')}
+                className={`py-2 px-3 rounded-xl transition whitespace-nowrap min-h-[40px] shrink-0 ${
+                  practiceSection === 'words'
                     ? 'bg-blue-600 text-white shadow-md'
                     : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
                 }`}
               >
-                বাক্য ড্রিল
+                শব্দকোষ ({ALL_WORDS.length})
               </button>
             </div>
 
             {/* Sub-view: 1200+ Goethe Vocabulary Trainer */}
             {practiceSection === 'trainer' && <VocabularyTrainer />}
+
+            {/* Sub-view: 200+ Daily Usage Sentences */}
+            {practiceSection === 'sentences' && <DailySentencesView />}
 
             {/* Sub-view: Word Bank */}
             {practiceSection === 'words' && <WordBankView />}
@@ -539,7 +651,10 @@ export default function HomePage() {
             {/* Sub-view: Patterns */}
             {practiceSection === 'patterns' && <PatternPractice />}
 
-            <BrandFooter className="pt-4" />
+            {/* Advertisement Placement */}
+            <AdBanner slot="300x250" />
+
+            <BrandFooter className="pt-2" />
           </div>
         )}
 

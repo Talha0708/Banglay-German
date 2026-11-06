@@ -10,30 +10,158 @@
       "intro_bn": "জার্মানিতে রেস্তোরাঁয় অর্ডার করার সময় ভদ্রভাবে চাওয়ার জন্য 'möchten' (চাওয়া / would like) ক্রিয়াটি ব্যবহৃত হয়:\n• Ich möchte bitte ein Wasser. (আমি এক গ্লাস পানি চাই, দয়া করে।)\n• Was möchten Sie trinken? (আপনি কী পান করতে চান?)\n• Wir möchten bitte zahlen. (আমরা বিল দিতে চাই।)\n\nআর কোনো খাবার পছন্দ করার ক্ষেত্রে 'mögen' (পছন্দ করা) বা 'gern' যোগ করা হয়:\n• Ich mag Kaffee. / Ich trinke gern Kaffee.",
       "intro_en": "Learn to order in a German café or restaurant using 'Ich möchte bitte...'. Master the conjugation of 'möchten' and 'essen' (ich esse, du isst).",
       "examples": [
-        { "de": "Ich möchte einen Kaffee, bitte.", "bn": "আমি একটি কফি চাই, দয়া করে।", "note": "einen Kaffee (Akkusativ)" },
-        { "de": "Was möchten Sie essen?", "bn": "আপনি কী খেতে চান?", "note": "möchten + Infinitiv" },
-        { "de": "Die Rechnung, bitte.", "bn": "বিলটি দিন, দয়া করে।", "note": "রেস্তোরাঁর প্রয়োজনীয় বাক্য" },
-        { "de": "Guten Appetit! - Danke, gleichfalls!", "bn": "খাবার উপভোগ করুন! - ধন্যবাদ, আপনারও!", "note": "খাওয়ার আগের সম্ভাষণ" }
+        {
+          "de": "Ich möchte einen Kaffee, bitte.",
+          "bn": "আমি একটি কফি চাই, দয়া করে।",
+          "note": "einen Kaffee (Akkusativ)"
+        },
+        {
+          "de": "Was möchten Sie essen?",
+          "bn": "আপনি কী খেতে চান?",
+          "note": "möchten + Infinitiv"
+        },
+        {
+          "de": "Die Rechnung, bitte.",
+          "bn": "বিলটি দিন, দয়া করে।",
+          "note": "রেস্তোরাঁর প্রয়োজনীয় বাক্য"
+        },
+        {
+          "de": "Guten Appetit! - Danke, gleichfalls!",
+          "bn": "খাবার উপভোগ করুন! - ধন্যবাদ, আপনারও!",
+          "note": "খাওয়ার আগের সম্ভাষণ"
+        }
       ]
     },
     "vocabulary": [
-      { "id": "v_u4_1", "german": "Wasser", "article": "das", "pos": "noun", "bengali": "পানি / জল", "english": "water", "pronunciationBn": "ভাসার", "example_de": "Ein Glas Wasser.", "example_bn": "এক গ্লাস পানি।", "topic": "food_drinks", "level": "A1" },
-      { "id": "v_u4_2", "german": "Kaffee", "article": "der", "plural": "die Kaffees", "pos": "noun", "bengali": "কফি", "english": "coffee", "pronunciationBn": "কাফে", "example_de": "Kaffee mit Zucker.", "example_bn": "চিনিসহ কফি।", "topic": "food_drinks", "level": "A1" },
-      { "id": "v_u4_3", "german": "Tee", "article": "der", "plural": "die Tees", "pos": "noun", "bengali": "চা", "english": "tea", "pronunciationBn": "টে", "example_de": "Schwarzer Tee.", "example_bn": "কালো চা।", "topic": "food_drinks", "level": "A1" },
-      { "id": "v_u4_4", "german": "Brot", "article": "das", "plural": "die Brote", "pos": "noun", "bengali": "পাউরুটি / রুটি", "english": "bread", "pronunciationBn": "ব্রোট", "example_de": "Frisches Brot.", "example_bn": "তাজা রুটি।", "topic": "food_drinks", "level": "A1" },
-      { "id": "v_u4_5", "german": "Rechnung", "article": "die", "plural": "die Rechnungen", "pos": "noun", "bengali": "বিল / হিসাব", "english": "bill / check", "pronunciationBn": "রেশনুং", "example_de": "Die Rechnung, bitte.", "example_bn": "বিলটি দিন, দয়া করে।", "topic": "food_drinks", "level": "A1" },
-      { "id": "v_u4_6", "german": "lecker", "article": null, "pos": "adjective", "bengali": "সুস্বাদু / মজার", "english": "delicious", "pronunciationBn": "লেকার", "example_de": "Das Essen ist sehr lecker.", "example_bn": "খাবারটি খুব সুস্বাদু।", "topic": "food_drinks", "level": "A1" },
-      { "id": "v_u4_7", "german": "essen", "article": null, "pos": "verb", "bengali": "খাওয়া", "english": "to eat", "pronunciationBn": "এসেন", "example_de": "Wir essen Pizza.", "example_bn": "আমরা পিৎজা খাচ্ছি।", "topic": "food_drinks", "level": "A1" },
-      { "id": "v_u4_8", "german": "trinken", "article": null, "pos": "verb", "bengali": "পান করা", "english": "to drink", "pronunciationBn": "ট্রিঙ্কেন", "example_de": "Ich trinke Saft.", "example_bn": "আমি জুস পান করি।", "topic": "food_drinks", "level": "A1" }
+      {
+        "id": "v_u4_1",
+        "german": "Wasser",
+        "article": "das",
+        "pos": "noun",
+        "bengali": "পানি / জল",
+        "english": "water",
+        "pronunciationBn": "ভাসার",
+        "example_de": "Ein Glas Wasser.",
+        "example_bn": "এক গ্লাস পানি।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_2",
+        "german": "Kaffee",
+        "article": "der",
+        "plural": "die Kaffees",
+        "pos": "noun",
+        "bengali": "কফি",
+        "english": "coffee",
+        "pronunciationBn": "কাফে",
+        "example_de": "Kaffee mit Zucker.",
+        "example_bn": "চিনিসহ কফি।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_3",
+        "german": "Tee",
+        "article": "der",
+        "plural": "die Tees",
+        "pos": "noun",
+        "bengali": "চা",
+        "english": "tea",
+        "pronunciationBn": "টে",
+        "example_de": "Schwarzer Tee.",
+        "example_bn": "কালো চা।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_4",
+        "german": "Brot",
+        "article": "das",
+        "plural": "die Brote",
+        "pos": "noun",
+        "bengali": "পাউরুটি / রুটি",
+        "english": "bread",
+        "pronunciationBn": "ব্রোট",
+        "example_de": "Frisches Brot.",
+        "example_bn": "তাজা রুটি।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_5",
+        "german": "Rechnung",
+        "article": "die",
+        "plural": "die Rechnungen",
+        "pos": "noun",
+        "bengali": "বিল / হিসাব",
+        "english": "bill / check",
+        "pronunciationBn": "রেশনুং",
+        "example_de": "Die Rechnung, bitte.",
+        "example_bn": "বিলটি দিন, দয়া করে।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_6",
+        "german": "lecker",
+        "article": null,
+        "pos": "adjective",
+        "bengali": "সুস্বাদু / মজার",
+        "english": "delicious",
+        "pronunciationBn": "লেকার",
+        "example_de": "Das Essen ist sehr lecker.",
+        "example_bn": "খাবারটি খুব সুস্বাদু।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_7",
+        "german": "essen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "খাওয়া",
+        "english": "to eat",
+        "pronunciationBn": "এসেন",
+        "example_de": "Wir essen Pizza.",
+        "example_bn": "আমরা পিৎজা খাচ্ছি।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_8",
+        "german": "trinken",
+        "article": null,
+        "pos": "verb",
+        "bengali": "পান করা",
+        "english": "to drink",
+        "pronunciationBn": "ট্রিঙ্কেন",
+        "example_de": "Ich trinke Saft.",
+        "example_bn": "আমি জুস পান করি।",
+        "topic": "food_drinks",
+        "level": "A1"
+      }
     ],
     "grammarTip": {
       "title_bn": "'möchten' ক্রিয়ার রূপান্তর",
       "title_en": "Conjugating 'möchten'",
       "content_bn": "রেস্তোরাঁ ও দোকানে অর্ডার করার সময় 'ich möchte' (আমি চাই) সবচেয়ে ভদ্র ও প্রচলিত:\n• ich möchte (আমি চাই)\n• du möchtest (তুমি চাও)\n• er/sie/es möchte (সে চায় - লক্ষ্য করুন ich এবং er/sie একই!)\n• wir möchten (আমরা চাই)\n• ihr möchtet (তোমরা চাও)\n• Sie möchten (আপনি চান)",
       "rule_table": [
-        { "label": "ich / er / sie", "value": "möchte", "note": "উভয় ক্ষেত্রে একই!" },
-        { "label": "du", "value": "möchtest", "note": "-est" },
-        { "label": "wir / Sie", "value": "möchten", "note": "-en" }
+        {
+          "label": "ich / er / sie",
+          "value": "möchte",
+          "note": "উভয় ক্ষেত্রে একই!"
+        },
+        {
+          "label": "du",
+          "value": "möchtest",
+          "note": "-est"
+        },
+        {
+          "label": "wir / Sie",
+          "value": "möchten",
+          "note": "-en"
+        }
       ]
     },
     "exercises": [
@@ -44,7 +172,12 @@
         "explanation_bn": "ich এর সাথে 'möchte' হয়।",
         "sentenceWithBlank": "Ich ___ einen Kaffee, bitte.",
         "blankType": "verb",
-        "options": ["möchte", "möchtest", "möchten", "möchtet"],
+        "options": [
+          "möchte",
+          "möchtest",
+          "möchten",
+          "möchtet"
+        ],
         "correctAnswer": "möchte",
         "translation_bn": "আমি একটি কফি চাই, দয়া করে।"
       },
@@ -54,7 +187,11 @@
         "prompt_bn": "রেস্তোরাঁয় বিল চাওয়ার বাক্যটি সাজান: 'Die Rechnung, bitte.'",
         "explanation_bn": "Die Rechnung, bitte.",
         "targetSentence": "Die Rechnung, bitte.",
-        "scrambledWords": ["bitte.", "Rechnung,", "Die"],
+        "scrambledWords": [
+          "bitte.",
+          "Rechnung,",
+          "Die"
+        ],
         "meaning_bn": "বিলটি দিন, দয়া করে।"
       },
       {
@@ -81,7 +218,12 @@
         "prompt_bn": "'Guten Appetit!' কথার অর্থ কী?",
         "explanation_bn": "খাবার শুরু করার আগে বলা হয় 'Guten Appetit!' অর্থাৎ খাবার উপভোগ করুন!",
         "question": "'Guten Appetit!' এর অর্থ কী?",
-        "options": ["খাবার উপভোগ করুন! / ক্ষুধা ভালো হোক!", "শুভ রাত্রি!", "বিল পরিশোধ করুন!", "রান্না ভালো হয়নি!"],
+        "options": [
+          "খাবার উপভোগ করুন! / ক্ষুধা ভালো হোক!",
+          "শুভ রাত্রি!",
+          "বিল পরিশোধ করুন!",
+          "রান্না ভালো হয়নি!"
+        ],
         "correctAnswer": "খাবার উপভোগ করুন! / ক্ষুধা ভালো হোক!"
       },
       {
@@ -91,7 +233,10 @@
         "explanation_bn": "der Tee",
         "prompt": "চা",
         "correctAnswer": "der Tee",
-        "acceptedAnswers": ["der Tee", "Tee"],
+        "acceptedAnswers": [
+          "der Tee",
+          "Tee"
+        ],
         "placeholder": "যেমন: der Tee"
       },
       {
@@ -100,7 +245,12 @@
         "prompt_bn": "অডিও শুনে বলুন কোন শব্দটি উচ্চারিত হয়েছে:",
         "explanation_bn": "সঠিক শব্দ: 'lecker' (সুস্বাদু)।",
         "audioText": "lecker",
-        "options": ["lecker", "Wasser", "Brot", "Kaffee"],
+        "options": [
+          "lecker",
+          "Wasser",
+          "Brot",
+          "Kaffee"
+        ],
         "correctAnswer": "lecker"
       },
       {
@@ -109,11 +259,709 @@
         "prompt_bn": "খাবারের জার্মান ও বাংলা নাম মেলান:",
         "explanation_bn": "Brot = পাউরুটি, Wasser = পানি, Milch = দুধ, Apfel = আপেল",
         "pairs": [
-          { "german": "Brot", "bengali": "পাউরুটি" },
-          { "german": "Wasser", "bengali": "পানি" },
-          { "german": "Milch", "bengali": "দুধ" },
-          { "german": "Apfel", "bengali": "আপেল" }
+          {
+            "german": "Brot",
+            "bengali": "পাউরুটি"
+          },
+          {
+            "german": "Wasser",
+            "bengali": "পানি"
+          },
+          {
+            "german": "Milch",
+            "bengali": "দুধ"
+          },
+          {
+            "german": "Apfel",
+            "bengali": "আপেল"
+          }
         ]
+      }
+    ]
+  },
+  {
+    "id": "lesson_4_2",
+    "unitId": "unit_4",
+    "title_bn": "সুপারমার্কেটে কেনাকাটা ও ওজন-পরিমাপ",
+    "title_en": "Grocery Shopping, Weights & Quantities",
+    "subtitle_de": "Im Supermarkt: Lebensmittel und Mengenangaben",
+    "order": 19,
+    "content": {
+      "intro_bn": "জার্মানির সুপারমার্কেট বা কাঁচাবাজারে কেনাকাটা করার সময় পরিমাণ ও ওজনবাচক শব্দ জানা দরকার:\n• ein Kilo Äpfel (এক কেজি আপেল)\n• ein Pfund Butter (এক পাউন্ড মাখন = ৫০০ গ্রাম)\n• eine Flasche Wasser (এক বোতল পানি)\n• eine Packung Reis (এক প্যাকেট চাল)\n• eine Dose Tomaten (এক ক্যান টমেটো)\n• ein Stück Käse (এক টুকরো পনির)\nদোকানি জিজ্ঞাসা করবে: \"Darf es sonst noch etwas sein?\" (আর কিছু লাগবে কি?), উত্তরে বলতে পারেন: \"Das ist alles, danke!\" (এটুকুই, ধন্যবাদ)।",
+      "intro_en": "Learn units of measurement: ein Kilo (a kilo), ein Pfund (500g), eine Flasche (bottle), eine Packung (pack), ein Stück (piece). Helpful phrases: \"Sonst noch etwas?\" (Anything else?).",
+      "examples": [
+        {
+          "de": "Ich möchte bitte ein Kilo Bananen.",
+          "bn": "আমি দয়া করে এক কেজি কলা চাই।",
+          "note": "ein Kilo"
+        },
+        {
+          "de": "Haben Sie frische Milch?",
+          "bn": "আপনাদের কি তাজা দুধ আছে?",
+          "note": "frische Milch"
+        },
+        {
+          "de": "Ich nehme ein Stück Käse.",
+          "bn": "আমি এক টুকরো পনির নেব।",
+          "note": "nehmen (নেওয়া)"
+        },
+        {
+          "de": "Das ist alles, danke schön!",
+          "bn": "এটুকুই, ধন্যবাদ!",
+          "note": "কেনাকাটা শেষ হলে"
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "id": "v_u4_2_1",
+        "german": "Brot",
+        "article": "das",
+        "plural": "die Brote",
+        "pos": "noun",
+        "bengali": "পাউরুটি",
+        "english": "bread",
+        "pronunciationBn": "ব্রোট",
+        "example_de": "Das Brot ist frisch.",
+        "example_bn": "পাউরুটিটি তাজা।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_2_2",
+        "german": "Milch",
+        "article": "die",
+        "plural": null,
+        "pos": "noun",
+        "bengali": "দুধ",
+        "english": "milk",
+        "pronunciationBn": "মিলখ",
+        "example_de": "Ich trinke Kaffee mit Milch.",
+        "example_bn": "আমি দুধসহ কফি খাই।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_2_3",
+        "german": "Käse",
+        "article": "der",
+        "plural": null,
+        "pos": "noun",
+        "bengali": "পনির / চিজ",
+        "english": "cheese",
+        "pronunciationBn": "কেজে",
+        "example_de": "Der Käse kommt aus Holland.",
+        "example_bn": "পনিরটি হল্যান্ডের।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_2_4",
+        "german": "Ei",
+        "article": "das",
+        "plural": "die Eier",
+        "pos": "noun",
+        "bengali": "ডিম",
+        "english": "egg",
+        "pronunciationBn": "আই",
+        "example_de": "Zehn Eier bitte.",
+        "example_bn": "দশটি ডিম দিন দয়া করে।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_2_5",
+        "german": "Flasche",
+        "article": "die",
+        "plural": "die Flaschen",
+        "pos": "noun",
+        "bengali": "বোতল",
+        "english": "bottle",
+        "pronunciationBn": "ফ্লাশে",
+        "example_de": "Eine Flasche Orangensaft.",
+        "example_bn": "এক বোতল কমলার রস।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_2_6",
+        "german": "Kilo",
+        "article": "das",
+        "plural": "die Kilos",
+        "pos": "noun",
+        "bengali": "কেজি / কিলোগ্রাম",
+        "english": "kilo",
+        "pronunciationBn": "কিলো",
+        "example_de": "Zwei Kilo Kartoffeln.",
+        "example_bn": "দুই কেজি আলু।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_2_7",
+        "german": "nehmen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "নেওয়া",
+        "english": "to take",
+        "pronunciationBn": "নেমেন",
+        "example_de": "Ich nehme den Apfel.",
+        "example_bn": "আমি আপেলটি নিচ্ছি।",
+        "topic": "essential_verbs",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_2_8",
+        "german": "frisch",
+        "article": null,
+        "pos": "adj",
+        "bengali": "তাজা / ফ্রেশ",
+        "english": "fresh",
+        "pronunciationBn": "ফ্রিশ",
+        "example_de": "Das Obst ist frisch.",
+        "example_bn": "ফলমূল তাজা।",
+        "topic": "food_drinks",
+        "level": "A1"
+      }
+    ],
+    "grammarTip": {
+      "title_bn": "'nehmen' অনিয়মিত ক্রিয়ার রূপ",
+      "title_en": "Irregular Verb Conjugation: nehmen (e -> i)",
+      "content_bn": "nehmen একটি অতি প্রয়োজনীয় অনিয়মিত ক্রিয়া। du এবং er/sie/es এর ক্ষেত্রে এর স্বরবর্ণ e বদলে i হয় এবং ডাবল m হয়:\n• ich nehme\n• du nimmst\n• er/sie/es nimmt\n• wir nehmen\n• ihr nehmt\n• sie/Sie nehmen",
+      "rule_table": [
+        {
+          "label": "ich",
+          "value": "nehme",
+          "note": "স্বাভাবিক"
+        },
+        {
+          "label": "du",
+          "value": "nimmst",
+          "note": "e -> i, mm"
+        },
+        {
+          "label": "er/sie/es",
+          "value": "nimmt",
+          "note": "e -> i, mm"
+        },
+        {
+          "label": "wir",
+          "value": "nehmen",
+          "note": "মূল রূপ"
+        }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_4_2_1",
+        "type": "fill_blank",
+        "prompt_bn": "nehmen ক্রিয়ার রূপ বসান: 'Was ___ du?' (তুমি কী নিচ্ছ?)",
+        "explanation_bn": "du এর সাথে nehmen ক্রিয়া হয় 'nimmst' (e পরিবর্তিত হয়ে i হয়)।",
+        "sentenceWithBlank": "Was ___ du?",
+        "blankType": "verb",
+        "options": [
+          "nimmst",
+          "nehmst",
+          "nehme",
+          "nimmt"
+        ],
+        "correctAnswer": "nimmst",
+        "translation_bn": "তুমি কী নিচ্ছ?"
+      },
+      {
+        "id": "ex_4_2_2",
+        "type": "multiple_choice",
+        "prompt_bn": "সুপারমার্কেটে কেনাকাটা শেষ হলে কী বলতে হয়?",
+        "explanation_bn": "'Das ist alles, danke!' অর্থ এটুকুই, ধন্যবাদ!",
+        "question": "কেনাকাটা শেষ হলে প্রচলিত বাক্য কোনটি?",
+        "options": [
+          "Das ist alles, danke!",
+          "Ich habe keine Lust.",
+          "Gute Nacht!",
+          "Auf Wiederhören."
+        ],
+        "correctAnswer": "Das ist alles, danke!"
+      },
+      {
+        "id": "ex_4_2_3",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য লিখুন: 'আমি দয়া করে এক বোতল পানি চাই।'",
+        "explanation_bn": "Ich möchte bitte eine Flasche Wasser.",
+        "targetSentence": "Ich möchte bitte eine Flasche Wasser.",
+        "scrambledWords": [
+          "eine",
+          "Wasser.",
+          "möchte",
+          "Ich",
+          "bitte",
+          "Flasche"
+        ],
+        "meaning_bn": "আমি দয়া করে এক বোতল পানি চাই।"
+      },
+      {
+        "id": "ex_4_2_4",
+        "type": "matching_pairs",
+        "prompt_bn": "পরিমাপ ও পণ্যের জোড়া মেলান:",
+        "explanation_bn": "ein Kilo = এক কেজি, eine Flasche = এক বোতল, ein Stück = এক টুকরো, eine Packung = এক প্যাকেট",
+        "pairs": [
+          {
+            "german": "ein Kilo",
+            "bengali": "এক কেজি"
+          },
+          {
+            "german": "eine Flasche",
+            "bengali": "এক বোতল"
+          },
+          {
+            "german": "ein Stück",
+            "bengali": "এক টুকরো"
+          },
+          {
+            "german": "eine Packung",
+            "bengali": "এক প্যাকেট"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lesson_4_3",
+    "unitId": "unit_4",
+    "title_bn": "möchten ও mögen ক্রিয়ার পার্থক্য ও ব্যবহার",
+    "title_en": "Expressing Likes & Wishes (möchten vs mögen)",
+    "subtitle_de": "Vorlieben: möchten, mögen und gern",
+    "order": 20,
+    "content": {
+      "intro_bn": "খাবার বা যেকোনো পছন্দের ক্ষেত্রে möchten, mögen এবং gern এর ব্যবহার অত্যন্ত গুরুত্বপূর্ণ:\n\n১. möchten (চাওয়া / wish - নম্রভাবে কিছু চাওয়া):\n\"Ich möchte einen Kaffee.\" (আমি একটি কফি চাই - অর্ডারের সময় ব্যবহৃত হয়)।\n\n২. mögen (পছন্দ করা / like - সাধারণ পছন্দ):\n\"Ich mag Pizza.\" (আমি পিৎজা পছন্দ করি)।\n\"Magst du Tee?\" (তুমি কি চা পছন্দ করো?)\n\n৩. gern (আনন্দ সহকারে / gladly):\nকোনো ক্রিয়ার সাথে gern বসালে কাজটি করতে পছন্দ করি বোঝায়:\n\"Ich trinke gern Tee.\" (আমি চা খেতে পছন্দ করি)।\n\"Ich koche gern.\" (আমি রান্না করতে পছন্দ করি)।",
+      "intro_en": "Distinguish möchten (polite request: I would like), mögen (general like for nouns: ich mag Schokolade), and the adverb gern (doing activities gladly: ich trinke gern Kaffee).",
+      "examples": [
+        {
+          "de": "Ich möchte bitte bestellen.",
+          "bn": "আমি দয়া করে অর্ডার করতে চাই।",
+          "note": "möchten + Infinitiv"
+        },
+        {
+          "de": "Magst du deutschen Käse? - Ja, sehr!",
+          "bn": "তুমি কি জার্মান পনির পছন্দ করো? - হ্যাঁ, অনেক!",
+          "note": "mögen"
+        },
+        {
+          "de": "Ich esse gern Fisch mit Reis.",
+          "bn": "আমি ভাতের সাথে মাছ খেতে পছন্দ করি।",
+          "note": "essen gern"
+        },
+        {
+          "de": "Wir möchten bezahlen.",
+          "bn": "আমরা বিল দিতে চাই।",
+          "note": "bezahlen (বিল দেওয়া)"
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "id": "v_u4_3_1",
+        "german": "mögen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "পছন্দ করা",
+        "english": "to like",
+        "pronunciationBn": "মোগেন",
+        "example_de": "Ich mag Schokolade.",
+        "example_bn": "আমি চকলেট পছন্দ করি।",
+        "topic": "essential_verbs",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_3_2",
+        "german": "möchten",
+        "article": null,
+        "pos": "verb",
+        "bengali": "চাওয়া (নম্রভাবে)",
+        "english": "would like",
+        "pronunciationBn": "মোশটেন",
+        "example_de": "Ich möchte schlafen.",
+        "example_bn": "আমি ঘুমাতে চাই।",
+        "topic": "essential_verbs",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_3_3",
+        "german": "gern",
+        "article": null,
+        "pos": "adv",
+        "bengali": "আনন্দের সাথে / পছন্দ করে",
+        "english": "gladly / like to",
+        "pronunciationBn": "গের্ন",
+        "example_de": "Ich schwimme gern.",
+        "example_bn": "আমি সাঁতার কাটতে পছন্দ করি।",
+        "topic": "basics_personal",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_3_4",
+        "german": "Fisch",
+        "article": "der",
+        "plural": "die Fische",
+        "pos": "noun",
+        "bengali": "মাছ",
+        "english": "fish",
+        "pronunciationBn": "ফিশ",
+        "example_de": "Der Fisch schmeckt gut.",
+        "example_bn": "মাছটি খেতে সুস্বাদু।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_3_5",
+        "german": "Fleisch",
+        "article": "das",
+        "plural": null,
+        "pos": "noun",
+        "bengali": "মাংস",
+        "english": "meat",
+        "pronunciationBn": "ফ্লাইশ",
+        "example_de": "Ich esse kein Fleisch.",
+        "example_bn": "আমি মাংস খাই না।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_3_6",
+        "german": "Gemüse",
+        "article": "das",
+        "plural": null,
+        "pos": "noun",
+        "bengali": "শাকসবজি",
+        "english": "vegetables",
+        "pronunciationBn": "গেমুজে",
+        "example_de": "Gemüse ist gesund.",
+        "example_bn": "শাকসবজি স্বাস্থ্যকর।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_3_7",
+        "german": "Obst",
+        "article": "das",
+        "plural": null,
+        "pos": "noun",
+        "bengali": "ফলমূল",
+        "english": "fruit",
+        "pronunciationBn": "ওবস্ট",
+        "example_de": "Frisches Obst ist lecker.",
+        "example_bn": "তাজা ফলমূল সুস্বাদু।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_3_8",
+        "german": "lecker",
+        "article": null,
+        "pos": "adj",
+        "bengali": "সুস্বাদু / মজাদার",
+        "english": "delicious",
+        "pronunciationBn": "লেকার",
+        "example_de": "Das Essen ist sehr lecker.",
+        "example_bn": "খাবারটি খুব সুস্বাদু।",
+        "topic": "food_drinks",
+        "level": "A1"
+      }
+    ],
+    "grammarTip": {
+      "title_bn": "'mögen' ক্রিয়ার রূপান্তর চার্ট",
+      "title_en": "Conjugation of \"mögen\"",
+      "content_bn": "লক্ষ্য করুন: ich এবং er/sie/es রূপ একই (ich mag, er mag)!",
+      "rule_table": [
+        {
+          "label": "ich",
+          "value": "mag",
+          "note": "Ich mag Tee"
+        },
+        {
+          "label": "du",
+          "value": "magst",
+          "note": "Magst du Kaffee?"
+        },
+        {
+          "label": "er / sie / es",
+          "value": "mag",
+          "note": "Er mag Pizza"
+        },
+        {
+          "label": "wir / sie / Sie",
+          "value": "mögen",
+          "note": "Wir mögen Musik"
+        }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_4_3_1",
+        "type": "conjugation_quiz",
+        "prompt_bn": "'er' (সে) এর সাথে 'mögen' ক্রিয়ার সঠিক রূপ কোনটি?",
+        "explanation_bn": "er/sie/es এর ক্ষেত্রে mögen এর রূপ হলো 'mag' (ich এবং er এর রূপ হুবহু এক)।",
+        "verb": "mögen",
+        "pronoun": "er/sie/es",
+        "meaning_bn": "সে পছন্দ করে",
+        "options": [
+          "mag",
+          "magst",
+          "mögt",
+          "mögen"
+        ],
+        "correctAnswer": "mag"
+      },
+      {
+        "id": "ex_4_3_2",
+        "type": "fill_blank",
+        "prompt_bn": "সঠিক পদটি বসান: 'Ich trinke ___ Tee.' (আমি চা পছন্দ করি / খেতে ভালোবাসি)",
+        "explanation_bn": "ক্রিয়ার সাথে পছন্দ প্রকাশে \"gern\" ব্যবহৃত হয়।",
+        "sentenceWithBlank": "Ich trinke ___ Tee.",
+        "blankType": "verb",
+        "options": [
+          "gern",
+          "mag",
+          "möchte",
+          "gut"
+        ],
+        "correctAnswer": "gern",
+        "translation_bn": "আমি চা খেতে পছন্দ করি।"
+      },
+      {
+        "id": "ex_4_3_3",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য লিখুন: 'খাবারটি সত্যিই অত্যন্ত সুস্বাদু।'",
+        "explanation_bn": "Das Essen ist wirklich sehr lecker.",
+        "targetSentence": "Das Essen ist wirklich sehr lecker.",
+        "scrambledWords": [
+          "sehr",
+          "Das",
+          "Essen",
+          "ist",
+          "lecker.",
+          "wirklich"
+        ],
+        "meaning_bn": "খাবারটি সত্যিই অত্যন্ত সুস্বাদু।"
+      }
+    ]
+  },
+  {
+    "id": "lesson_4_4",
+    "unitId": "unit_4",
+    "title_bn": "রেস্তোরাঁয় বিল পরিশোধ ও বকশিশ",
+    "title_en": "Paying the Bill & Tipping Culture",
+    "subtitle_de": "Die Rechnung bezahlen und Trinkgeld",
+    "order": 21,
+    "content": {
+      "intro_bn": "জার্মান রেস্তোরাঁয় খাওয়ার পর বিল চাওয়ার সময় বলতে হয়:\n• \"Die Rechnung bitte!\" (দয়া করে বিল দিন!)\n• \"Wir möchten bitte zahlen/bezahlen.\" (আমরা বিল পরিশোধ করতে চাই।)\n\nওয়েটার এসে দুটি প্রশ্ন করবে:\n১. \"Zusammen oder getrennt?\" (একসাথে নাকি আলাদা আলাদা পরিশোধ করবেন?)\nজার্মানিতে বন্ধুরা একসাথে খেতে গেলেও প্রত্যেকে নিজের নিজের বিল আলাদা দিতে অভ্যস্ত (\"Getrennt bitte!\").\n২. \"Bar oder mit Karte?\" (নগদে নাকি কার্ডে?)\n\nবকশিশ (Trinkgeld) সংস্কৃতি:\nজার্মানিতে সাধারণত ৫% থেকে ১০% বকশিশ রাউন্ড-আপ করে দেওয়া হয় (যেমন বিল ২৩.৫০ ইউরো হলে বলতে হয় \"Machen Sie 25 Euro bitte!\" বা \"Stimmt so!\" - ভাংতি ফেরত লাগবে না)।",
+      "intro_en": "Request the bill: \"Zahlen bitte!\" or \"Die Rechnung bitte!\". Waiters will ask: \"Zusammen oder getrennt?\" (together or separate?) and \"Bar oder mit Karte?\". Tip 5-10% by rounding up: \"Stimmt so!\" (keep the change).",
+      "examples": [
+        {
+          "de": "Entschuldigung, die Rechnung bitte!",
+          "bn": "শুনুন, দয়া করে বিলটি দিন!",
+          "note": "বিল চাওয়া"
+        },
+        {
+          "de": "Zusammen oder getrennt? - Getrennt bitte.",
+          "bn": "একসাথে নাকি আলাদা? - আলাদা আলাদা দয়া করে।",
+          "note": "জার্মান সংস্কৃতি"
+        },
+        {
+          "de": "Kann ich mit Karte zahlen? - Ja, natürlich.",
+          "bn": "আমি কি কার্ড দিয়ে পরিশোধ করতে পারি? - হ্যাঁ, অবশ্যই।",
+          "note": "mit Karte"
+        },
+        {
+          "de": "Das macht 18 Euro. - 20 Euro, stimmt so!",
+          "bn": "মোট ১৮ ইউরো হয়েছে। - ২০ ইউরো রাখুন, ভাংতি লাগবে না!",
+          "note": "Stimmt so! (টিপস)"
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "id": "v_u4_4_1",
+        "german": "Rechnung",
+        "article": "die",
+        "plural": "die Rechnungen",
+        "pos": "noun",
+        "bengali": "বিল / ইনভয়েস",
+        "english": "bill / invoice",
+        "pronunciationBn": "রেশনুং",
+        "example_de": "Bringen Sie mir die Rechnung.",
+        "example_bn": "দয়া করে আমার বিলটি আনুন।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_4_2",
+        "german": "zahlen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "পরিশোধ করা / টাকা দেওয়া",
+        "english": "to pay",
+        "pronunciationBn": "ৎসাল্যেন",
+        "example_de": "Wir möchten zahlen.",
+        "example_bn": "আমরা বিল দিতে চাই।",
+        "topic": "essential_verbs",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_4_3",
+        "german": "getrennt",
+        "article": null,
+        "pos": "adj",
+        "bengali": "আলাদা আলাদা / পৃথক",
+        "english": "separately",
+        "pronunciationBn": "গেটরেনট",
+        "example_de": "Wir zahlen getrennt.",
+        "example_bn": "আমরা আলাদা আলাদা বিল দেব।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_4_4",
+        "german": "zusammen",
+        "article": null,
+        "pos": "adv",
+        "bengali": "একসাথে",
+        "english": "together",
+        "pronunciationBn": "ৎসুসামেন",
+        "example_de": "Alles zusammen bitte.",
+        "example_bn": "সব মিলিয়ে একসাথে দয়া করে।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_4_5",
+        "german": "bar",
+        "article": null,
+        "pos": "adv",
+        "bengali": "নগদ টাকায় (Cash)",
+        "english": "in cash",
+        "pronunciationBn": "বার",
+        "example_de": "Ich bezahle bar.",
+        "example_bn": "আমি নগদে পরিশোধ করছি।",
+        "topic": "numbers_money_quantities",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_4_6",
+        "german": "Karte",
+        "article": "die",
+        "plural": "die Karten",
+        "pos": "noun",
+        "bengali": "কার্ড (ক্রেডিট/ডেবিট)",
+        "english": "card",
+        "pronunciationBn": "কার্টে",
+        "example_de": "Zahlen Sie mit Karte?",
+        "example_bn": "আপনি কি কার্ডে পরিশোধ করবেন?",
+        "topic": "numbers_money_quantities",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_4_7",
+        "german": "Trinkgeld",
+        "article": "das",
+        "plural": null,
+        "pos": "noun",
+        "bengali": "বকশিশ / টিপস",
+        "english": "tip",
+        "pronunciationBn": "ট্রিংকগেল্ট",
+        "example_de": "Das Trinkgeld ist für Sie.",
+        "example_bn": "এই বকশিশটি আপনার জন্য।",
+        "topic": "numbers_money_quantities",
+        "level": "A1"
+      },
+      {
+        "id": "v_u4_4_8",
+        "german": "stimmt so",
+        "article": null,
+        "pos": "phrase",
+        "bengali": "ভাংতি লাগবে না / ঠিক আছে",
+        "english": "keep the change",
+        "pronunciationBn": "শ্টিমট জো",
+        "example_de": "Danke, stimmt so!",
+        "example_bn": "ধন্যবাদ, ভাংতি রাখা লাগবে না!",
+        "topic": "food_drinks",
+        "level": "A1"
+      }
+    ],
+    "grammarTip": {
+      "title_bn": "জার্মানির গোল্ডেন ফ্রেজ: 'Stimmt so!'",
+      "title_en": "German Tipping Expression",
+      "content_bn": "ওয়েটারকে অতিরিক্ত ভাংতি পয়সা ফেরত দেওয়া থেকে বিরত রাখতে এবং সুন্দরভাবে বকশিশ দিতে বলুন: \"Stimmt so!\" (ইংরেজির \"Keep the change\" এর মতো)।",
+      "rule_table": [
+        {
+          "label": "বিল চাওয়া",
+          "value": "Die Rechnung bitte!",
+          "note": "নম্র ও প্রচলিত"
+        },
+        {
+          "label": "আলাদা বিল",
+          "value": "Getrennt bitte!",
+          "note": "নিজের খাবার নিজেই পরিশোধ"
+        },
+        {
+          "label": "টিপস দেওয়া",
+          "value": "Stimmt so!",
+          "note": "ভাংতি ফেরত না নিয়ে বকশিশ"
+        }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_4_4_1",
+        "type": "multiple_choice",
+        "prompt_bn": "ওয়েটারকে 'ভাংতি ফেরত লাগবে না, বাকিটা বকশিশ রাখুন' বলতে কী বলা হয়?",
+        "explanation_bn": "'Stimmt so!' অর্থ বাকি টাকা বকশিশ হিসেবে রাখুন।",
+        "question": "বকশিশ দেওয়ার প্রচলিত অভিব্যক্তি কোনটি?",
+        "options": [
+          "Stimmt so!",
+          "Gute Reise!",
+          "Guten Appetit!",
+          "Auf Wiedersehen!"
+        ],
+        "correctAnswer": "Stimmt so!"
+      },
+      {
+        "id": "ex_4_4_2",
+        "type": "matching_pairs",
+        "prompt_bn": "রেস্তোরাঁর পরিভাষার বাংলা ও জার্মান মেলান:",
+        "explanation_bn": "Rechnung = বিল, getrennt = আলাদা, zusammen = একসাথে, bar = নগদ",
+        "pairs": [
+          {
+            "german": "die Rechnung",
+            "bengali": "বিল"
+          },
+          {
+            "german": "getrennt",
+            "bengali": "আলাদা আলাদা"
+          },
+          {
+            "german": "zusammen",
+            "bengali": "একসাথে"
+          },
+          {
+            "german": "bar",
+            "bengali": "নগদ টাকায়"
+          }
+        ]
+      },
+      {
+        "id": "ex_4_4_3",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য লিখুন: 'আমরা দয়া করে আলাদা বিল পরিশোধ করতে চাই।'",
+        "explanation_bn": "Wir möchten bitte getrennt zahlen.",
+        "targetSentence": "Wir möchten bitte getrennt zahlen.",
+        "scrambledWords": [
+          "bitte",
+          "Wir",
+          "zahlen.",
+          "getrennt",
+          "möchten"
+        ],
+        "meaning_bn": "আমরা দয়া করে আলাদা বিল পরিশোধ করতে চাই।"
       }
     ]
   }

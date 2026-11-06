@@ -15,8 +15,8 @@
   },
   "mission_bn": "বাংলাভাষী শিক্ষার্থীদের জন্য জার্মান ভাষা শেখা সহজ, ধাপে ধাপে এবং সবার নাগালের মধ্যে আনা।",
   "mission_en": "To make learning German simple, structured and accessible for Bengali-speaking learners.",
-  "purpose_bn": "এই অ্যাপটি তৈরি করা হয়েছে বাংলাভাষী শিক্ষার্থীদের জন্য, যাতে তারা একদম অক্ষর (Alphabet) থেকে শুরু করে সম্পূর্ণ A1 লেভেল পর্যন্ত সহজ বাংলায় শিখতে পারে। এখানে আছে ১৪০০+ শব্দ, বাক্য গঠন, উচ্চারণ ও অনুশীলন, এবং ইন্টারনেট ছাড়াও ব্যবহার করা যায়।",
-  "purpose_en": "Built for Bengali-speaking learners to learn German from the very first letter up to complete CEFR A1 in simple Bengali, with 1400+ words, sentence making, audio practice and full offline use.",
+  "purpose_bn": "এই অ্যাপটি তৈরি করা হয়েছে বাংলাভাষী শিক্ষার্থীদের জন্য, যাতে তারা একদম অক্ষর (Alphabet) থেকে শুরু করে সম্পূর্ণ A1 লেভেল পর্যন্ত সহজ বাংলায় শিখতে পারে। এখানে আছে ১৪০০+ শব্দ, বাক্য গঠন, স্পষ্ট উচ্চারণ ও কার্যকর অনুশীলন।",
+  "purpose_en": "Built for Bengali-speaking learners to learn German from the very first letter up to complete CEFR A1 in simple Bengali, with 1400+ words, sentence making and rich audio practice.",
   "whyBuilt_bn": [
     "বাংলায় মানসম্মত জার্মান শেখার রিসোর্সের ঘাটতি পূরণ করা",
     "মোবাইলে সহজে ব্যবহারযোগ্য ও বিনামূল্যের শেখার প্ল্যাটফর্ম দেওয়া",
@@ -30,6 +30,6 @@
   "highlights": [
     { "value": "1400+", "label_bn": "শব্দভান্ডার", "label_en": "Words" },
     { "value": "A1", "label_bn": "সম্পূর্ণ কোর্স", "label_en": "Full course" },
-    { "value": "Offline", "label_bn": "ইন্টারনেট ছাড়াই", "label_en": "No internet needed" }
+    { "value": "A1 Prep", "label_bn": "পরীক্ষার প্রস্তুতি", "label_en": "Exam Prep" }
   ]
 }

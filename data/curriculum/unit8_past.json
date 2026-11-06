@@ -10,29 +10,149 @@
       "intro_bn": "কথ্য জার্মান ভাষায় অতীতে ঘটে যাওয়া কথা বলতে 'Perfekt' কাল ব্যবহৃত হয়।\nPerfekt গঠনের নিয়ম:\n[haben / sein (Position 2)] + ... + [Partizip II (ge- + verb + -t/en - বাক্যের শেষে)]\nউদাহরণ:\n• machen -> gemacht: Ich habe Deutsch gelernt.\n• spielen -> gespielt: Wir haben Fußball gespielt.\n\nআর গতিবিধি বা স্থান পরিবর্তনমূলক ক্রিয়ার সাথে 'sein' বসে:\n• gehen -> gegangen: Ich bin nach Hause gegangen.\n• kommen -> gekommen: Er ist gestern gekommen.\n\nsein এবং haben এর সাধারণ অতীত (Präteritum) হিসেবে 'war' (ছিলাম) এবং 'hatte' (ছিল) প্রচুর ব্যবহৃত হয়:\n• Ich war in Berlin. (আমি বার্লিনে ছিলাম।)\n• Ich hatte keine Zeit. (আমার সময় ছিল না।)",
       "intro_en": "In spoken German, the Perfekt tense is used for past events: auxiliary verb (haben/sein) in Position 2, and Partizip II (e.g. gelernt, gemacht, gegangen) at the very end. Use 'war' (was) and 'hatte' (had).",
       "examples": [
-        { "de": "Ich habe Deutsch gelernt.", "bn": "আমি জার্মান শিখেছি।", "note": "haben + gelernt" },
-        { "de": "Wir haben Pizza gegessen.", "bn": "আমরা পিৎজা খেয়েছি।", "note": "haben + gegessen" },
-        { "de": "Er ist nach Berlin gefahren.", "bn": "সে বার্লিনে গেছে (গতিবিধি -> sein)।", "note": "ist + gefahren" },
-        { "de": "Gestern war ich zu Hause.", "bn": "গতকাল আমি বাড়িতে ছিলাম।", "note": "war (ছিলাম)" }
+        {
+          "de": "Ich habe Deutsch gelernt.",
+          "bn": "আমি জার্মান শিখেছি।",
+          "note": "haben + gelernt"
+        },
+        {
+          "de": "Wir haben Pizza gegessen.",
+          "bn": "আমরা পিৎজা খেয়েছি।",
+          "note": "haben + gegessen"
+        },
+        {
+          "de": "Er ist nach Berlin gefahren.",
+          "bn": "সে বার্লিনে গেছে (গতিবিধি -> sein)।",
+          "note": "ist + gefahren"
+        },
+        {
+          "de": "Gestern war ich zu Hause.",
+          "bn": "গতকাল আমি বাড়িতে ছিলাম।",
+          "note": "war (ছিলাম)"
+        }
       ]
     },
     "vocabulary": [
-      { "id": "v_u8_1", "german": "gelernt", "article": null, "pos": "verb", "bengali": "শিখেছি / শিখেছিল (Partizip II)", "english": "learned", "pronunciationBn": "গেলের্নট", "example_de": "Ich habe viel gelernt.", "example_bn": "আমি অনেক শিখেছি।", "topic": "daily_routine", "level": "A1" },
-      { "id": "v_u8_2", "german": "gemacht", "article": null, "pos": "verb", "bengali": "করেছি / করেছিল", "english": "done / made", "pronunciationBn": "গেমাখট", "example_de": "Was hast du gemacht?", "example_bn": "তুমি কী করেছো?", "topic": "basics", "level": "A1" },
-      { "id": "v_u8_3", "german": "gegangen", "article": null, "pos": "verb", "bengali": "গিয়েছি / গিয়েছিল", "english": "gone / went", "pronunciationBn": "গেগাঙেন", "example_de": "Er ist gegangen.", "example_bn": "সে চলে গেছে।", "topic": "daily_routine", "level": "A1" },
-      { "id": "v_u8_4", "german": "gestern", "article": null, "pos": "adverb", "bengali": "গতকাল", "english": "yesterday", "pronunciationBn": "গেস্টার্ন", "example_de": "Gestern war schön.", "example_bn": "গতকাল সুন্দর ছিল।", "topic": "time_calendar", "level": "A1" },
-      { "id": "v_u8_5", "german": "war", "article": null, "pos": "verb", "bengali": "ছিল / ছিলাম (was / were)", "english": "was / were", "pronunciationBn": "ভার", "example_de": "Ich war krank.", "example_bn": "আমি অসুস্থ ছিলাম।", "topic": "basics", "level": "A1" },
-      { "id": "v_u8_6", "german": "hatte", "article": null, "pos": "verb", "bengali": "ছিল (আমার/তার ছিল - had)", "english": "had", "pronunciationBn": "হাটে", "example_de": "Ich hatte Glück.", "example_bn": "আমার ভাগ্য ভালো ছিল।", "topic": "basics", "level": "A1" },
-      { "id": "v_u8_7", "german": "gegessen", "article": null, "pos": "verb", "bengali": "খেয়েছি (eaten)", "english": "eaten", "pronunciationBn": "গেগেসেন", "example_de": "Hast du gegessen?", "example_bn": "তুমি কি খেয়েছো?", "topic": "food_drinks", "level": "A1" },
-      { "id": "v_u8_8", "german": "getrunken", "article": null, "pos": "verb", "bengali": "পান করেছি (drunk)", "english": "drunk", "pronunciationBn": "গেট্রুঙ্কেন", "example_de": "Ich habe Tee getrunken.", "example_bn": "আমি চা পান করেছি।", "topic": "food_drinks", "level": "A1" }
+      {
+        "id": "v_u8_1",
+        "german": "gelernt",
+        "article": null,
+        "pos": "verb",
+        "bengali": "শিখেছি / শিখেছিল (Partizip II)",
+        "english": "learned",
+        "pronunciationBn": "গেলের্নট",
+        "example_de": "Ich habe viel gelernt.",
+        "example_bn": "আমি অনেক শিখেছি।",
+        "topic": "daily_routine",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_2",
+        "german": "gemacht",
+        "article": null,
+        "pos": "verb",
+        "bengali": "করেছি / করেছিল",
+        "english": "done / made",
+        "pronunciationBn": "গেমাখট",
+        "example_de": "Was hast du gemacht?",
+        "example_bn": "তুমি কী করেছো?",
+        "topic": "basics",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_3",
+        "german": "gegangen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "গিয়েছি / গিয়েছিল",
+        "english": "gone / went",
+        "pronunciationBn": "গেগাঙেন",
+        "example_de": "Er ist gegangen.",
+        "example_bn": "সে চলে গেছে।",
+        "topic": "daily_routine",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_4",
+        "german": "gestern",
+        "article": null,
+        "pos": "adverb",
+        "bengali": "গতকাল",
+        "english": "yesterday",
+        "pronunciationBn": "গেস্টার্ন",
+        "example_de": "Gestern war schön.",
+        "example_bn": "গতকাল সুন্দর ছিল।",
+        "topic": "time_calendar",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_5",
+        "german": "war",
+        "article": null,
+        "pos": "verb",
+        "bengali": "ছিল / ছিলাম (was / were)",
+        "english": "was / were",
+        "pronunciationBn": "ভার",
+        "example_de": "Ich war krank.",
+        "example_bn": "আমি অসুস্থ ছিলাম।",
+        "topic": "basics",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_6",
+        "german": "hatte",
+        "article": null,
+        "pos": "verb",
+        "bengali": "ছিল (আমার/তার ছিল - had)",
+        "english": "had",
+        "pronunciationBn": "হাটে",
+        "example_de": "Ich hatte Glück.",
+        "example_bn": "আমার ভাগ্য ভালো ছিল।",
+        "topic": "basics",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_7",
+        "german": "gegessen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "খেয়েছি (eaten)",
+        "english": "eaten",
+        "pronunciationBn": "গেগেসেন",
+        "example_de": "Hast du gegessen?",
+        "example_bn": "তুমি কি খেয়েছো?",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_8",
+        "german": "getrunken",
+        "article": null,
+        "pos": "verb",
+        "bengali": "পান করেছি (drunk)",
+        "english": "drunk",
+        "pronunciationBn": "গেট্রুঙ্কেন",
+        "example_de": "Ich habe Tee getrunken.",
+        "example_bn": "আমি চা পান করেছি।",
+        "topic": "food_drinks",
+        "level": "A1"
+      }
     ],
     "grammarTip": {
       "title_bn": "Perfekt এ haben নাকি sein?",
       "title_en": "Auxiliary in Perfekt: haben or sein?",
       "content_bn": "• ৯০% ক্রিয়ায় 'haben' সাহায্যকারী ক্রিয়া হিসেবে বসে (যেমন: habe gelernt, habe gemacht, habe gegessen)।\n• কিন্তু কোনো স্থান পরিবর্তন (Movement: gehen, fahren, kommen) বা অবস্থার পরিবর্তন (যেমন: aufstehen) বোঝালে 'sein' বসে:\n  - Ich bin gekommen (আমি এসেছি)।\n  - Er ist gefahren (সে গাড়ি চালিয়ে গেছে)।",
       "rule_table": [
-        { "label": "haben + Partizip II", "value": "সাধারণ ক্রিয়া", "note": "Ich habe gelernt." },
-        { "label": "sein + Partizip II", "value": "স্থান/অবস্থা পরিবর্তন", "note": "Ich bin gefahren." }
+        {
+          "label": "haben + Partizip II",
+          "value": "সাধারণ ক্রিয়া",
+          "note": "Ich habe gelernt."
+        },
+        {
+          "label": "sein + Partizip II",
+          "value": "স্থান/অবস্থা পরিবর্তন",
+          "note": "Ich bin gefahren."
+        }
       ]
     },
     "exercises": [
@@ -43,7 +163,12 @@
         "explanation_bn": "lernen ক্রিয়ার সাথে haben হয়, তাই 'habe'।",
         "sentenceWithBlank": "Ich ___ gestern Deutsch gelernt.",
         "blankType": "verb",
-        "options": ["habe", "bin", "hatte", "war"],
+        "options": [
+          "habe",
+          "bin",
+          "hatte",
+          "war"
+        ],
         "correctAnswer": "habe",
         "translation_bn": "আমি গতকাল জার্মান শিখেছি।"
       },
@@ -54,7 +179,12 @@
         "explanation_bn": "fahren স্থান পরিবর্তনমূলক ক্রিয়া, তাই 'ist' (sein) হবে।",
         "sentenceWithBlank": "Er ___ nach Berlin gefahren.",
         "blankType": "verb",
-        "options": ["ist", "hat", "war", "hatte"],
+        "options": [
+          "ist",
+          "hat",
+          "war",
+          "hatte"
+        ],
         "correctAnswer": "ist",
         "translation_bn": "সে বার্লিনে গেছে।"
       },
@@ -64,7 +194,12 @@
         "prompt_bn": "বাক্য সাজান: 'গতকাল আমি অসুস্থ ছিলাম।' (Gestern war ich krank.)",
         "explanation_bn": "Gestern war ich krank. (ক্রিয়া war ২ নম্বরে)",
         "targetSentence": "Gestern war ich krank.",
-        "scrambledWords": ["krank.", "Gestern", "ich", "war"],
+        "scrambledWords": [
+          "krank.",
+          "Gestern",
+          "ich",
+          "war"
+        ],
         "meaning_bn": "গতকাল আমি অসুস্থ ছিলাম।"
       },
       {
@@ -73,10 +208,22 @@
         "prompt_bn": "অতীতের রূপের সাথে বাংলা অর্থ মেলান:",
         "explanation_bn": "gelernt = শিখেছি, gegessen = খেয়েছি, war = ছিলাম, hatte = ছিল",
         "pairs": [
-          { "german": "gelernt", "bengali": "শিখেছি" },
-          { "german": "gegessen", "bengali": "খেয়েছি" },
-          { "german": "war", "bengali": "ছিলাম" },
-          { "german": "hatte", "bengali": "ছিল" }
+          {
+            "german": "gelernt",
+            "bengali": "শিখেছি"
+          },
+          {
+            "german": "gegessen",
+            "bengali": "খেয়েছি"
+          },
+          {
+            "german": "war",
+            "bengali": "ছিলাম"
+          },
+          {
+            "german": "hatte",
+            "bengali": "ছিল"
+          }
         ]
       },
       {
@@ -85,7 +232,12 @@
         "prompt_bn": "'Ich hatte keine Zeit.' এর অর্থ কী?",
         "explanation_bn": "hatte মানে ছিল, তাই অর্থ: আমার সময় ছিল না।",
         "question": "'Ich hatte keine Zeit.' এর বাংলা কী?",
-        "options": ["আমার সময় ছিল না।", "আমি অসুস্থ ছিলাম।", "আমার টাকা ছিল না।", "আমি গিয়েছিলাম।"],
+        "options": [
+          "আমার সময় ছিল না।",
+          "আমি অসুস্থ ছিলাম।",
+          "আমার টাকা ছিল না।",
+          "আমি গিয়েছিলাম।"
+        ],
         "correctAnswer": "আমার সময় ছিল না।"
       },
       {
@@ -94,7 +246,12 @@
         "prompt_bn": "অডিও শুনে বলুন কোন বাক্যটি বলা হয়েছে:",
         "explanation_bn": "সঠিক বাক্য: 'Was hast du gemacht?'",
         "audioText": "Was hast du gemacht?",
-        "options": ["Was hast du gemacht?", "Was hast du gegessen?", "Wo bist du gewesen?", "Wie hast du geschlafen?"],
+        "options": [
+          "Was hast du gemacht?",
+          "Was hast du gegessen?",
+          "Wo bist du gewesen?",
+          "Wie hast du geschlafen?"
+        ],
         "correctAnswer": "Was hast du gemacht?"
       },
       {
@@ -104,7 +261,10 @@
         "explanation_bn": "gestern",
         "prompt": "গতকাল",
         "correctAnswer": "gestern",
-        "acceptedAnswers": ["gestern", "Gestern"],
+        "acceptedAnswers": [
+          "gestern",
+          "Gestern"
+        ],
         "placeholder": "যেমন: gestern"
       },
       {
@@ -115,6 +275,648 @@
         "front": "Ich war",
         "back": "আমি ছিলাম (I was)",
         "hint_bn": "sein ক্রিয়ার অতীত রূপ"
+      }
+    ]
+  },
+  {
+    "id": "lesson_8_2",
+    "unitId": "unit_8",
+    "title_bn": "কথ্য অতীত Perfekt: haben সহযোগে",
+    "title_en": "Spoken Past (Perfekt) with \"haben\"",
+    "subtitle_de": "Das Perfekt mit haben und regelmäßige Verben",
+    "order": 35,
+    "content": {
+      "intro_bn": "জার্মান কথ্য ভাষায় দৈনন্দিন কথাবার্তায় অতীত বর্ণনা করতে ৯০% ক্ষেত্রে \"Perfekt\" কাল ব্যবহৃত হয়।\n\nPerfekt গঠনের সূত্র:\nhaben (২য় পজিশনে রূপান্তরিত) + অন্যান্য তথ্য + Partizip II (বাক্যের শেষে ge-...-t রূপে)!\n\nনিয়মিত ক্রিয়ার Partizip II গঠন:\nge- + ক্রিয়ার মূল ধাতু + -t\nউদাহরণ:\n• lernen -> gelernt (Ich habe Deutsch gelernt)\n• machen -> gemacht (Er hat die Hausaufgabe gemacht)\n• kochen -> gekocht (Wir haben Pasta gekocht)\n• hören -> gehört (Ich habe Musik gehört)\n• kaufen -> gekauft (Sie hat ein Buch gekauft).",
+      "intro_en": "Spoken past (Perfekt) is formed using: conjugated haben (Position 2) + sentence details + Partizip II (at the very end). For regular verbs, Partizip II is: ge- + stem + -t (ge-lern-t, ge-kauf-t).",
+      "examples": [
+        {
+          "de": "Gestern habe ich Deutsch gelernt.",
+          "bn": "গতকাল আমি জার্মান শিখেছি।",
+          "note": "habe ... gelernt"
+        },
+        {
+          "de": "Was hast du am Wochenende gemacht?",
+          "bn": "সাপ্তাহিক ছুটিতে তুমি কী করেছো?",
+          "note": "hast ... gemacht"
+        },
+        {
+          "de": "Wir haben heute lecker gekocht.",
+          "bn": "আমরা আজ সুস্বাদু রান্না করেছি।",
+          "note": "haben ... gekocht"
+        },
+        {
+          "de": "Er hat ein neues Auto gekauft.",
+          "bn": "তিনি একটি নতুন গাড়ি কিনেছেন।",
+          "note": "hat ... gekauft"
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "id": "v_u8_2_1",
+        "german": "gelernt",
+        "article": null,
+        "pos": "verb",
+        "bengali": "শিখেছি / শিখেছে (Partizip II)",
+        "english": "learned",
+        "pronunciationBn": "গেলের্নট",
+        "example_de": "Ich habe viel gelernt.",
+        "example_bn": "আমি অনেক শিখেছি।",
+        "topic": "essential_verbs",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_2_2",
+        "german": "gemacht",
+        "article": null,
+        "pos": "verb",
+        "bengali": "করেছি / করেছে (Partizip II)",
+        "english": "done / made",
+        "pronunciationBn": "গেমাখট",
+        "example_de": "Das hast du gut gemacht!",
+        "example_bn": "তুমি এটি দারুণ করেছো!",
+        "topic": "essential_verbs",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_2_3",
+        "german": "gehört",
+        "article": null,
+        "pos": "verb",
+        "bengali": "শুনেছি (Partizip II)",
+        "english": "heard / listened",
+        "pronunciationBn": "গেহোরট",
+        "example_de": "Ich habe Radio gehört.",
+        "example_bn": "আমি রেডিও শুনেছি।",
+        "topic": "essential_verbs",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_2_4",
+        "german": "gekauft",
+        "article": null,
+        "pos": "verb",
+        "bengali": "কিনেছি (Partizip II)",
+        "english": "bought",
+        "pronunciationBn": "গেকাউফট",
+        "example_de": "Er hat Brot gekauft.",
+        "example_bn": "তিনি পাউরুটি কিনেছেন।",
+        "topic": "clothing_shopping_colors",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_2_5",
+        "german": "gespielt",
+        "article": null,
+        "pos": "verb",
+        "bengali": "খেলেছি / বাজিয়েছি",
+        "english": "played",
+        "pronunciationBn": "গেশপিল্ট",
+        "example_de": "Wir haben Fußball gespielt.",
+        "example_bn": "আমরা ফুটবল খেলেছি।",
+        "topic": "hobbies_leisure_sports",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_2_6",
+        "german": "gesagt",
+        "article": null,
+        "pos": "verb",
+        "bengali": "বলেছি / বলেছে",
+        "english": "said",
+        "pronunciationBn": "গেজাখট",
+        "example_de": "Was hat er gesagt?",
+        "example_bn": "তিনি কী বলেছেন?",
+        "topic": "essential_verbs",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_2_7",
+        "german": "gesucht",
+        "article": null,
+        "pos": "verb",
+        "bengali": "খুঁজেছি / খুঁজেছে",
+        "english": "searched",
+        "pronunciationBn": "গেজুখট",
+        "example_de": "Ich habe meine Brille gesucht.",
+        "example_bn": "আমি আমার চশমা খুঁজেছি।",
+        "topic": "essential_verbs",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_2_8",
+        "german": "gestern",
+        "article": null,
+        "pos": "adv",
+        "bengali": "গতকাল",
+        "english": "yesterday",
+        "pronunciationBn": "গেসটার্ন",
+        "example_de": "Gestern war Sonntag.",
+        "example_bn": "গতকাল রবিবার ছিল।",
+        "topic": "daily_routine_time",
+        "level": "A1"
+      }
+    ],
+    "grammarTip": {
+      "title_bn": "নিয়মিত Perfekt গঠনের ফর্মুলা",
+      "title_en": "Regular Partizip II Formula",
+      "content_bn": "ge- + Verb-Stamm + -t\nযেমন: ge + kauf + t = gekauft.",
+      "rule_table": [
+        {
+          "label": "lernen",
+          "value": "ge-lern-t",
+          "note": "শেখা"
+        },
+        {
+          "label": "machen",
+          "value": "ge-mach-t",
+          "note": "করা"
+        },
+        {
+          "label": "kochen",
+          "value": "ge-koch-t",
+          "note": "রান্না করা"
+        },
+        {
+          "label": "hören",
+          "value": "ge-hör-t",
+          "note": "শোনা"
+        }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_8_2_1",
+        "type": "fill_blank",
+        "prompt_bn": "Partizip II রূপ বসান: 'Ich habe gestern Deutsch ___.' (আমি গতকাল জার্মান শিখেছি)",
+        "explanation_bn": "lernen এর Partizip II রূপ হলো 'gelernt' (ge-lern-t)।",
+        "sentenceWithBlank": "Ich habe gestern Deutsch ___.",
+        "blankType": "verb",
+        "options": [
+          "gelernt",
+          "lernen",
+          "gelernte",
+          "lernt"
+        ],
+        "correctAnswer": "gelernt",
+        "translation_bn": "আমি গতকাল জার্মান শিখেছি।"
+      },
+      {
+        "id": "ex_8_2_2",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য লিখুন: 'সাপ্তাহিক ছুটিতে তুমি কী করেছো?'",
+        "explanation_bn": "Was hast du am Wochenende gemacht?",
+        "targetSentence": "Was hast du am Wochenende gemacht?",
+        "scrambledWords": [
+          "Wochenende",
+          "hast",
+          "du",
+          "am",
+          "gemacht?",
+          "Was"
+        ],
+        "meaning_bn": "সাপ্তাহিক ছুটিতে তুমি কী করেছো?"
+      },
+      {
+        "id": "ex_8_2_3",
+        "type": "matching_pairs",
+        "prompt_bn": "বর্তমান ক্রিয়া ও তার Partizip II রূপ মেলান:",
+        "explanation_bn": "kaufen -> gekauft, hören -> gehört, machen -> gemacht, spielen -> gespielt",
+        "pairs": [
+          {
+            "german": "kaufen",
+            "bengali": "gekauft"
+          },
+          {
+            "german": "hören",
+            "bengali": "gehört"
+          },
+          {
+            "german": "machen",
+            "bengali": "gemacht"
+          },
+          {
+            "german": "spielen",
+            "bengali": "gespielt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lesson_8_3",
+    "unitId": "unit_8",
+    "title_bn": "Perfekt: গতি ও স্থান পরিবর্তনের জন্য sein",
+    "title_en": "Perfekt with \"sein\" (Movement & Change of State)",
+    "subtitle_de": "Das Perfekt mit sein: Bewegung und Zustandswechsel",
+    "order": 36,
+    "content": {
+      "intro_bn": "অধিকাংশ ক্রিয়ার সাথে Perfekt-এ \"haben\" বসলেও, দুটি বিশেষ ক্ষেত্রে \"sein\" (ist/sind/bist) সহায়ক ক্রিয়া হিসেবে ব্যবহৃত হয়:\n১. এক স্থান থেকে অন্য স্থানে শারীরিক স্থানান্তর (Ortswechsel / Bewegung):\n• gehen (যাওয়া) -> Ich bin gegangen (আমি গিয়েছিলাম)।\n• fahren (যানবাহনে যাওয়া) -> Er ist gefahren (তিনি গিয়েছিলেন)।\n• fliegen (বিমানে উড়ে যাওয়া) -> Wir sind geflogen (আমরা উড়ে গিয়েছিলাম)।\n• kommen (আসা) -> Sie ist gekommen (সে এসেছে)।\n\n২. অবস্থা পরিবর্তন (Zustandswechsel) ও ব্যতিক্রম:\n• aufstehen (ঘুম থেকে ওঠা) -> Ich bin aufgestanden.\n• bleiben (থাকা) -> Ich bin geblieben (ব্যতিক্রম: থাকা সত্ত্বেও sein নেয়!)।",
+      "intro_en": "Verbs of motion (gehen, fahren, fliegen, kommen) and change of state (aufstehen, sterben), plus \"bleiben\" and \"sein\", take \"sein\" as auxiliary verb in Perfekt: Ich bin nach Berlin gefahren.",
+      "examples": [
+        {
+          "de": "Ich bin gestern nach Berlin gefahren.",
+          "bn": "গতকাল আমি বার্লিনে গিয়েছি।",
+          "note": "bin ... gefahren"
+        },
+        {
+          "de": "Wann bist du aufgestanden?",
+          "bn": "তুমি কখন ঘুম থেকে উঠেছো?",
+          "note": "bist ... aufgestanden"
+        },
+        {
+          "de": "Er ist zu spät gekommen.",
+          "bn": "তিনি অনেক দেরিতে এসেছেন।",
+          "note": "ist ... gekommen"
+        },
+        {
+          "de": "Wir sind zu Hause geblieben.",
+          "bn": "আমরা বাসায় থেকে গিয়েছিলাম।",
+          "note": "sind ... geblieben"
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "id": "v_u8_3_1",
+        "german": "gegangen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "গিয়েছি / হেঁটে গিয়েছে",
+        "english": "gone / walked",
+        "pronunciationBn": "গেগাঙেন",
+        "example_de": "Ich bin nach Hause gegangen.",
+        "example_bn": "আমি বাসায় চলে গিয়েছিলাম।",
+        "topic": "essential_verbs",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_3_2",
+        "german": "gefahren",
+        "article": null,
+        "pos": "verb",
+        "bengali": "গাড়িতে / ট্রেনে গিয়েছি",
+        "english": "traveled / driven",
+        "pronunciationBn": "গেফারেন",
+        "example_de": "Wir sind mit dem Zug gefahren.",
+        "example_bn": "আমরা ট্রেনে গিয়েছি।",
+        "topic": "city_transport_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_3_3",
+        "german": "gekommen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "এসেছি / এসেছে",
+        "english": "come / arrived",
+        "pronunciationBn": "গেকমেন",
+        "example_de": "Er ist pünktlich gekommen.",
+        "example_bn": "তিনি সময়মতো এসেছেন।",
+        "topic": "essential_verbs",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_3_4",
+        "german": "geflogen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "উড়ে গিয়েছি (বিমানে)",
+        "english": "flown",
+        "pronunciationBn": "গেফ্লোগেন",
+        "example_de": "Sie ist nach Frankfurt geflogen.",
+        "example_bn": "তিনি ফ্রাঙ্কফুর্ট উড়ে গেছেন।",
+        "topic": "city_transport_travel",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_3_5",
+        "german": "aufgestanden",
+        "article": null,
+        "pos": "verb",
+        "bengali": "ঘুম থেকে উঠেছি",
+        "english": "got up",
+        "pronunciationBn": "আউফগেশটানডেন",
+        "example_de": "Ich bin um 7 Uhr aufgestanden.",
+        "example_bn": "আমি ৭টায় উঠেছি।",
+        "topic": "daily_routine_time",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_3_6",
+        "german": "geblieben",
+        "article": null,
+        "pos": "verb",
+        "bengali": "থেকেছি / অবস্থান করেছি",
+        "english": "stayed",
+        "pronunciationBn": "গেবলিবেন",
+        "example_de": "Er ist im Bett geblieben.",
+        "example_bn": "তিনি বিছানায় থেকে গিয়েছিলেন।",
+        "topic": "essential_verbs",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_3_7",
+        "german": "passiert",
+        "article": null,
+        "pos": "verb",
+        "bengali": "ঘটেছে (ঘটনা)",
+        "english": "happened",
+        "pronunciationBn": "পাসিরট",
+        "example_de": "Was ist passiert?",
+        "example_bn": "কী ঘটেছে?",
+        "topic": "basics_personal",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_3_8",
+        "german": "gewesen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "ছিলাম / ছিল (sein এর Partizip II)",
+        "english": "been",
+        "pronunciationBn": "গেভেজেন",
+        "example_de": "Wo bist du gewesen?",
+        "example_bn": "তুমি কোথায় ছিলে?",
+        "topic": "essential_verbs",
+        "level": "A1"
+      }
+    ],
+    "grammarTip": {
+      "title_bn": "কখন haben আর কখন sein?",
+      "title_en": "Perfekt Auxiliary: haben vs sein",
+      "content_bn": "গতি ও স্থানান্তর (gehen, fahren, fliegen, kommen) = sein!\nবাকি ৯০% ক্রিয়া = haben!",
+      "rule_table": [
+        {
+          "label": "haben",
+          "value": "স্থির কাজ / বস্তু কর্ম",
+          "note": "habe gegessen, habe gelernt"
+        },
+        {
+          "label": "sein",
+          "value": "স্থান পরিবর্তন / গতি",
+          "note": "bin gegangen, ist gefahren"
+        },
+        {
+          "label": "sein (ব্যতিক্রম)",
+          "value": "bleiben, sein, passieren",
+          "note": "ist geblieben, ist gewesen"
+        }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_8_3_1",
+        "type": "fill_blank",
+        "prompt_bn": "সহায়ক ক্রিয়া বসান: 'Ich ___ gestern nach Berlin gefahren.'",
+        "explanation_bn": "fahren একটি গতিবাচক ক্রিয়া, তাই Perfekt-এ 'sein' (ich bin) ব্যবহৃত হয়।",
+        "sentenceWithBlank": "Ich ___ gestern nach Berlin gefahren.",
+        "blankType": "verb",
+        "options": [
+          "bin",
+          "habe",
+          "ist",
+          "hat"
+        ],
+        "correctAnswer": "bin",
+        "translation_bn": "গতকাল আমি বার্লিনে গিয়েছি।"
+      },
+      {
+        "id": "ex_8_3_2",
+        "type": "multiple_choice",
+        "prompt_bn": "'কী হয়েছে / কী ঘটেছে?' এর বিখ্যাত জার্মান প্রশ্ন কোনটি?",
+        "explanation_bn": "'Was ist passiert?' অর্থ কী ঘটেছে? (passieren ক্রিয়ার সাথে sein বসে)।",
+        "question": "'কী ঘটেছে?' এর জার্মান কোনটি?",
+        "options": [
+          "Was ist passiert?",
+          "Was hat passiert?",
+          "Was macht passiert?",
+          "Was geht passiert?"
+        ],
+        "correctAnswer": "Was ist passiert?"
+      },
+      {
+        "id": "ex_8_3_3",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য লিখুন: 'তুমি কখন ঘুম থেকে উঠেছো?'",
+        "explanation_bn": "Wann bist du aufgestanden?",
+        "targetSentence": "Wann bist du aufgestanden?",
+        "scrambledWords": [
+          "aufgestanden?",
+          "Wann",
+          "du",
+          "bist"
+        ],
+        "meaning_bn": "তুমি কখন ঘুম থেকে উঠেছো?"
+      }
+    ]
+  },
+  {
+    "id": "lesson_8_4",
+    "unitId": "unit_8",
+    "title_bn": "নিয়মিত ও অনিয়মিত Partizip II (ge-...-en)",
+    "title_en": "Irregular Verbs in Perfekt",
+    "subtitle_de": "Unregelmäßige Verben im Perfekt",
+    "order": 37,
+    "content": {
+      "intro_bn": "নিয়মিত ক্রিয়াগুলো যেমন সহজে -t নেয় (ge-kauf-t), অনিয়মিত (Unregelmäßige / Starke Verben) ক্রিয়াগুলোর ক্ষেত্রে স্বরবর্ণের পরিবর্তন হয় এবং সাধারণত শেষে \"-en\" থাকে!\n\nসবচেয়ে প্রয়োজনীয় A1 অনিয়মিত ক্রিয়ার তালিকা:\n• essen (খাওয়া) -> gegessen (Ich habe gegessen)\n• trinken (পান করা) -> getrunken (Er hat Tee getrunken)\n• schreiben (লেখা) -> geschrieben (Ich habe eine E-Mail geschrieben)\n• lesen (পড়া) -> gelesen (Hast du das Buch gelesen?)\n• sprechen (কথা বলা) -> gesprochen (Wir haben Deutsch gesprochen)\n• treffen (দেখা করা) -> getroffen (Ich habe meinen Freund getroffen)\n• finden (পাওয়া) -> gefunden (Ich habe den Schlüssel gefunden)\n• schlafen (ঘুমানো) -> geschlafen (Ich habe gut geschlafen).",
+      "intro_en": "Irregular verbs in Perfekt typically end in \"-en\" and often undergo vowel changes: essen -> gegessen, trinken -> getrunken, schreiben -> geschrieben, sprechen -> gesprochen.",
+      "examples": [
+        {
+          "de": "Ich habe heute Morgen einen Kaffee getrunken.",
+          "bn": "আজ সকালে আমি এক কাপ কফি পান করেছি।",
+          "note": "trinken -> getrunken"
+        },
+        {
+          "de": "Hast du die E-Mail geschrieben?",
+          "bn": "তুমি কি ইমেইলটি লিখেছো?",
+          "note": "schreiben -> geschrieben"
+        },
+        {
+          "de": "Wir haben gestern Deutsch gesprochen.",
+          "bn": "আমরা গতকাল জার্মান ভাষায় কথা বলেছি।",
+          "note": "sprechen -> gesprochen"
+        },
+        {
+          "de": "Ich habe meinen Schlüssel gefunden!",
+          "bn": "আমি আমার চাবিটি খুঁজে পেয়েছি!",
+          "note": "finden -> gefunden"
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "id": "v_u8_4_1",
+        "german": "getrunken",
+        "article": null,
+        "pos": "verb",
+        "bengali": "পান করেছি (Partizip II)",
+        "english": "drunk",
+        "pronunciationBn": "গেট্রুঙ্কেন",
+        "example_de": "Ich habe Wasser getrunken.",
+        "example_bn": "আমি পানি পান করেছি।",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_4_2",
+        "german": "gegessen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "খেয়েছি (Partizip II)",
+        "english": "eaten",
+        "pronunciationBn": "গেগেসেন",
+        "example_de": "Hast du schon gegessen?",
+        "example_bn": "তুমি কি খেয়েছো?",
+        "topic": "food_drinks",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_4_3",
+        "german": "geschrieben",
+        "article": null,
+        "pos": "verb",
+        "bengali": "লিখেছি (Partizip II)",
+        "english": "written",
+        "pronunciationBn": "গেশরিবেন",
+        "example_de": "Er hat einen Brief geschrieben.",
+        "example_bn": "তিনি একটি চিঠি লিখেছেন।",
+        "topic": "work_office_education",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_4_4",
+        "german": "gelesen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "পড়েছি (Partizip II)",
+        "english": "read",
+        "pronunciationBn": "গেলেজেন",
+        "example_de": "Ich habe den Text gelesen.",
+        "example_bn": "আমি টেক্সটটি পড়েছি।",
+        "topic": "work_office_education",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_4_5",
+        "german": "gesprochen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "কথা বলেছি (Partizip II)",
+        "english": "spoken",
+        "pronunciationBn": "গেশপ্রখেন",
+        "example_de": "Wir haben lange gesprochen.",
+        "example_bn": "আমরা দীর্ঘক্ষণ কথা বলেছি।",
+        "topic": "essential_verbs",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_4_6",
+        "german": "getroffen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "দেখা করেছি / সাক্ষাৎ হয়েছে",
+        "english": "met",
+        "pronunciationBn": "গেট্রেফেন",
+        "example_de": "Ich habe Anna getroffen.",
+        "example_bn": "আমি আনার সাথে দেখা করেছি।",
+        "topic": "family_people",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_4_7",
+        "german": "gefunden",
+        "article": null,
+        "pos": "verb",
+        "bengali": "খুঁজে পেয়েছি (Partizip II)",
+        "english": "found",
+        "pronunciationBn": "গেফুনডেন",
+        "example_de": "Er hat Arbeit gefunden.",
+        "example_bn": "তিনি কাজ খুঁজে পেয়েছেন।",
+        "topic": "essential_verbs",
+        "level": "A1"
+      },
+      {
+        "id": "v_u8_4_8",
+        "german": "geschlafen",
+        "article": null,
+        "pos": "verb",
+        "bengali": "ঘুমিয়েছি (Partizip II)",
+        "english": "slept",
+        "pronunciationBn": "গেশলাফেন",
+        "example_de": "Ich habe gut geschlafen.",
+        "example_bn": "আমি ভালো ঘুমিয়েছি।",
+        "topic": "daily_routine_time",
+        "level": "A1"
+      }
+    ],
+    "grammarTip": {
+      "title_bn": "নিয়মিত (-t) বনাম অনিয়মিত (-en)",
+      "title_en": "Regular (-t) vs Irregular (-en)",
+      "content_bn": "নিয়মিত ক্রিয়ার শেষে -t থাকে (ge-lern-t, ge-kauf-t)।\nঅনিয়মিত ক্রিয়ার শেষে -en থাকে (ge-gess-en, ge-trunk-en)।",
+      "rule_table": [
+        {
+          "label": "trinken",
+          "value": "getrunken",
+          "note": "i -> u"
+        },
+        {
+          "label": "schreiben",
+          "value": "geschrieben",
+          "note": "ei -> ie"
+        },
+        {
+          "label": "sprechen",
+          "value": "gesprochen",
+          "note": "e -> o"
+        },
+        {
+          "label": "finden",
+          "value": "gefunden",
+          "note": "i -> u"
+        }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_8_4_1",
+        "type": "matching_pairs",
+        "prompt_bn": "ক্রিয়া ও অনিয়মিত Partizip II মেলান:",
+        "explanation_bn": "trinken -> getrunken, essen -> gegessen, schreiben -> geschrieben, sprechen -> gesprochen",
+        "pairs": [
+          {
+            "german": "trinken",
+            "bengali": "getrunken"
+          },
+          {
+            "german": "essen",
+            "bengali": "gegessen"
+          },
+          {
+            "german": "schreiben",
+            "bengali": "geschrieben"
+          },
+          {
+            "german": "sprechen",
+            "bengali": "gesprochen"
+          }
+        ]
+      },
+      {
+        "id": "ex_8_4_2",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য লিখুন: 'তুমি কি ইতিমধ্যে দুপুরের খাবার খেয়েছো?'",
+        "explanation_bn": "Hast du schon zu Mittag gegessen?",
+        "targetSentence": "Hast du schon zu Mittag gegessen?",
+        "scrambledWords": [
+          "gegessen?",
+          "schon",
+          "zu",
+          "Hast",
+          "du",
+          "Mittag"
+        ],
+        "meaning_bn": "তুমি কি ইতিমধ্যে দুপুরের খাবার খেয়েছো?"
       }
     ]
   }

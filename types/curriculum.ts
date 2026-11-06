@@ -115,6 +115,7 @@ export interface LessonContent {
 
 export interface PatternPracticeItem {
   id: string;
+  category_bn?: string; // e.g. "অর্ডার", "দেশ", "শহর"
   template_de: string; // e.g. "Ich möchte {slot}."
   slot_label_bn: string; // e.g. "খাবারের নাম"
   options: { word: string; meaning_bn: string }[];

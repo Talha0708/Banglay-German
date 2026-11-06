@@ -76,9 +76,9 @@ export const InstallBanner: React.FC = () => {
               <Download className="w-5 h-5 text-blue-300" />
             </div>
             <div>
-              <p className="text-xs font-semibold text-white">মোবাইলে ইনস্টল করুন</p>
+              <p className="text-xs font-semibold text-white">হোম স্ক্রিনে যোগ করুন</p>
               <p className="text-[11px] text-blue-200/80 leading-tight">
-                ইন্টারনেট ছাড়াই সম্পূর্ণ অফলাইনে শিখুন
+                সহজে এক-ক্লিকে অ্যাপ ওপেন করতে ইনস্টল করুন
               </p>
             </div>
           </div>

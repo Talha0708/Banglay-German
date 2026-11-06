@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { ArrowLeft, Check, Phone, Copy, ChevronRight, CheckCircle2 } from 'lucide-react';
 import aboutData from '../../data/about.json';
 import { BrandFooter } from '../../components/BrandFooter';
+import { AdBanner } from '../../components/AdBanner';
 import { useAppStore } from '../../store/useAppStore';
 
 export default function AboutPage() {
@@ -209,6 +210,9 @@ export default function AboutPage() {
             </button>
           </div>
         </section>
+
+        {/* Advertisement Placement */}
+        <AdBanner slot="300x250" />
 
         {/* 7. BrandFooter */}
         <BrandFooter className="pt-2" />

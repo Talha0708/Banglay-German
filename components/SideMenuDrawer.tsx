@@ -18,6 +18,7 @@ import {
   Sun,
   Flame,
   FileText,
+  MessageSquareQuote,
 } from 'lucide-react';
 import { TabId } from './TabBar';
 import { useAppStore } from '../store/useAppStore';
@@ -27,7 +28,7 @@ interface SideMenuDrawerProps {
   onClose: () => void;
   activeTab: TabId;
   onSelectTab: (tab: TabId) => void;
-  onOpenPracticeSection: (section: 'trainer' | 'srs' | 'words' | 'patterns') => void;
+  onOpenPracticeSection: (section: 'trainer' | 'srs' | 'words' | 'patterns' | 'sentences') => void;
   onOpenInstallGuide: () => void;
   onOpenSRSModal: () => void;
   dueCount: number;
@@ -51,7 +52,7 @@ export const SideMenuDrawer: React.FC<SideMenuDrawerProps> = ({
 
   if (!isOpen) return null;
 
-  const navigateTo = (tab: TabId, section?: 'trainer' | 'srs' | 'words' | 'patterns') => {
+  const navigateTo = (tab: TabId, section?: 'trainer' | 'srs' | 'words' | 'patterns' | 'sentences') => {
     onSelectTab(tab);
     if (section) {
       onOpenPracticeSection(section);
@@ -217,6 +218,21 @@ export const SideMenuDrawer: React.FC<SideMenuDrawerProps> = ({
               </div>
               <ChevronRight className="w-4 h-4 opacity-40" />
             </button>
+
+            {/* 7. 200+ Daily Sentences */}
+            <button
+              type="button"
+              onClick={() => navigateTo('practice', 'sentences')}
+              className="w-full flex items-center justify-between p-3 rounded-2xl text-xs font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-800/60 transition min-h-[44px]"
+            >
+              <div className="flex items-center gap-3">
+                <MessageSquareQuote className="w-4 h-4 text-emerald-500" />
+                <span>দৈনিক প্রয়োজনীয় ২০০+ বাক্য (Sentences)</span>
+              </div>
+              <span className="text-[10px] font-black text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 px-1.5 py-0.5 rounded-md">
+                ২২০ বাক্য
+              </span>
+            </button>
           </div>
 
           {/* Quick Install Banner inside Menu */}
@@ -229,7 +245,7 @@ export const SideMenuDrawer: React.FC<SideMenuDrawerProps> = ({
           >
             <div className="flex items-center justify-between">
               <span className="text-[10px] font-black uppercase tracking-wider bg-blue-600 text-white px-2 py-0.5 rounded-full">
-                অফলাইন অ্যাপ
+                মোবাইল অ্যাপ
               </span>
               <Download className="w-4 h-4 text-blue-600 dark:text-blue-400" />
             </div>

@@ -10,30 +10,160 @@
       "intro_bn": "পরিবারের সদস্যদের পরিচয় দিতে 'haben' (থাকা / আছে - have) ক্রিয়া এবং 'mein/dein' সম্বন্ধসূচক সর্বনাম ব্যবহার করা হয়।\n• mein Vater (আমার বাবা - পুংলিঙ্গ)\n• meine Mutter (আমার মা - স্ত্রীলিঙ্গ)\n• mein Kind (আমার সন্তান - ক্লীবলিঙ্গ)\n• meine Geschwister (আমার ভাই-বোন - বহুবচন)\n\n'haben' ক্রিয়ার রূপান্তর:\nich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben.",
       "intro_en": "Learn to talk about your family members and conjugate the essential irregular verb 'haben' (to have). Remember possessives: 'mein' for masculine/neuter, 'meine' for feminine/plural.",
       "examples": [
-        { "de": "Ich habe einen Bruder.", "bn": "আমার একজন ভাই আছে।", "note": "Akkusativ: einen Bruder" },
-        { "de": "Meine Mutter heißt Salma.", "bn": "আমার মায়ের নাম সালমা।", "note": "meine Mutter" },
-        { "de": "Hast du Geschwister?", "bn": "তোমার কি ভাই-বোন আছে?", "note": "hast du" },
-        { "de": "Wir haben zwei Kinder.", "bn": "আমাদের দুটি সন্তান আছে।", "note": "wir haben" }
+        {
+          "de": "Ich habe einen Bruder.",
+          "bn": "আমার একজন ভাই আছে।",
+          "note": "Akkusativ: einen Bruder"
+        },
+        {
+          "de": "Meine Mutter heißt Salma.",
+          "bn": "আমার মায়ের নাম সালমা।",
+          "note": "meine Mutter"
+        },
+        {
+          "de": "Hast du Geschwister?",
+          "bn": "তোমার কি ভাই-বোন আছে?",
+          "note": "hast du"
+        },
+        {
+          "de": "Wir haben zwei Kinder.",
+          "bn": "আমাদের দুটি সন্তান আছে।",
+          "note": "wir haben"
+        }
       ]
     },
     "vocabulary": [
-      { "id": "v_u2_1", "german": "Vater", "article": "der", "plural": "die Väter", "pos": "noun", "bengali": "বাবা", "english": "father", "pronunciationBn": "ফাটার", "example_de": "Mein Vater ist nett.", "example_bn": "আমার বাবা সদয়।", "topic": "family", "level": "A1" },
-      { "id": "v_u2_2", "german": "Mutter", "article": "die", "plural": "die Mütter", "pos": "noun", "bengali": "মা", "english": "mother", "pronunciationBn": "মুটার", "example_de": "Meine Mutter kocht gut.", "example_bn": "আমার মা ভালো রান্না করেন।", "topic": "family", "level": "A1" },
-      { "id": "v_u2_3", "german": "Bruder", "article": "der", "plural": "die Brüder", "pos": "noun", "bengali": "ভাই", "english": "brother", "pronunciationBn": "ব্রুডার", "example_de": "Er ist mein Bruder.", "example_bn": "তিনি আমার ভাই।", "topic": "family", "level": "A1" },
-      { "id": "v_u2_4", "german": "Schwester", "article": "die", "plural": "die Schwestern", "pos": "noun", "bengali": "বোন", "english": "sister", "pronunciationBn": "শ্ভেস্টার", "example_de": "Ich habe eine Schwester.", "example_bn": "আমার এক বোন আছে।", "topic": "family", "level": "A1" },
-      { "id": "v_u2_5", "german": "Kind", "article": "das", "plural": "die Kinder", "pos": "noun", "bengali": "সন্তান / বাচ্চা", "english": "child", "pronunciationBn": "কিন্ট", "example_de": "Das Kind lacht.", "example_bn": "বাচ্চাটি হাসছে।", "topic": "family", "level": "A1" },
-      { "id": "v_u2_6", "german": "Eltern", "article": "die", "plural": "die Eltern", "pos": "noun", "bengali": "বাবা-মা", "english": "parents", "pronunciationBn": "এলটার্ন", "example_de": "Meine Eltern sind alt.", "example_bn": "আমার বাবা-মা বৃদ্ধ।", "topic": "family", "level": "A1" },
-      { "id": "v_u2_7", "german": "haben", "article": null, "pos": "verb", "bengali": "থাকা / আছে", "english": "to have", "pronunciationBn": "হাবেন", "example_de": "Ich habe Zeit.", "example_bn": "আমার সময় আছে।", "topic": "family", "level": "A1" },
-      { "id": "v_u2_8", "german": "mein", "article": null, "pos": "pronoun", "bengali": "আমার", "english": "my", "pronunciationBn": "মাইন", "example_de": "Mein Sohn.", "example_bn": "আমার ছেলে।", "topic": "family", "level": "A1" }
+      {
+        "id": "v_u2_1",
+        "german": "Vater",
+        "article": "der",
+        "plural": "die Väter",
+        "pos": "noun",
+        "bengali": "বাবা",
+        "english": "father",
+        "pronunciationBn": "ফাটার",
+        "example_de": "Mein Vater ist nett.",
+        "example_bn": "আমার বাবা সদয়।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_2",
+        "german": "Mutter",
+        "article": "die",
+        "plural": "die Mütter",
+        "pos": "noun",
+        "bengali": "মা",
+        "english": "mother",
+        "pronunciationBn": "মুটার",
+        "example_de": "Meine Mutter kocht gut.",
+        "example_bn": "আমার মা ভালো রান্না করেন।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_3",
+        "german": "Bruder",
+        "article": "der",
+        "plural": "die Brüder",
+        "pos": "noun",
+        "bengali": "ভাই",
+        "english": "brother",
+        "pronunciationBn": "ব্রুডার",
+        "example_de": "Er ist mein Bruder.",
+        "example_bn": "তিনি আমার ভাই।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_4",
+        "german": "Schwester",
+        "article": "die",
+        "plural": "die Schwestern",
+        "pos": "noun",
+        "bengali": "বোন",
+        "english": "sister",
+        "pronunciationBn": "শ্ভেস্টার",
+        "example_de": "Ich habe eine Schwester.",
+        "example_bn": "আমার এক বোন আছে।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_5",
+        "german": "Kind",
+        "article": "das",
+        "plural": "die Kinder",
+        "pos": "noun",
+        "bengali": "সন্তান / বাচ্চা",
+        "english": "child",
+        "pronunciationBn": "কিন্ট",
+        "example_de": "Das Kind lacht.",
+        "example_bn": "বাচ্চাটি হাসছে।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_6",
+        "german": "Eltern",
+        "article": "die",
+        "plural": "die Eltern",
+        "pos": "noun",
+        "bengali": "বাবা-মা",
+        "english": "parents",
+        "pronunciationBn": "এলটার্ন",
+        "example_de": "Meine Eltern sind alt.",
+        "example_bn": "আমার বাবা-মা বৃদ্ধ।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_7",
+        "german": "haben",
+        "article": null,
+        "pos": "verb",
+        "bengali": "থাকা / আছে",
+        "english": "to have",
+        "pronunciationBn": "হাবেন",
+        "example_de": "Ich habe Zeit.",
+        "example_bn": "আমার সময় আছে।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_8",
+        "german": "mein",
+        "article": null,
+        "pos": "pronoun",
+        "bengali": "আমার",
+        "english": "my",
+        "pronunciationBn": "মাইন",
+        "example_de": "Mein Sohn.",
+        "example_bn": "আমার ছেলে।",
+        "topic": "family",
+        "level": "A1"
+      }
     ],
     "grammarTip": {
       "title_bn": "সম্পর্কসূচক সর্বনাম: mein বনাম meine",
       "title_en": "Possessives: mein vs meine",
       "content_bn": "স্ত্রীলিঙ্গ ও বহুবচনে 'mein' এর শেষে '-e' যুক্ত হয়:\n• der Vater -> mein Vater\n• das Kind -> mein Kind\n• die Mutter -> meine Mutter\n• die Eltern -> meine Eltern\nএকইভাবে du এর জন্য dein এবং deine ব্যবহৃত হয়!",
       "rule_table": [
-        { "label": "der / das", "value": "mein / dein", "note": "mein Vater, mein Kind" },
-        { "label": "die (স্ত্রীলিঙ্গ)", "value": "meine / deine", "note": "meine Mutter" },
-        { "label": "die (বহুবচন)", "value": "meine / deine", "note": "meine Eltern" }
+        {
+          "label": "der / das",
+          "value": "mein / dein",
+          "note": "mein Vater, mein Kind"
+        },
+        {
+          "label": "die (স্ত্রীলিঙ্গ)",
+          "value": "meine / deine",
+          "note": "meine Mutter"
+        },
+        {
+          "label": "die (বহুবচন)",
+          "value": "meine / deine",
+          "note": "meine Eltern"
+        }
       ]
     },
     "exercises": [
@@ -45,7 +175,12 @@
         "verb": "haben",
         "pronoun": "du",
         "meaning_bn": "তোমার আছে",
-        "options": ["hast", "habe", "hat", "haben"],
+        "options": [
+          "hast",
+          "habe",
+          "hat",
+          "haben"
+        ],
         "correctAnswer": "hast"
       },
       {
@@ -55,7 +190,12 @@
         "explanation_bn": "Mutter স্ত্রীলিঙ্গ (die Mutter), তাই 'meine'।",
         "sentenceWithBlank": "Das ist ___ Mutter.",
         "blankType": "article",
-        "options": ["meine", "mein", "meinen", "meinem"],
+        "options": [
+          "meine",
+          "mein",
+          "meinen",
+          "meinem"
+        ],
         "correctAnswer": "meine",
         "translation_bn": "ইনি আমার মা।"
       },
@@ -65,7 +205,12 @@
         "prompt_bn": "সাজিয়ে বাক্য তৈরি করুন: 'আমার একজন ভাই আছে।'",
         "explanation_bn": "Ich habe einen Bruder.",
         "targetSentence": "Ich habe einen Bruder.",
-        "scrambledWords": ["einen", "Bruder.", "Ich", "habe"],
+        "scrambledWords": [
+          "einen",
+          "Bruder.",
+          "Ich",
+          "habe"
+        ],
         "meaning_bn": "আমার একজন ভাই আছে।"
       },
       {
@@ -74,7 +219,12 @@
         "prompt_bn": "'die Eltern' শব্দের অর্থ কী?",
         "explanation_bn": "Eltern মানে পিতা-মাতা বা বাবা-মা (parents)।",
         "question": "'die Eltern' এর বাংলা কী?",
-        "options": ["বাবা-মা (parents)", "ভাই-বোন", "ছেলে-মেয়ে", "দাদা-দাদী"],
+        "options": [
+          "বাবা-মা (parents)",
+          "ভাই-বোন",
+          "ছেলে-মেয়ে",
+          "দাদা-দাদী"
+        ],
         "correctAnswer": "বাবা-মা (parents)"
       },
       {
@@ -93,7 +243,10 @@
         "explanation_bn": "der Vater",
         "prompt": "বাবা",
         "correctAnswer": "der Vater",
-        "acceptedAnswers": ["der Vater", "Vater"],
+        "acceptedAnswers": [
+          "der Vater",
+          "Vater"
+        ],
         "placeholder": "যেমন: der Vater"
       },
       {
@@ -102,7 +255,12 @@
         "prompt_bn": "অডিও শুনে বলুন কোন শব্দটি বলা হয়েছে:",
         "explanation_bn": "সঠিক শব্দ: 'Mutter' (মা)।",
         "audioText": "Mutter",
-        "options": ["Mutter", "Vater", "Bruder", "Schwester"],
+        "options": [
+          "Mutter",
+          "Vater",
+          "Bruder",
+          "Schwester"
+        ],
         "correctAnswer": "Mutter"
       },
       {
@@ -111,11 +269,749 @@
         "prompt_bn": "পারিবারিক সম্পর্কের বাংলা ও জার্মান মেলান:",
         "explanation_bn": "Bruder = ভাই, Schwester = বোন, Sohn = ছেলে, Tochter = মেয়ে",
         "pairs": [
-          { "german": "Bruder", "bengali": "ভাই" },
-          { "german": "Schwester", "bengali": "বোন" },
-          { "german": "Sohn", "bengali": "ছেলে" },
-          { "german": "Tochter", "bengali": "মেয়ে" }
+          {
+            "german": "Bruder",
+            "bengali": "ভাই"
+          },
+          {
+            "german": "Schwester",
+            "bengali": "বোন"
+          },
+          {
+            "german": "Sohn",
+            "bengali": "ছেলে"
+          },
+          {
+            "german": "Tochter",
+            "bengali": "মেয়ে"
+          }
         ]
+      }
+    ]
+  },
+  {
+    "id": "lesson_2_2",
+    "unitId": "unit_2",
+    "title_bn": "সম্বন্ধসূচক সর্বনাম (mein, dein, sein, ihr)",
+    "title_en": "Possessive Determiners (my, your, his, her)",
+    "subtitle_de": "Possessivartikel: mein, dein, sein, ihr",
+    "order": 11,
+    "content": {
+      "intro_bn": "কারো কোনো জিনিস বা সম্পর্ক বোঝাতে জার্মান ভাষায় পজেসিভ আর্টিকেল (সম্বন্ধসূচক পদ) ব্যবহৃত হয়। যেমন:\n• ich (আমি) -> mein / meine (আমার)\n• du (তুমি) -> dein / deine (তোমার)\n• er (সে/তিনি - পুংলিঙ্গ) -> sein / seine (তার)\n• sie (সে/তিনি - স্ত্রীলিঙ্গ) -> ihr / ihre (তার)\n• Sie (আপনি - সম্মানসূচক) -> Ihr / Ihre (আপনার)\n\nযদি বিশেষ্যটি স্ত্রীলিঙ্গ (die) বা বহুবচন (die) হয়, তবে শেষে একটি \"-e\" যোগ হয় (meine, deine, seine, ihre)!",
+      "intro_en": "Possessive articles express ownership or relationship: mein/dein/sein/ihr. When modifying feminine or plural nouns, add an -e (meine Mutter, deine Eltern).",
+      "examples": [
+        {
+          "de": "Das ist mein Vater und das ist meine Mutter.",
+          "bn": "ইনি আমার বাবা এবং ইনি আমার মা।",
+          "note": "mein (der) vs meine (die)"
+        },
+        {
+          "de": "Wie heißt deine Schwester?",
+          "bn": "তোমার বোনের নাম কী?",
+          "note": "deine (die)"
+        },
+        {
+          "de": "Sein Bruder wohnt in München.",
+          "bn": "তার (ছেলেটির) ভাই মিউনিখে থাকে।",
+          "note": "sein (er-এর জন্য)"
+        },
+        {
+          "de": "Ihre Tochter lernt Deutsch.",
+          "bn": "তার (মেয়েটির) মেয়ে জার্মান শিখছে।",
+          "note": "ihre (sie-এর জন্য)"
+        },
+        {
+          "de": "Ist das Ihr Pass, Herr Becker?",
+          "bn": "এটি কি আপনার পাসপোর্ট, মিস্টার বেকার?",
+          "note": "Ihr (সম্মানসূচক Sie)"
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "id": "v_u2_2_1",
+        "german": "Sohn",
+        "article": "der",
+        "plural": "die Söhne",
+        "pos": "noun",
+        "bengali": "ছেলে / পুত্র",
+        "english": "son",
+        "pronunciationBn": "জোন",
+        "example_de": "Mein Sohn geht in die Schule.",
+        "example_bn": "আমার ছেলে স্কুলে যায়।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_2_2",
+        "german": "Tochter",
+        "article": "die",
+        "plural": "die Töchter",
+        "pos": "noun",
+        "bengali": "মেয়ে / কন্যা",
+        "english": "daughter",
+        "pronunciationBn": "টখটার",
+        "example_de": "Ihre Tochter ist Ärztin.",
+        "example_bn": "তার মেয়ে একজন চিকিৎসক।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_2_3",
+        "german": "Opa",
+        "article": "der",
+        "plural": "die Opas",
+        "pos": "noun",
+        "bengali": "দাদা / নানা",
+        "english": "grandpa",
+        "pronunciationBn": "ওপা",
+        "example_de": "Mein Opa liest die Zeitung.",
+        "example_bn": "আমার দাদা পত্রিকা পড়ছেন।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_2_4",
+        "german": "Oma",
+        "article": "die",
+        "plural": "die Omas",
+        "pos": "noun",
+        "bengali": "দাদী / নানী",
+        "english": "grandma",
+        "pronunciationBn": "ওমা",
+        "example_de": "Meine Oma kocht sehr lecker.",
+        "example_bn": "আমার দাদী দারুণ রান্না করেন।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_2_5",
+        "german": "Großeltern",
+        "article": "die",
+        "plural": "die Großeltern",
+        "pos": "noun",
+        "bengali": "দাদা-দাদী / নানা-নানী",
+        "english": "grandparents",
+        "pronunciationBn": "গ্রোসএলটার্ন",
+        "example_de": "Meine Großeltern leben in Hamburg.",
+        "example_bn": "আমার দাদা-দাদী হামবুর্গে থাকেন।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_2_6",
+        "german": "Onkel",
+        "article": "der",
+        "plural": "die Onkel",
+        "pos": "noun",
+        "bengali": "চাচা / মামা / খালু",
+        "english": "uncle",
+        "pronunciationBn": "অনকেল",
+        "example_de": "Sein Onkel ist Ingenieur.",
+        "example_bn": "তার চাচা একজন প্রকৌশলী।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_2_7",
+        "german": "Tante",
+        "article": "die",
+        "plural": "die Tanten",
+        "pos": "noun",
+        "bengali": "ফুফু / খালা / চাচী",
+        "english": "aunt",
+        "pronunciationBn": "টানটে",
+        "example_de": "Meine Tante kommt heute.",
+        "example_bn": "আমার খালা আজ আসছেন।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_2_8",
+        "german": "Freund",
+        "article": "der",
+        "plural": "die Freunde",
+        "pos": "noun",
+        "bengali": "বন্ধু (ছেলে) / বয়ফ্রেন্ড",
+        "english": "friend / boyfriend",
+        "pronunciationBn": "ফ্রয়ন্ট",
+        "example_de": "Er ist mein bester Freund.",
+        "example_bn": "সে আমার সেরা বন্ধু।",
+        "topic": "family",
+        "level": "A1"
+      }
+    ],
+    "grammarTip": {
+      "title_bn": "পজেসিভ চার্ট: কে কার জন্য?",
+      "title_en": "Possessive Determiner Matrix",
+      "content_bn": "পুংলিঙ্গ ও ক্লীবলিঙ্গে মূল রূপ (mein, dein, sein, ihr) ব্যবহৃত হয়। স্ত্রীলিঙ্গ এবং বহুবচনে রূপের সাথে একটি \"-e\" যোগ হয়।",
+      "rule_table": [
+        {
+          "label": "der / das (পুং / ক্লীব)",
+          "value": "mein / dein / sein / ihr",
+          "note": "mein Sohn, mein Kind"
+        },
+        {
+          "label": "die (স্ত্রীলিঙ্গ)",
+          "value": "meine / deine / seine / ihre",
+          "note": "meine Tochter, deine Oma"
+        },
+        {
+          "label": "die (বহুবচন)",
+          "value": "meine / deine / seine / ihre",
+          "note": "meine Eltern, seine Kinder"
+        }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_2_2_1",
+        "type": "fill_blank",
+        "prompt_bn": "সঠিক রূপটি বসান: 'Das ist ___ Tochter.' (ইনি আমার মেয়ে)",
+        "explanation_bn": "Tochter হলো স্ত্রীলিঙ্গ (die Tochter), তাই meine হবে।",
+        "sentenceWithBlank": "Das ist ___ Tochter.",
+        "blankType": "article",
+        "options": [
+          "meine",
+          "mein",
+          "meinen",
+          "meiner"
+        ],
+        "correctAnswer": "meine",
+        "translation_bn": "ইনি আমার মেয়ে।"
+      },
+      {
+        "id": "ex_2_2_2",
+        "type": "multiple_choice",
+        "prompt_bn": "মেয়েটির (sie) ভাই বোঝাতে কোনটি সঠিক?",
+        "explanation_bn": "মেয়েটির (sie) জন্য পজেসিভ হলো 'ihr'। Bruder পুংলিঙ্গ হওয়ায় 'ihr Bruder' হবে।",
+        "question": "মেয়েটির ভাই বোঝাতে সঠিক কোনটি?",
+        "options": [
+          "ihr Bruder",
+          "sein Bruder",
+          "ihre Bruder",
+          "meine Bruder"
+        ],
+        "correctAnswer": "ihr Bruder"
+      },
+      {
+        "id": "ex_2_2_3",
+        "type": "matching_pairs",
+        "prompt_bn": "পারিবারিক সম্পর্কের বাংলা ও জার্মান মেলান:",
+        "explanation_bn": "Opa = দাদা/নানা, Oma = দাদী/নানী, Onkel = চাচা/মামা, Tante = ফুফু/খালা",
+        "pairs": [
+          {
+            "german": "Opa",
+            "bengali": "দাদা / নানা"
+          },
+          {
+            "german": "Oma",
+            "bengali": "দাদী / নানী"
+          },
+          {
+            "german": "Onkel",
+            "bengali": "চাচা / মামা"
+          },
+          {
+            "german": "Tante",
+            "bengali": "ফুফু / খালা"
+          }
+        ]
+      },
+      {
+        "id": "ex_2_2_4",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য তৈরি করুন: 'তার বোন খুব ভালো গান গায়।'",
+        "explanation_bn": "Seine Schwester singt sehr gut.",
+        "targetSentence": "Seine Schwester singt sehr gut.",
+        "scrambledWords": [
+          "sehr",
+          "Seine",
+          "singt",
+          "Schwester",
+          "gut."
+        ],
+        "meaning_bn": "তার বোন খুব ভালো গান গায়।"
+      },
+      {
+        "id": "ex_2_2_5",
+        "type": "article_quiz",
+        "prompt_bn": "'Tochter' শব্দের সঠিক আর্টিকেল কোনটি?",
+        "explanation_bn": "Tochter হলো স্ত্রীলিঙ্গ (die Tochter)।",
+        "noun": "Tochter",
+        "meaning_bn": "মেয়ে / কন্যা",
+        "correctArticle": "die"
+      },
+      {
+        "id": "ex_2_2_6",
+        "type": "listening",
+        "prompt_bn": "অডিও শুনে সঠিক জার্মান শব্দটি বেছে নিন:",
+        "explanation_bn": "অডিওতে বলা হয়েছে 'Großeltern' (দাদা-দাদী)।",
+        "audioText": "Großeltern",
+        "options": [
+          "Großeltern",
+          "Geschwister",
+          "Eltern",
+          "Kinder"
+        ],
+        "correctAnswer": "Großeltern"
+      }
+    ]
+  },
+  {
+    "id": "lesson_2_3",
+    "unitId": "unit_2",
+    "title_bn": "মানুষের রূপ ও বয়স বর্ণনা",
+    "title_en": "Describing People, Appearance & Age",
+    "subtitle_de": "Personen beschreiben und Alter",
+    "order": 12,
+    "content": {
+      "intro_bn": "কারো বয়স জানতে চাওয়া এবং মানুষের বাহ্যিক রূপ বর্ণনা করা A1 পরীক্ষার জন্য অতীব গুরুত্বপূর্ণ।\n• বয়স জিজ্ঞাসা: \"Wie alt bist du?\" (তোমার বয়স কত?) / \"Wie alt sind Sie?\" (আপনার বয়স কত?)\n• বয়স বলা: \"Ich bin 25 Jahre alt.\" (আমার বয়স ২৫ বছর।)\n• শারীরিক ও চারিত্রিক বিশেষণ: groß (লম্বা), klein (খাটো), jung (তরুণ), alt (বয়স্ক), nett (সদয়), freundlich (বন্ধুভাবাপন্ন)।",
+      "intro_en": "Ask and express age using sein (Ich bin 20 Jahre alt). Use basic adjectives to describe appearance and traits: groß, klein, jung, alt, nett, freundlich.",
+      "examples": [
+        {
+          "de": "Wie alt bist du? - Ich bin 28 Jahre alt.",
+          "bn": "তোমার বয়স কত? - আমার বয়স ২৮ বছর।",
+          "note": "Wie alt bist du?"
+        },
+        {
+          "de": "Mein Vater ist sehr groß und freundlich.",
+          "bn": "আমার বাবা অনেক লম্বা এবং বন্ধুভাবাপন্ন।",
+          "note": "groß und freundlich"
+        },
+        {
+          "de": "Sie hat lange Haare und blaue Augen.",
+          "bn": "তার লম্বা চুল এবং নীল চোখ আছে।",
+          "note": "haben + Akkusativ"
+        },
+        {
+          "de": "Er ist noch sehr jung.",
+          "bn": "সে এখনো অনেক তরুণ।",
+          "note": "jung"
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "id": "v_u2_3_1",
+        "german": "alt",
+        "article": null,
+        "pos": "adj",
+        "bengali": "বয়স্ক / পুরোনো",
+        "english": "old",
+        "pronunciationBn": "আল্ট",
+        "example_de": "Wie alt bist du?",
+        "example_bn": "তোমার বয়স কত?",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_3_2",
+        "german": "jung",
+        "article": null,
+        "pos": "adj",
+        "bengali": "তরুণ / অল্পবয়সী",
+        "english": "young",
+        "pronunciationBn": "ইয়ুং",
+        "example_de": "Sie ist sehr jung.",
+        "example_bn": "তিনি খুব অল্পবয়সী।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_3_3",
+        "german": "groß",
+        "article": null,
+        "pos": "adj",
+        "bengali": "লম্বা / বড়",
+        "english": "tall / big",
+        "pronunciationBn": "গ্রোস",
+        "example_de": "Mein Bruder ist 1,85 Meter groß.",
+        "example_bn": "আমার ভাই ১.৮৫ মিটার লম্বা।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_3_4",
+        "german": "klein",
+        "article": null,
+        "pos": "adj",
+        "bengali": "খাটো / ছোট",
+        "english": "short / small",
+        "pronunciationBn": "ক্লাইন",
+        "example_de": "Das Zimmer ist klein.",
+        "example_bn": "ঘরটি ছোট।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_3_5",
+        "german": "nett",
+        "article": null,
+        "pos": "adj",
+        "bengali": "সদয় / অমায়িক",
+        "english": "nice / kind",
+        "pronunciationBn": "নেট",
+        "example_de": "Die Nachbarn sind sehr nett.",
+        "example_bn": "প্রতিবেশীরা খুব অমায়িক।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_3_6",
+        "german": "freundlich",
+        "article": null,
+        "pos": "adj",
+        "bengali": "বন্ধুভাবাপন্ন",
+        "english": "friendly",
+        "pronunciationBn": "ফ্রয়ন্টলিশ",
+        "example_de": "Der Lehrer ist freundlich.",
+        "example_bn": "শিক্ষক বন্ধুভাবাপন্ন।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_3_7",
+        "german": "das Jahr",
+        "article": "das",
+        "plural": "die Jahre",
+        "pos": "noun",
+        "bengali": "বছর",
+        "english": "year",
+        "pronunciationBn": "দাস ইয়ার",
+        "example_de": "Ich bin 30 Jahre alt.",
+        "example_bn": "আমার বয়স ৩০ বছর।",
+        "topic": "family",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_3_8",
+        "german": "schön",
+        "article": null,
+        "pos": "adj",
+        "bengali": "সুন্দর",
+        "english": "beautiful",
+        "pronunciationBn": "শোন",
+        "example_de": "Das ist ein schönes Foto.",
+        "example_bn": "এটি একটি সুন্দর ছবি।",
+        "topic": "family",
+        "level": "A1"
+      }
+    ],
+    "grammarTip": {
+      "title_bn": "বয়স বলার জন্য সর্বদা sein ক্রিয়া",
+      "title_en": "Expressing Age with \"sein\"",
+      "content_bn": "বাংলায় আমরা বলি \"আমার ২৫ বছর\", কিন্তু জার্মানে কখনো \"Ich habe 25 Jahre\" বলবেন না! সর্বদা sein ক্রিয়া হবে:\n• Ich bin 25 Jahre alt.\n• Er ist 10 Jahre alt.",
+      "rule_table": [
+        {
+          "label": "সঠিক রূপ",
+          "value": "Ich bin ... Jahre alt",
+          "note": "sein ক্রিয়া ব্যবহার"
+        },
+        {
+          "label": "ভুল রূপ",
+          "value": "Ich habe ... Jahre",
+          "note": "ইংরেজি বা ফ্রেঞ্চ অনুকরণে কখনো haben নয়"
+        }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_2_3_1",
+        "type": "multiple_choice",
+        "prompt_bn": "জার্মানে 'আমার বয়স ২৫ বছর' কীভাবে বলে?",
+        "explanation_bn": "বয়স প্রকাশে 'sein' ব্যবহৃত হয়: Ich bin 25 Jahre alt.",
+        "question": "'আমার বয়স ২৫ বছর' এর সঠিক অনুবাদ কোনটি?",
+        "options": [
+          "Ich bin 25 Jahre alt.",
+          "Ich habe 25 Jahre.",
+          "Ich mache 25 Jahre.",
+          "Ich wohne 25 Jahre."
+        ],
+        "correctAnswer": "Ich bin 25 Jahre alt."
+      },
+      {
+        "id": "ex_2_3_2",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য লিখুন: 'তোমার বয়স কত?'",
+        "explanation_bn": "Wie alt bist du?",
+        "targetSentence": "Wie alt bist du?",
+        "scrambledWords": [
+          "du?",
+          "alt",
+          "Wie",
+          "bist"
+        ],
+        "meaning_bn": "তোমার বয়স কত?"
+      },
+      {
+        "id": "ex_2_3_3",
+        "type": "matching_pairs",
+        "prompt_bn": "বিপরীতার্থক শব্দের জোড়া মেলান:",
+        "explanation_bn": "groß (লম্বা/বড়) <-> klein (খাটো/ছোট), alt (বয়স্ক) <-> jung (তরুণ)",
+        "pairs": [
+          {
+            "german": "groß",
+            "bengali": "লম্বা / বড়"
+          },
+          {
+            "german": "klein",
+            "bengali": "খাটো / ছোট"
+          },
+          {
+            "german": "alt",
+            "bengali": "বয়স্ক / পুরোনো"
+          },
+          {
+            "german": "jung",
+            "bengali": "তরুণ / অল্পবয়সী"
+          }
+        ]
+      },
+      {
+        "id": "ex_2_3_4",
+        "type": "typing",
+        "prompt_bn": "'সুন্দর' এর জার্মান শব্দটি লিখুন (schön):",
+        "explanation_bn": "schön",
+        "prompt": "সুন্দর",
+        "correctAnswer": "schön",
+        "acceptedAnswers": [
+          "schon",
+          "schön"
+        ],
+        "placeholder": "যেমন: schön"
+      }
+    ]
+  },
+  {
+    "id": "lesson_2_4",
+    "unitId": "unit_2",
+    "title_bn": "পেশা ও কর্মক্ষেত্র",
+    "title_en": "Professions & Workplace",
+    "subtitle_de": "Berufe und Arbeitsplatz",
+    "order": 13,
+    "content": {
+      "intro_bn": "জার্মান ভাষায় পেশা বলা খুব সহজ এবং একটি মজার নিয়ম আছে:\n১. নিজের পেশা বলতে \"von Beruf\" বা সরাসরি sein ক্রিয়া ব্যবহৃত হয়: \"Ich bin Arzt von Beruf.\" (আমি পেশায় চিকিৎসক)।\n২. পুরুষ পেশাজীবী থেকে নারী পেশাজীবী রূপান্তর করতে শুধু শেষে \"-in\" যোগ হয়:\n• der Lehrer (পুরুষ শিক্ষক) -> die Lehrerin (নারী শিক্ষিকা)\n• der Arzt (পুরুষ চিকিৎসক) -> die Ärztin (নারী চিকিৎসক - উমলউট Ä সহ!)\n• der Student (ছাত্র) -> die Studentin (ছাত্রী)\n৩. কর্মক্ষেত্র প্রকাশে \"bei\" (কোম্পানির নাম) বা \"in\" (স্থান) ব্যবহৃত হয়: \"Ich arbeite bei Siemens.\" / \"Ich arbeite im Krankenhaus.\"",
+      "intro_en": "State your profession using sein or \"von Beruf\". Feminine forms are created by adding \"-in\" (der Lehrer -> die Lehrerin). To say where you work, use \"bei\" for companies (bei Siemens) and \"in\" for institutions.",
+      "examples": [
+        {
+          "de": "Was bist du von Beruf? - Ich bin Ingenieur.",
+          "bn": "তোমার পেশা কী? - আমি একজন প্রকৌশলী।",
+          "note": "von Beruf"
+        },
+        {
+          "de": "Meine Frau ist Lehrerin an einer Schule.",
+          "bn": "আমার স্ত্রী একটি স্কুলের শিক্ষিকা।",
+          "note": "Lehrerin (স্ত্রীলিঙ্গ)"
+        },
+        {
+          "de": "Ich arbeite als Verkäufer bei Rewe.",
+          "bn": "আমি রেভে সুপারমার্কেটে বিক্রয়কর্মী হিসেবে কাজ করি।",
+          "note": "arbeiten als / bei"
+        },
+        {
+          "de": "Er studiert Informatik an der Universität.",
+          "bn": "তিনি বিশ্ববিদ্যালয়ে কম্পিউটার সায়েন্সে পড়াশোনা করছেন।",
+          "note": "studieren"
+        }
+      ]
+    },
+    "vocabulary": [
+      {
+        "id": "v_u2_4_1",
+        "german": "Arzt",
+        "article": "der",
+        "plural": "die Ärzte",
+        "pos": "noun",
+        "bengali": "চিকিৎসক / ডাক্তার (পুরুষ)",
+        "english": "doctor (male)",
+        "pronunciationBn": "আরর্টস্ট",
+        "example_de": "Der Arzt untersucht den Patienten.",
+        "example_bn": "ডাক্তার রোগীকে পরীক্ষা করছেন।",
+        "topic": "work_office_education",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_4_2",
+        "german": "Ärztin",
+        "article": "die",
+        "plural": "die Ärztinnen",
+        "pos": "noun",
+        "bengali": "নারী চিকিৎসক",
+        "english": "doctor (female)",
+        "pronunciationBn": "এয়ার্টসটিন",
+        "example_de": "Sie ist Ärztin von Beruf.",
+        "example_bn": "তিনি পেশায় ডাক্তার।",
+        "topic": "work_office_education",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_4_3",
+        "german": "Lehrer",
+        "article": "der",
+        "plural": "die Lehrer",
+        "pos": "noun",
+        "bengali": "শিক্ষক (পুরুষ)",
+        "english": "teacher (male)",
+        "pronunciationBn": "লেরার",
+        "example_de": "Mein Deutschlehrer ist sehr geduldig.",
+        "example_bn": "আমার জার্মান শিক্ষক খুব ধৈর্যশীল।",
+        "topic": "work_office_education",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_4_4",
+        "german": "Lehrerin",
+        "article": "die",
+        "plural": "die Lehrerinnen",
+        "pos": "noun",
+        "bengali": "শিক্ষিকা (নারী)",
+        "english": "teacher (female)",
+        "pronunciationBn": "লেরারিন",
+        "example_de": "Frau Schmidt ist unsere Lehrerin.",
+        "example_bn": "মিসেস শ্মিট আমাদের শিক্ষিকা।",
+        "topic": "work_office_education",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_4_5",
+        "german": "Ingenieur",
+        "article": "der",
+        "plural": "die Ingenieure",
+        "pos": "noun",
+        "bengali": "প্রকৌশলী / ইঞ্জিনিয়ার",
+        "english": "engineer",
+        "pronunciationBn": "ইনশেনিয়োর",
+        "example_de": "Er arbeitet als Ingenieur.",
+        "example_bn": "তিনি প্রকৌশলী হিসেবে কাজ করেন।",
+        "topic": "work_office_education",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_4_6",
+        "german": "Student",
+        "article": "der",
+        "plural": "die Studenten",
+        "pos": "noun",
+        "bengali": "বিশ্ববিদ্যালয়ের ছাত্র",
+        "english": "university student",
+        "pronunciationBn": "শটুডেন্ট",
+        "example_de": "Ich bin Student in Berlin.",
+        "example_bn": "আমি বার্লিনের একজন ছাত্র।",
+        "topic": "work_office_education",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_4_7",
+        "german": "arbeiten",
+        "article": null,
+        "pos": "verb",
+        "bengali": "কাজ করা",
+        "english": "to work",
+        "pronunciationBn": "আরবাইটেন",
+        "example_de": "Ich arbeite von 9 bis 17 Uhr.",
+        "example_bn": "আমি সকাল ৯টা থেকে বিকেল ৫টা পর্যন্ত কাজ করি।",
+        "topic": "work_office_education",
+        "level": "A1"
+      },
+      {
+        "id": "v_u2_4_8",
+        "german": "der Beruf",
+        "article": "der",
+        "plural": "die Berufe",
+        "pos": "noun",
+        "bengali": "পেশা / কর্মসংস্থান",
+        "english": "profession / job",
+        "pronunciationBn": "ডের বেরুফ",
+        "example_de": "Was sind Sie von Beruf?",
+        "example_bn": "আপনার পেশা কী?",
+        "topic": "work_office_education",
+        "level": "A1"
+      }
+    ],
+    "grammarTip": {
+      "title_bn": "নারী পেশাজীবীতে \"-in\" প্রত্যয়",
+      "title_en": "Forming Feminine Job Titles",
+      "content_bn": "জার্মান ভাষায় প্রায় সব পুরুষ পেশার নামের শেষে \"-in\" যোগ করলেই স্ত্রীলিঙ্গ রূপ তৈরি হয়। যেমন:\n• Student -> Studentin\n• Kellner (ওয়েটার) -> Kellnerin (ওয়েট্রেস)\n• Verkäufer -> Verkäuferin\nবহুবচনে এদের শেষে \"-innen\" যুক্ত হয় (die Lehrerinnen)।",
+      "rule_table": [
+        {
+          "label": "পুরুষ একবচন",
+          "value": "der Lehrer",
+          "note": "শিক্ষক"
+        },
+        {
+          "label": "নারী একবচন",
+          "value": "die Lehrerin",
+          "note": "-in যুক্ত"
+        },
+        {
+          "label": "নারী বহুবচন",
+          "value": "die Lehrerinnen",
+          "note": "-innen যুক্ত"
+        }
+      ]
+    },
+    "exercises": [
+      {
+        "id": "ex_2_4_1",
+        "type": "multiple_choice",
+        "prompt_bn": "'Lehrer' (শিক্ষক) শব্দের স্ত্রীলিঙ্গ রূপ কোনটি?",
+        "explanation_bn": "নারী শিক্ষিকা হলো 'die Lehrerin' (-in প্রত্যয় যোগ হয়)।",
+        "question": "'Lehrer' এর নারী রূপ কোনটি?",
+        "options": [
+          "Lehrerin",
+          "Lehrerfrau",
+          "Lehrerinon",
+          "Lehrerinette"
+        ],
+        "correctAnswer": "Lehrerin"
+      },
+      {
+        "id": "ex_2_4_2",
+        "type": "fill_blank",
+        "prompt_bn": "সঠিক রূপটি বসান: 'Ich arbeite ___ Ingenieur bei Siemens.'",
+        "explanation_bn": "কোনো পেশা হিসেবে কাজ করা বোঝাতে \"arbeiten als\" ব্যবহৃত হয়।",
+        "sentenceWithBlank": "Ich arbeite ___ Ingenieur bei Siemens.",
+        "blankType": "preposition",
+        "options": [
+          "als",
+          "wie",
+          "für",
+          "mit"
+        ],
+        "correctAnswer": "als",
+        "translation_bn": "আমি সিমেন্সে ইঞ্জিনিয়ার হিসেবে কাজ করি।"
+      },
+      {
+        "id": "ex_2_4_3",
+        "type": "sentence_builder",
+        "prompt_bn": "সাজিয়ে বাক্য লিখুন: 'আপনার পেশা কী?'",
+        "explanation_bn": "Was sind Sie von Beruf?",
+        "targetSentence": "Was sind Sie von Beruf?",
+        "scrambledWords": [
+          "Beruf?",
+          "Was",
+          "von",
+          "sind",
+          "Sie"
+        ],
+        "meaning_bn": "আপনার পেশা কী?"
+      },
+      {
+        "id": "ex_2_4_4",
+        "type": "conjugation_quiz",
+        "prompt_bn": "'du' এর সাথে 'arbeiten' ক্রিয়ার রূপ কোনটি?",
+        "explanation_bn": "arbeiten ক্রিয়ার মূল ধাতুর শেষে -t থাকায় du-এর সাথে অতিরিক্ত একটি -e- যুক্ত হয়ে হয় \"arbeitest\"।",
+        "verb": "arbeiten",
+        "pronoun": "du",
+        "meaning_bn": "তুমি কাজ করো",
+        "options": [
+          "arbeitest",
+          "arbeitst",
+          "arbeitet",
+          "arbeite"
+        ],
+        "correctAnswer": "arbeitest"
       }
     ]
   }

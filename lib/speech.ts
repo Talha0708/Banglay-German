@@ -1,56 +1,6 @@
-// lib/speech.ts - German speech synthesis with async voice resolution and fallback
+// lib/speech.ts - Premium Natural German Speech Synthesis with iOS/Safari Optimization
 
-type SpeechRate = 'normal' | 'slow';
-
-let germanVoice: SpeechSynthesisVoice | null = null;
-let voicesLoaded = false;
-
-function loadGermanVoice(): Promise<SpeechSynthesisVoice | null> {
-  return new Promise((resolve) => {
-    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
-      resolve(null);
-      return;
-    }
-
-    const findVoice = () => {
-      const voices = window.speechSynthesis.getVoices();
-      // Look for de-DE or any German voice
-      const voice =
-        voices.find((v) => v.lang === 'de-DE' || v.lang === 'de_DE') ||
-        voices.find((v) => v.lang.toLowerCase().startsWith('de')) ||
-        null;
-      germanVoice = voice;
-      voicesLoaded = true;
-      return voice;
-    };
-
-    const immediate = findVoice();
-    if (immediate) {
-      resolve(immediate);
-      return;
-    }
-
-    // iOS and Chrome populate voices asynchronously
-    const onVoicesChanged = () => {
-      const v = findVoice();
-      window.speechSynthesis.removeEventListener('voiceschanged', onVoicesChanged);
-      resolve(v);
-    };
-
-    window.speechSynthesis.addEventListener('voiceschanged', onVoicesChanged);
-
-    // Timeout fallback after 1.5s
-    setTimeout(() => {
-      window.speechSynthesis.removeEventListener('voiceschanged', onVoicesChanged);
-      resolve(germanVoice);
-    }, 1500);
-  });
-}
-
-// Pre-warm voices on first client load
-if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-  loadGermanVoice();
-}
+export type SpeechRate = 'normal' | 'slow';
 
 export interface SpeakOptions {
   rate?: SpeechRate;
@@ -59,46 +9,182 @@ export interface SpeakOptions {
   onError?: (err: Error) => void;
 }
 
+// Module-level references to prevent iOS Safari garbage collection during speech playback
+let activeUtterance: SpeechSynthesisUtterance | null = null;
+let cachedBestGermanVoice: SpeechSynthesisVoice | null = null;
+let isVoiceInitialized = false;
+
+/**
+ * Score German voices to select the most natural, human-like voice available on
+ * iOS (Anna Enhanced, Helena, Martin), Android (Google Deutsch), Windows/Edge
+ * (Stefan/Katja Natural), or macOS.
+ */
+function evaluateVoiceQuality(voice: SpeechSynthesisVoice): number {
+  const lang = (voice.lang || '').toLowerCase();
+  if (!lang.startsWith('de')) return -1;
+
+  let score = 10;
+  const name = (voice.name || '').toLowerCase();
+
+  // Prefer standard German Germany (de-DE)
+  if (lang === 'de-de' || lang === 'de_de') {
+    score += 25;
+  } else if (lang.startsWith('de')) {
+    score += 15;
+  }
+
+  // Premium / Enhanced / Natural modern voice keywords
+  if (name.includes('enhanced')) score += 80;
+  if (name.includes('natural')) score += 75;
+  if (name.includes('premium')) score += 70;
+  if (name.includes('google')) score += 55; // Google Deutsch is smooth and natural
+  if (name.includes('online')) score += 50; // Edge/Azure neural voices
+  if (name.includes('siri') || name.includes('apple')) score += 40;
+
+  // Well-known high-quality German voice talent
+  if (
+    name.includes('anna') ||
+    name.includes('helena') ||
+    name.includes('marlene') ||
+    name.includes('martin') ||
+    name.includes('stefan') ||
+    name.includes('katja')
+  ) {
+    score += 30;
+  }
+
+  // Heavily penalize compact or robotic legacy TTS
+  if (name.includes('compact')) score -= 45;
+
+  return score;
+}
+
+function findBestGermanVoice(): SpeechSynthesisVoice | null {
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+    return null;
+  }
+
+  const voices = window.speechSynthesis.getVoices();
+  if (!voices || voices.length === 0) return null;
+
+  let bestVoice: SpeechSynthesisVoice | null = null;
+  let highestScore = -1;
+
+  for (const voice of voices) {
+    const score = evaluateVoiceQuality(voice);
+    if (score > highestScore) {
+      highestScore = score;
+      bestVoice = voice;
+    }
+  }
+
+  if (bestVoice) {
+    cachedBestGermanVoice = bestVoice;
+  }
+
+  return bestVoice;
+}
+
+function initVoices(): Promise<SpeechSynthesisVoice | null> {
+  return new Promise((resolve) => {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+      resolve(null);
+      return;
+    }
+
+    const immediate = findBestGermanVoice();
+    if (immediate) {
+      isVoiceInitialized = true;
+      resolve(immediate);
+      return;
+    }
+
+    const handleVoicesChanged = () => {
+      const v = findBestGermanVoice();
+      if (v) {
+        isVoiceInitialized = true;
+        window.speechSynthesis.removeEventListener('voiceschanged', handleVoicesChanged);
+        resolve(v);
+      }
+    };
+
+    window.speechSynthesis.addEventListener('voiceschanged', handleVoicesChanged);
+
+    // Safari / WebKit fallback timeout
+    setTimeout(() => {
+      window.speechSynthesis.removeEventListener('voiceschanged', handleVoicesChanged);
+      isVoiceInitialized = true;
+      resolve(cachedBestGermanVoice || findBestGermanVoice());
+    }, 1200);
+  });
+}
+
+// Warm up voices on client load
+if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+  initVoices();
+  window.speechSynthesis.addEventListener('voiceschanged', () => {
+    findBestGermanVoice();
+  });
+}
+
 export async function speakGerman(
   text: string,
   options: SpeakOptions = {}
 ): Promise<{ success: boolean; errorReason?: string }> {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
-    return { success: false, errorReason: 'আপনার ব্রাউজারে স্পিচ সাপোর্ট নেই।' };
+    return { success: false, errorReason: 'আপনার ডিভাইসে স্পিচ সিন্থেসিস সমর্থিত নয়।' };
   }
 
   try {
-    // Cancel any previous speaking to prevent queue blockage
+    // Cancel ongoing utterance
     window.speechSynthesis.cancel();
 
-    if (!voicesLoaded) {
-      await loadGermanVoice();
+    // Ensure voices are loaded
+    if (!isVoiceInitialized || !cachedBestGermanVoice) {
+      await initVoices();
     }
 
+    const voice = cachedBestGermanVoice || findBestGermanVoice();
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'de-DE';
+    activeUtterance = utterance; // Prevent garbage collection in iOS Safari
 
-    if (germanVoice) {
-      utterance.voice = germanVoice;
+    utterance.lang = voice?.lang || 'de-DE';
+    if (voice) {
+      utterance.voice = voice;
     }
 
-    // Set speed: normal = 0.95 (natural German tempo), slow = 0.70 (clear beginner tempo)
-    utterance.rate = options.rate === 'slow' ? 0.7 : 0.92;
+    // Natural German speaking cadence:
+    // 0.92 gives clear, human-like tempo on iOS/PC, 0.72 gives gentle learning pace
+    utterance.rate = options.rate === 'slow' ? 0.72 : 0.92;
     utterance.pitch = 1.0;
 
-    if (options.onStart) utterance.onstart = () => options.onStart?.();
-    if (options.onEnd) utterance.onend = () => options.onEnd?.();
+    utterance.onstart = () => {
+      options.onStart?.();
+    };
+
+    utterance.onend = () => {
+      activeUtterance = null;
+      options.onEnd?.();
+    };
+
     utterance.onerror = (e) => {
-      if (options.onError) {
-        options.onError(new Error(e.error || 'Speech synthesis error'));
+      activeUtterance = null;
+      if (e.error !== 'interrupted' && e.error !== 'canceled') {
+        options.onError?.(new Error(e.error || 'Speech error'));
       }
     };
+
+    // iOS Safari sometimes gets paused internally, resume ensures it speaks
+    if (window.speechSynthesis.paused) {
+      window.speechSynthesis.resume();
+    }
 
     window.speechSynthesis.speak(utterance);
     return { success: true };
   } catch (err: unknown) {
-    const message = err instanceof Error ? err.message : 'Unknown speech error';
-    return { success: false, errorReason: message };
+    activeUtterance = null;
+    const msg = err instanceof Error ? err.message : 'Unknown speech error';
+    return { success: false, errorReason: msg };
   }
 }
 

@@ -9,7 +9,6 @@ import {
   X,
   Smartphone,
   Apple,
-  WifiOff,
   Layers,
   Sparkles,
 } from 'lucide-react';
@@ -42,10 +41,10 @@ export const InstallGuideModal: React.FC<InstallGuideModalProps> = ({
             </div>
             <div>
               <h3 className="font-extrabold text-base text-slate-900 dark:text-white leading-tight">
-                অ্যাপ ইনস্টল ও ডাউনলোড নির্দেশিকা
+                অ্যাপ ইনস্টল নির্দেশিকা
               </h3>
               <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-                Android ও iOS-এ ১০০% অফলাইন ব্যবহারে ইনস্টল করুন
+                Android ও iOS ডিভাইসের হোম স্ক্রিনে সহজে যোগ করুন
               </p>
             </div>
           </div>
@@ -61,11 +60,11 @@ export const InstallGuideModal: React.FC<InstallGuideModalProps> = ({
 
         {/* Scrollable Body */}
         <div className="p-4 sm:p-5 overflow-y-auto space-y-4">
-          {/* Quick Offline Advantage Pill */}
+          {/* Quick Advantage Pill */}
           <div className="p-3 bg-blue-50/60 dark:bg-blue-950/30 rounded-2xl border border-blue-100 dark:border-blue-900/50 flex items-center gap-3">
-            <WifiOff className="w-5 h-5 text-blue-600 dark:text-blue-400 shrink-0" />
+            <Sparkles className="w-5 h-5 text-blue-600 dark:text-blue-400 shrink-0" />
             <p className="text-xs text-blue-950 dark:text-blue-200 leading-relaxed font-medium">
-              ইনস্টল করলে কোনো ইন্টারনেট ছাড়াই <strong>১৪০০+ শব্দ</strong>, উচ্চারণ অডিও ও সব অনুশীলন চলবে।
+              হোম স্ক্রিনে ইনস্টল করলে খুব সহজে <strong>১৪০০+ শব্দ</strong>, জার্মান অডিও ও সব অনুশীলন এক ট্যাপে ওপেন হবে।
             </p>
           </div>
 
@@ -198,7 +197,7 @@ export const InstallGuideModal: React.FC<InstallGuideModalProps> = ({
               ইনস্টল করা অ্যাপের বিশেষ সুবিধাসমূহ:
             </p>
             <ul className="list-disc list-inside space-y-0.5 pl-1">
-              <li>কোনো ইন্টারনেট সংযোগ ছাড়াই সম্পূর্ণ অফলাইন কাজ করে</li>
+              <li>দ্রুত ও স্বাচ্ছন্দ্যে যেকোনো সময় সহজে শেখা যায়</li>
               <li>ব্রাউজার ফ্রেম ছাড়া ফুলস্ক্রিন নেটিভ অ্যাপের অনুভূতি</li>
               <li>আপনার শেখার অগ্রগতি স্বয়ংক্রিয়ভাবে মেমোরিতে সেভ থাকে</li>
             </ul>
