@@ -60,6 +60,9 @@ export const WordBankView: React.FC = () => {
         )}
       </div>
 
+      {/* Top Banner */}
+      <AdBanner slot="320x50" />
+
       {/* Topic Filter Pills */}
       <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
         <button

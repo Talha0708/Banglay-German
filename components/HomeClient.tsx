@@ -330,6 +330,9 @@ export default function HomeClient() {
             {/* Sentence of the Day */}
             <SentenceOfTheDay />
 
+            {/* Native Ad Placement */}
+            <AdBanner slot="native" />
+
             {/* Quick Stats Grid */}
             <div className="grid grid-cols-3 gap-2.5">
               <div className="p-3.5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-center shadow-sm">
@@ -423,9 +426,78 @@ export default function HomeClient() {
               </div>
             </div>
 
+            {/* Top In-Feed Ad Banner */}
+            <div className="w-full flex justify-center pt-1">
+              <AdBanner slot="320x50" />
+            </div>
+
+            {/* Quick Access Foundation Studios */}
+            <div className="space-y-2.5">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-bold text-slate-800 dark:text-slate-200 flex items-center gap-1.5">
+                  <Sparkles className="w-4 h-4 text-amber-500" />
+                  মৌলিক ফাউন্ডেশন স্টুডিও (বর্ণমালা, সংখ্যা ও সময়)
+                </span>
+                <span className="text-[11px] text-blue-600 dark:text-blue-400 font-semibold">
+                  ইন্টারেক্টিভ
+                </span>
+              </div>
+
+              <div className="grid grid-cols-3 gap-2">
+                <button
+                  type="button"
+                  onClick={() => setActiveLessonId('lesson_0_1')}
+                  className="p-3 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-blue-500 transition text-center shadow-xs active:scale-95 flex flex-col items-center justify-between"
+                >
+                  <div className="w-8 h-8 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black text-xs mb-1.5 shadow-xs">
+                    A–Z
+                  </div>
+                  <span className="text-xs font-bold text-slate-900 dark:text-white block">
+                    বর্ণমালা
+                  </span>
+                  <span className="text-[10px] text-slate-500 dark:text-slate-400 block mt-0.5">
+                    A–Z ও সাউন্ড
+                  </span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => setActiveLessonId('lesson_0_4')}
+                  className="p-3 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-emerald-500 transition text-center shadow-xs active:scale-95 flex flex-col items-center justify-between"
+                >
+                  <div className="w-8 h-8 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-black text-xs mb-1.5 shadow-xs">
+                    0–100
+                  </div>
+                  <span className="text-xs font-bold text-slate-900 dark:text-white block">
+                    সংখ্যা ও দাম
+                  </span>
+                  <span className="text-[10px] text-slate-500 dark:text-slate-400 block mt-0.5">
+                    ০–১০০+, € দাম
+                  </span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => setActiveLessonId('lesson_0_5')}
+                  className="p-3 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-indigo-500 transition text-center shadow-xs active:scale-95 flex flex-col items-center justify-between"
+                >
+                  <div className="w-8 h-8 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-black text-xs mb-1.5 shadow-xs">
+                    📅
+                  </div>
+                  <span className="text-xs font-bold text-slate-900 dark:text-white block">
+                    সময় ও রং
+                  </span>
+                  <span className="text-[10px] text-slate-500 dark:text-slate-400 block mt-0.5">
+                    দিন, মাস, ঘড়ি
+                  </span>
+                </button>
+              </div>
+            </div>
+
             {/* Units & Lessons Timeline */}
             <div className="space-y-8">
               {UNITS.map((unit) => (
+                <React.Fragment key={unit.id}>
                 <div key={unit.id} className="space-y-3">
                   {/* Unit Banner */}
                   <div
@@ -506,11 +578,15 @@ export default function HomeClient() {
                     })}
                   </div>
                 </div>
-              ))}
-            </div>
+                {unit.id === 'level_0' && <AdBanner slot="native" />}
+                {unit.id === 'unit_3' && <AdBanner slot="300x250" />}
+                {unit.id === 'unit_6' && <AdBanner slot="native" />}
+              </React.Fragment>
+            ))}
+          </div>
 
-            {/* Advertisement Placement */}
-            <AdBanner slot="300x250" />
+          {/* Advertisement Placement */}
+          <AdBanner slot="300x250" />
 
             <BrandFooter className="pt-2" />
           </div>

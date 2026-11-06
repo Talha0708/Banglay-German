@@ -426,7 +426,7 @@ export const DailySentencesView: React.FC<DailySentencesViewProps> = ({
           })}
 
           {/* Advertisement in Sentences List */}
-          <AdBanner slot="300x250" />
+          <AdBanner slot="native" />
         </div>
       )}
 

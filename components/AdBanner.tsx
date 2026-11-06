@@ -44,24 +44,24 @@ export const AdBanner: React.FC<AdBannerProps> = ({
 </html>`;
 
     return (
-      <div className={`w-full flex flex-col items-center justify-center my-4 overflow-hidden ${className}`}>
+      <div className={`w-full flex flex-col items-center justify-center my-3 overflow-hidden ${className}`}>
         {showLabel && (
           <span className="text-[10px] uppercase font-bold text-slate-400 dark:text-slate-500 mb-1 tracking-wider">
             বিজ্ঞাপন
           </span>
         )}
-        <div className="w-full max-w-[360px] min-h-[160px] rounded-2xl overflow-hidden border border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-slate-900/60 shadow-xs flex justify-center">
+        <div className="w-full max-w-[360px] min-h-[190px] rounded-2xl overflow-hidden border border-slate-200/80 dark:border-slate-800/80 bg-white dark:bg-slate-900/60 shadow-xs flex justify-center">
           {mounted ? (
             <iframe
               id={`ad-native-${safeId}`}
               title="Banglay German Native Ad"
               srcDoc={nativeSrcDoc}
-              className="w-full min-h-[160px] border-0 overflow-hidden"
+              className="w-full min-h-[190px] border-0 overflow-hidden"
               loading="lazy"
               sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"
             />
           ) : (
-            <div className="w-full min-h-[160px] flex items-center justify-center text-xs text-slate-400">
+            <div className="w-full min-h-[190px] flex items-center justify-center text-xs text-slate-400">
               বিজ্ঞাপন লোড হচ্ছে...
             </div>
           )}

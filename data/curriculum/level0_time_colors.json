@@ -1,39 +1,59 @@
 {
   "id": "lesson_0_5",
   "unitId": "level_0",
-  "title_bn": "বার, মাস, ঋতু, সময় ও রঙের নাম",
+  "title_bn": "বার, মাস, ঋতু, ঘড়ির সময় ও রঙের নাম",
   "title_en": "Days, Months, Seasons, Time & Colors",
   "subtitle_de": "Tage, Monate, Uhrzeit und Farben",
   "order": 5,
   "content": {
-    "intro_bn": "জার্মান দৈনন্দিন জীবনের অন্যতম গুরুত্বপূর্ণ অংশ হলো দিন ও সময়ের ব্যবহার:\n• সপ্তাহের সাত দিন: Montag (সোমবার), Dienstag (মঙ্গলবার), Mittwoch (বুধবার), Donnerstag (বৃহস্পতিবার), Freitag (শুক্রবার), Samstag (শনিবার), Sonntag (রবিবার)।\n• দিনের বারের আগে সবসময় 'am' বসে (যেমন: am Montag = সোমবারে)।\n• ঘড়ির সময় দুইভাবে বলা হয়:\n  ১. আনুষ্ঠানিক (অফিস/ট্রেন): 14:15 = vierzehn Uhr fünfzehn\n  ২. অনানুষ্ঠানিক (কথ্য): Viertel nach zwei (সোয়া দুইটা), halb drei (আড়াইটা - পরের ঘণ্টার অর্ধেক!)",
-    "intro_en": "Learn weekdays, months, time telling (formal & informal), and basic colors. Remember: weekdays always take the preposition 'am' (e.g. am Montag). In informal time, 'halb drei' means 2:30 (halfway to three).",
+    "intro_bn": "জার্মান দৈনন্দিন জীবনের অন্যতম গুরুত্বপূর্ণ অংশ হলো দিন, মাস, সময় ও রঙের ব্যবহার:\n• সপ্তাহের সাত দিন: Montag (সোম), Dienstag (মঙ্গল), Mittwoch (বুধ), Donnerstag (বৃহস্পতি), Freitag (শুক্র), Samstag (শনি), Sonntag (রবি)। বারের আগে সবসময় 'am' বসে (am Montag = সোমবারে)।\n• ১২ মাস ও ৪ ঋতু: Januar থেকে Dezember এবং der Frühling (বসন্ত), der Sommer (গ্রীষ্ম), der Herbst (শরৎ), der Winter (শীত)। মাস ও ঋতুর আগে সবসময় 'im' বসে (im Januar, im Sommer)।\n• ঘড়ির সময়:\n  ১. কথ্য সময়: 'halb drei' মানে ২:৩০ (তিনটার দিকে অর্ধেক বাকি—আড়াইটা!)। 'Viertel nach acht' = ৮:১৫ (সোয়া আটটা)। 'Viertel vor neun' = ৮:৪৫ (পৌনে নয়টা)।\n  ২. সময়ের আগে সবসময় 'um' বসে (um 8 Uhr = আটটায়)।\n• মূল রং: rot (লাল), blau (নীল), grün (সবুজ), gelb (হলুদ), schwarz (কালো), weiß (সাদা), grau (ধূসর), braun (বাদামি)।",
+    "intro_en": "Learn weekdays, months, 4 seasons, formal and colloquial time telling, and basic colors. Remember: weekdays take 'am', months & seasons take 'im', clock time takes 'um', and 'halb vier' means 3:30 (halfway to four).",
     "examples": [
       { "de": "am Montag", "bn": "সোমবারে", "note": "বারের আগে 'am' বসে" },
+      { "de": "im Sommer / im Januar", "bn": "গ্রীষ্মকালে / জানুয়ারিতে", "note": "মাস ও ঋতুর আগে 'im' বসে" },
       { "de": "Wie viel Uhr ist es? / Wie spät ist es?", "bn": "কয়টা বাজে?", "note": "সময় জিজ্ঞেস করার মূল বাক্য" },
-      { "de": "Es ist 8 Uhr.", "bn": "এখন আটটা বাজে।", "note": "সাধারণ সময়" },
-      { "de": "Es ist halb drei.", "bn": "এখন আড়াইটা (২:৩০) বাজে।", "note": "halb + পরবর্তী ঘণ্টা" },
-      { "de": "Der Himmel ist blau.", "bn": "আকাশ নীল।", "note": "রং এর ব্যবহার" }
+      { "de": "Es ist 8 Uhr. (um 8 Uhr)", "bn": "এখন আটটা বাজে। (আটটায়)", "note": "সময়ের আগে 'um' বসে" },
+      { "de": "Es ist halb drei.", "bn": "এখন আড়াইটা (২:৩০) বাজে।", "note": "পরবর্তী ঘণ্টা ৩ এর অর্ধেক বাকি" },
+      { "de": "Es ist Viertel nach acht.", "bn": "এখন সোয়া আটটা (৮:১৫)।", "note": "আটটা বেজে ১৫ মিনিট" },
+      { "de": "Der Himmel ist blau und das Gras ist grün.", "bn": "আকাশ নীল এবং ঘাস সবুজ।", "note": "রং এর ব্যবহার" }
     ]
   },
   "vocabulary": [
     { "id": "v_l05_1", "german": "Montag", "article": "der", "pos": "noun", "bengali": "সোমবার", "english": "Monday", "pronunciationBn": "মোনতাগ", "example_de": "Am Montag arbeite ich.", "example_bn": "সোমবারে আমি কাজ করি।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_di", "german": "Dienstag", "article": "der", "pos": "noun", "bengali": "মঙ্গলবার", "english": "Tuesday", "pronunciationBn": "ডিন্সতাগ", "example_de": "Am Dienstag lerne ich.", "example_bn": "মঙ্গলবারে আমি শিখি।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_mi", "german": "Mittwoch", "article": "der", "pos": "noun", "bengali": "বুধবার", "english": "Wednesday", "pronunciationBn": "মিটভখ", "example_de": "Mittwoch ist die Mitte der Woche.", "example_bn": "বুধবার সপ্তাহের মধ্যভাগ।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_do", "german": "Donnerstag", "article": "der", "pos": "noun", "bengali": "বৃহস্পতিবার", "english": "Thursday", "pronunciationBn": "ডনার্সতাগ", "example_de": "Am Donnerstag habe ich Zeit.", "example_bn": "বৃহস্পতিবারে আমার সময় আছে।", "topic": "time_calendar", "level": "A1" },
     { "id": "v_l05_2", "german": "Freitag", "article": "der", "pos": "noun", "bengali": "শুক্রবার", "english": "Friday", "pronunciationBn": "ফ্রায়তাগ", "example_de": "Am Freitag treffe ich Freunde.", "example_bn": "শুক্রবারে বন্ধুদের সাথে দেখা করি।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_sa", "german": "Samstag", "article": "der", "pos": "noun", "bengali": "শনিবার", "english": "Saturday", "pronunciationBn": "জাম্সতাগ", "example_de": "Am Samstag schlafe ich lange.", "example_bn": "শনিবারে আমি দীর্ঘক্ষণ ঘুমাই।", "topic": "time_calendar", "level": "A1" },
     { "id": "v_l05_3", "german": "Sonntag", "article": "der", "pos": "noun", "bengali": "রবিবার", "english": "Sunday", "pronunciationBn": "জোনতাগ", "example_de": "Sonntag ist frei.", "example_bn": "রবিবার ছুটি।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_we", "german": "Wochenende", "article": "das", "plural": "die Wochenenden", "pos": "noun", "bengali": "সাপ্তাহিক ছুটি", "english": "weekend", "pronunciationBn": "ভোখেন-এন্ডে", "example_de": "Schönes Wochenende!", "example_bn": "শুভ ছুটির দিন!", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_jan", "german": "Januar", "article": "der", "pos": "noun", "bengali": "জানুয়ারি", "english": "January", "pronunciationBn": "ইয়ানুয়ার", "example_de": "Im Januar ist es kalt.", "example_bn": "জানুয়ারিতে শীত থাকে।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_jul", "german": "Juli", "article": "der", "pos": "noun", "bengali": "জুলাই", "english": "July", "pronunciationBn": "ইউলি", "example_de": "Im Juli ist Sommer.", "example_bn": "জুলাই মাসে গ্রীষ্মকাল।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_som", "german": "Sommer", "article": "der", "pos": "noun", "bengali": "গ্রীষ্মকাল", "english": "summer", "pronunciationBn": "জোমার", "example_de": "Der Sommer ist warm.", "example_bn": "গ্রীষ্মকাল উষ্ণ।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_win", "german": "Winter", "article": "der", "pos": "noun", "bengali": "শীতকাল", "english": "winter", "pronunciationBn": "ভিন্টার", "example_de": "Im Winter schneit es.", "example_bn": "শীতকালে তুষারপাত হয়।", "topic": "time_calendar", "level": "A1" },
     { "id": "v_l05_4", "german": "Uhr", "article": "die", "plural": "die Uhren", "pos": "noun", "bengali": "ঘড়ি / বাজে", "english": "clock / o'clock", "pronunciationBn": "উর", "example_de": "Wie viel Uhr ist es?", "example_bn": "কয়টা বাজে?", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_spat", "german": "spät", "article": null, "pos": "adjective", "bengali": "দেরি / সময়", "english": "late", "pronunciationBn": "শ্পেট", "example_de": "Wie spät ist es?", "example_bn": "কয়টা বাজে?", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_halb", "german": "halb", "article": null, "pos": "adverb", "bengali": "অর্ধেক / সাড়ে", "english": "half", "pronunciationBn": "হাল্প", "example_de": "Es ist halb drei.", "example_bn": "এখন আড়াইটা (২:৩০) বাজে।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_viertel", "german": "Viertel", "article": "das", "plural": "die Viertel", "pos": "noun", "bengali": "এক চতুর্থাংশ / সোয়া / পৌনে", "english": "quarter", "pronunciationBn": "ফিয়ার্টেল", "example_de": "Viertel nach acht.", "example_bn": "সোয়া আটটা।", "topic": "time_calendar", "level": "A1" },
     { "id": "v_l05_5", "german": "heute", "article": null, "pos": "adverb", "bengali": "আজ", "english": "today", "pronunciationBn": "হয়টে", "example_de": "Heute ist schönes Wetter.", "example_bn": "আজকের আবহাওয়া সুন্দর।", "topic": "time_calendar", "level": "A1" },
     { "id": "v_l05_6", "german": "morgen", "article": null, "pos": "adverb", "bengali": "আগামীকাল", "english": "tomorrow", "pronunciationBn": "মর্গেন", "example_de": "Bis morgen!", "example_bn": "কাল দেখা হবে!", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l05_ges", "german": "gestern", "article": null, "pos": "adverb", "bengali": "গতকাল", "english": "yesterday", "pronunciationBn": "গেস্টার্ন", "example_de": "Gestern war Sonntag.", "example_bn": "গতকাল রবিবার ছিল।", "topic": "time_calendar", "level": "A1" },
     { "id": "v_l05_7", "german": "rot", "article": null, "pos": "adjective", "bengali": "লাল", "english": "red", "pronunciationBn": "রোট", "example_de": "Das Auto ist rot.", "example_bn": "গাড়িটি লাল।", "topic": "colors", "level": "A1" },
-    { "id": "v_l05_8", "german": "blau", "article": null, "pos": "adjective", "bengali": "নীল", "english": "blue", "pronunciationBn": "ব্লাউ", "example_de": "Das Hemd ist blau.", "example_bn": "শার্টটি নীল।", "topic": "colors", "level": "A1" }
+    { "id": "v_l05_8", "german": "blau", "article": null, "pos": "adjective", "bengali": "নীল", "english": "blue", "pronunciationBn": "ব্লাউ", "example_de": "Das Hemd ist blau.", "example_bn": "শার্টটি নীল।", "topic": "colors", "level": "A1" },
+    { "id": "v_l05_grun", "german": "grün", "article": null, "pos": "adjective", "bengali": "সবুজ", "english": "green", "pronunciationBn": "গ্র্যু্যন", "example_de": "Der Apfel ist grün.", "example_bn": "আপেলটি সবুজ।", "topic": "colors", "level": "A1" },
+    { "id": "v_l05_gelb", "german": "gelb", "article": null, "pos": "adjective", "bengali": "হলুদ", "english": "yellow", "pronunciationBn": "গেল্প", "example_de": "Die Sonne ist gelb.", "example_bn": "সূর্য হলুদ।", "topic": "colors", "level": "A1" },
+    { "id": "v_l05_schw", "german": "schwarz", "article": null, "pos": "adjective", "bengali": "কালো", "english": "black", "pronunciationBn": "শোয়ার্ৎস", "example_de": "Schwarzer Tee.", "example_bn": "রং চা (কালো চা)।", "topic": "colors", "level": "A1" },
+    { "id": "v_l05_weis", "german": "weiß", "article": null, "pos": "adjective", "bengali": "সাদা", "english": "white", "pronunciationBn": "ভায়স", "example_de": "Die Milch ist weiß.", "example_bn": "দুধ সাদা।", "topic": "colors", "level": "A1" }
   ],
   "grammarTip": {
-    "title_bn": "জার্মান অনানুষ্ঠানিক সময়: 'halb' এর বিশেষ নিয়ম",
-    "title_en": "Informal Time: The 'halb' Rule",
-    "content_bn": "কথ্য জার্মান ভাষায় 'halb' মানে 'পরবর্তী ঘণ্টার আধা ঘণ্টা বাকি'!\n• halb drei = ২:৩০ (তিনটার দিকে অর্ধেক পথ এগিয়ে গেছে, অর্থাৎ আড়াইটা!)\n• halb acht = ৭:৩০ (সাড়ে সাতটা!)\nআর বারের আগে সবসময় 'am' বসে: am Montag, am Dienstag, am Wochenende (সাপ্তাহিক ছুটিতে)।\nনির্দিষ্ট সময়ের আগে 'um' বসে: um 8 Uhr (আটটায়)।",
+    "title_bn": "সময়, দিন ও মাসের ৩টি মূল প্রেপজিশন",
+    "title_en": "Key Prepositions: am, um, im & the 'halb' rule",
+    "content_bn": "এই তিনটি প্রেপজিশন মুখস্থ রাখুন, পরীক্ষায় সবসময় আসে:\n১. 'am' বসে বারের আগে: am Montag, am Dienstag, am Wochenende।\n২. 'um' বসে নির্দিষ্ট ঘড়ির সময়ের আগে: um 8 Uhr, um halb neun।\n৩. 'im' বসে মাস ও ঋতুর আগে: im Januar, im Sommer, im Winter।\n\nকথ্য জার্মানিতে 'halb' এর নিয়ম:\n'halb vier' মানে চারের অর্ধেক বাকি, অর্থাৎ ৩:৩০ (সাড়ে তিনটা)!\n'halb acht' মানে আটের অর্ধেক বাকি, অর্থাৎ ৭:৩০ (সাড়ে সাতটা)!",
     "rule_table": [
-      { "label": "halb drei", "value": "২:৩০", "note": "তিনটার আধা ঘণ্টা বাকি = আড়াইটা" },
-      { "label": "am Montag", "value": "সোমবারে", "note": "বারের সাথে 'am'" },
-      { "label": "um 8 Uhr", "value": "আটটায়", "note": "সময়ের সাথে 'um'" }
+      { "label": "am", "value": "বারের সাথে", "note": "am Montag (সোমবারে)" },
+      { "label": "um", "value": "নির্দিষ্ট সময়ের সাথে", "note": "um 8 Uhr (আটটায়)" },
+      { "label": "im", "value": "মাস ও ঋতুর সাথে", "note": "im Sommer, im Januar" },
+      { "label": "halb drei", "value": "২:৩০ (আড়াইটা)", "note": "তিনটার আধা ঘণ্টা বাকি" }
     ]
   },
   "exercises": [
@@ -61,7 +81,7 @@
       "id": "ex_0_5_3",
       "type": "matching_pairs",
       "prompt_bn": "সপ্তাহের দিনের সঠিক বাংলা অর্থ মেলান:",
-      "explanation_bn": "Montag = সোমবার, Freitag = শুক্রবার, Sonntag = রবিবার, Mittwoch = বুধবার",
+      "explanation_bn": "Montag = সোমবার, Mittwoch = বুধবার, Freitag = শুক্রবার, Sonntag = রবিবার",
       "pairs": [
         { "german": "Montag", "bengali": "সোমবার" },
         { "german": "Mittwoch", "bengali": "বুধবার" },
@@ -116,6 +136,48 @@
       "question": "'rot' এর সঠিক অর্থ কোনটি?",
       "options": ["লাল", "নীল", "সবুজ", "হলুদ"],
       "correctAnswer": "লাল"
+    },
+    {
+      "id": "ex_0_5_9",
+      "type": "fill_blank",
+      "prompt_bn": "মাসের আগে সঠিক প্রেপজিশন বসান: 'Ich habe Geburtstag ___ Januar.' (জানুয়ারিতে আমার জন্মদিন)",
+      "explanation_bn": "মাসের আগে সবসময় 'im' বসে (im Januar)।",
+      "sentenceWithBlank": "Ich habe Geburtstag ___ Januar.",
+      "blankType": "preposition",
+      "options": ["im", "am", "um", "in"],
+      "correctAnswer": "im",
+      "translation_bn": "জানুয়ারিতে আমার জন্মদিন।"
+    },
+    {
+      "id": "ex_0_5_10",
+      "type": "matching_pairs",
+      "prompt_bn": "রঙের সাথে সঠিক জার্মান নাম মেলান:",
+      "explanation_bn": "সবুজ = grün, হলুদ = gelb, কালো = schwarz, সাদা = weiß",
+      "pairs": [
+        { "german": "grün", "bengali": "সবুজ" },
+        { "german": "gelb", "bengali": "হলুদ" },
+        { "german": "schwarz", "bengali": "কালো" },
+        { "german": "weiß", "bengali": "সাদা" }
+      ]
+    },
+    {
+      "id": "ex_0_5_11",
+      "type": "listening",
+      "prompt_bn": "অডিও শুনে বলুন কোন বারের কথা বলা হয়েছে:",
+      "explanation_bn": "সঠিক বারটি হলো 'Freitag' (শুক্রবার)।",
+      "audioText": "Freitag",
+      "options": ["Freitag (শুক্রবার)", "Montag (সোমবার)", "Sonntag (রবিবার)", "Dienstag (মঙ্গলবার)"],
+      "correctAnswer": "Freitag (শুক্রবার)"
+    },
+    {
+      "id": "ex_0_5_12",
+      "type": "typing",
+      "prompt_bn": "'আগামীকাল' এর জার্মান শব্দটি লিখুন (morgen):",
+      "explanation_bn": "আগামীকাল = morgen।",
+      "prompt": "আগামীকাল",
+      "correctAnswer": "morgen",
+      "acceptedAnswers": ["morgen", "Morgen"],
+      "placeholder": "যেমন: morgen"
     }
   ]
 }

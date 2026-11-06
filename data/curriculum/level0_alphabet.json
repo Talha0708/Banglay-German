@@ -1,20 +1,22 @@
 {
   "id": "lesson_0_1",
   "unitId": "level_0",
-  "title_bn": "জার্মান বর্ণমালা (A–Z)",
-  "title_en": "German Alphabet (A–Z)",
+  "title_bn": "জার্মান বর্ণমালা (A–Z) ও উচ্চারণবিধি",
+  "title_en": "German Alphabet (A–Z) & Pronunciation",
   "subtitle_de": "Das deutsche Alphabet",
   "order": 1,
   "content": {
-    "intro_bn": "জার্মান বর্ণমালায় ইংরেজি ২৬টি অক্ষরের সাথে চারটি বিশেষ অক্ষর আছে। অক্ষরের নাম এবং উচ্চারণ অনেকটাই বাংলার কাছাকাছি। যেমন: 'W' কে ইংরেজিতে 'ডাবল-ইউ' কিন্তু জার্মানে 'ভি' (ভ) উচ্চারণ করা হয়, আর 'V' এর উচ্চারণ হয় 'ফাউ' (ফ)।",
-    "intro_en": "The German alphabet uses the same 26 letters as English, plus 4 special characters. In German, 'W' is pronounced like 'V', and 'V' is pronounced like 'F'.",
+    "intro_bn": "জার্মান বর্ণমালায় ইংরেজি ২৬টি মূল অক্ষরের সাথে আরও চারটি বিশেষ অক্ষর (Ä, Ö, Ü এবং ß) রয়েছে। জার্মান ভাষা প্রায় পুরোপুরি উচ্চারণভিত্তিক (Phonetic Language)—অর্থাৎ যেভাবে লেখা হয়, প্রায় হুবহু সেভাবেই উচ্চারণ করা হয়!\nসবচেয়ে গুরুত্বপূর্ণ ৪টি অক্ষরের উচ্চারণ মনে রাখুন:\n• 'W' ইংরেজিতে ডাবল-ইউ হলেও জার্মানে এর উচ্চারণ সবসময় বাংলা 'ভ' বা ইংরেজি V এর মতো (যেমন: Wasser = ভাসার)।\n• 'V' ইংরেজিতে ভি হলেও জার্মানে এর উচ্চারণ প্রায় সবসময় বাংলা 'ফ' এর মতো (যেমন: Vater = ফাটার, Vier = ফিয়ার)।\n• 'J' সবসময় বাংলায় 'য়' (Y) এর মতো ধ্বনি দেয় (যেমন: Ja = ইয়া, Jahr = ইয়ার)।\n• 'Z' সবসময় বাংলায় 'ৎস' (TS) ধ্বনি দেয় (যেমন: Zug = ৎসুক, Zeit = ৎসায়ট)।",
+    "intro_en": "The German alphabet consists of the 26 standard Latin letters plus 4 special characters (Ä, Ö, Ü, ß). German is highly phonetic. Key rules: W is pronounced like English V, V is pronounced like F, J is pronounced like Y, and Z is pronounced like TS.",
     "examples": [
-      { "de": "A - der Apfel", "bn": "A (আ) - Apfel (আপেল)", "note": "আকারের মতো স্পষ্ট উচ্চারণ" },
+      { "de": "A - der Apfel", "bn": "A (আ) - Apfel (আপেল)", "note": "স্পষ্ট আকারের মতো উচ্চারণ" },
       { "de": "B - das Buch", "bn": "B (বে) - Buch (বই)", "note": "বাংলা 'ব' এর মতো" },
-      { "de": "C - das Café", "bn": "C (ৎসে) - Café (ক্যাফে)", "note": "'ৎস' বা 'ক' এর মতো" },
-      { "de": "J - das Jahr", "bn": "J (ইয়ট) - Jahr (বছর)", "note": "বাংলা 'য়' (Y) এর মতো ধ্বনি" },
-      { "de": "V - der Vater", "bn": "V (ফাউ) - Vater (বাবা)", "note": "বাংলা 'ফ' এর মতো উচ্চারণ" },
-      { "de": "W - das Wasser", "bn": "W (ভে) - Wasser (পানি)", "note": "বাংলা 'ভ' বা ইংরেজি V এর মতো" }
+      { "de": "C - das Café", "bn": "C (ৎসে) - Café (ক্যাফে)", "note": "এককভাবে 'ৎস', বিদেশী শব্দে 'ক'" },
+      { "de": "J - das Jahr", "bn": "J (ইয়ট) - Jahr (বছর)", "note": "সবসময় বাংলা 'য়' (Y) ধ্বনি" },
+      { "de": "V - der Vater", "bn": "V (ফাউ) - Vater (বাবা)", "note": "বাংলা 'ফ' (F) এর মতো উচ্চারণ" },
+      { "de": "W - das Wasser", "bn": "W (ভে) - Wasser (পানি)", "note": "বাংলা 'ভ' বা ইংরেজি V এর মতো" },
+      { "de": "Z - der Zug", "bn": "Z (ৎসেট) - Zug (ট্রেন)", "note": "বাংলা 'ৎস' (TS) ধ্বনি" },
+      { "de": "ß - die Straße", "bn": "ß (এস-ৎসেট) - Straße (রাস্তা)", "note": "তীব্র 'স' (scharfes S)" }
     ]
   },
   "vocabulary": [
@@ -22,20 +24,36 @@
     { "id": "v_l0_2", "german": "Buch", "article": "das", "plural": "die Bücher", "pos": "noun", "bengali": "বই", "english": "book", "pronunciationBn": "বুখ", "example_de": "Das Buch ist gut.", "example_bn": "বইটি ভালো।", "topic": "hobbies", "level": "A1" },
     { "id": "v_l0_3", "german": "Café", "article": "das", "plural": "die Cafés", "pos": "noun", "bengali": "ক্যাফে", "english": "café", "pronunciationBn": "কাফে", "example_de": "Ein schönes Café.", "example_bn": "একটি সুন্দর ক্যাফে।", "topic": "food_drinks", "level": "A1" },
     { "id": "v_l0_4", "german": "Danke", "article": null, "pos": "phrase", "bengali": "ধন্যবাদ", "english": "thank you", "pronunciationBn": "ডাঙ্কে", "example_de": "Danke schön!", "example_bn": "অনেক ধন্যবাদ!", "topic": "greetings", "level": "A1" },
+    { "id": "v_l0_e", "german": "Elefant", "article": "der", "plural": "die Elefanten", "pos": "noun", "bengali": "হাতি", "english": "elephant", "pronunciationBn": "এলেফান্ট", "example_de": "Der Elefant ist groß.", "example_bn": "হাতিটি বড়।", "topic": "hobbies", "level": "A1" },
+    { "id": "v_l0_f", "german": "Familie", "article": "die", "plural": "die Familien", "pos": "noun", "bengali": "পরিবার", "english": "family", "pronunciationBn": "ফামিলিয়ে", "example_de": "Meine Familie ist hier.", "example_bn": "আমার পরিবার এখানে।", "topic": "family", "level": "A1" },
+    { "id": "v_l0_g", "german": "Guten Tag", "article": null, "pos": "phrase", "bengali": "শুভ দিন / হ্যালো", "english": "good day / hello", "pronunciationBn": "গুটেন তাগ", "example_de": "Guten Tag, Herr Müller!", "example_bn": "শুভ দিন, জনাব মুলার!", "topic": "greetings", "level": "A1" },
+    { "id": "v_l0_h", "german": "Haus", "article": "das", "plural": "die Häuser", "pos": "noun", "bengali": "বাড়ি / ঘর", "english": "house", "pronunciationBn": "হাউস", "example_de": "Das Haus ist neu.", "example_bn": "বাড়িটি নতুন।", "topic": "home_city", "level": "A1" },
+    { "id": "v_l0_i", "german": "Igel", "article": "der", "plural": "die Igel", "pos": "noun", "bengali": "সজারু", "english": "hedgehog", "pronunciationBn": "ইগেল", "example_de": "Der Igel ist klein.", "example_bn": "সজারুটি ছোট।", "topic": "hobbies", "level": "A1" },
     { "id": "v_l0_5", "german": "Jahr", "article": "das", "plural": "die Jahre", "pos": "noun", "bengali": "বছর", "english": "year", "pronunciationBn": "ইয়ার", "example_de": "Ein Jahr.", "example_bn": "এক বছর।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l0_k", "german": "Kaffee", "article": "der", "plural": "die Kaffees", "pos": "noun", "bengali": "কফি", "english": "coffee", "pronunciationBn": "কাফে", "example_de": "Ich trinke Kaffee.", "example_bn": "আমি কফি পান করি।", "topic": "food_drinks", "level": "A1" },
+    { "id": "v_l0_l", "german": "Lampe", "article": "die", "plural": "die Lampen", "pos": "noun", "bengali": "বাতি / ল্যাম্প", "english": "lamp", "pronunciationBn": "লাম্পে", "example_de": "Die Lampe ist hell.", "example_bn": "বাতিটি উজ্জ্বল।", "topic": "home_city", "level": "A1" },
+    { "id": "v_l0_m", "german": "Mutter", "article": "die", "plural": "die Mütter", "pos": "noun", "bengali": "মা", "english": "mother", "pronunciationBn": "মুটার", "example_de": "Meine Mutter kocht.", "example_bn": "আমার মা রান্না করেন।", "topic": "family", "level": "A1" },
+    { "id": "v_l0_n", "german": "Name", "article": "der", "plural": "die Namen", "pos": "noun", "bengali": "নাম", "english": "name", "pronunciationBn": "নামে", "example_de": "Mein Name ist Hasan.", "example_bn": "আমার নাম হাসান।", "topic": "greetings", "level": "A1" },
+    { "id": "v_l0_o", "german": "Orange", "article": "die", "plural": "die Orangen", "pos": "noun", "bengali": "কমলালেবু", "english": "orange", "pronunciationBn": "ওরাঞ্জে", "example_de": "Eine süße Orange.", "example_bn": "একটি মিষ্টি কমলা।", "topic": "food_drinks", "level": "A1" },
+    { "id": "v_l0_p", "german": "Pause", "article": "die", "plural": "die Pausen", "pos": "noun", "bengali": "বিরতি", "english": "break / pause", "pronunciationBn": "পাউজে", "example_de": "Wir machen Pause.", "example_bn": "আমরা বিরতি নিচ্ছি।", "topic": "work_office_education", "level": "A1" },
+    { "id": "v_l0_r", "german": "Reise", "article": "die", "plural": "die Reisen", "pos": "noun", "bengali": "ভ্রমণ / যাত্রা", "english": "journey / trip", "pronunciationBn": "রায়জে", "example_de": "Gute Reise!", "example_bn": "শুভ যাত্রা!", "topic": "health_travel", "level": "A1" },
+    { "id": "v_l0_s", "german": "Sonne", "article": "die", "pos": "noun", "bengali": "সূর্য", "english": "sun", "pronunciationBn": "জোনে", "example_de": "Die Sonne scheint.", "example_bn": "সূর্য কিরণ দিচ্ছে।", "topic": "time_calendar", "level": "A1" },
+    { "id": "v_l0_t", "german": "Tisch", "article": "der", "plural": "die Tische", "pos": "noun", "bengali": "টেবিল", "english": "table", "pronunciationBn": "টিশ", "example_de": "Der Tisch ist groß.", "example_bn": "টেবিলটি বড়।", "topic": "home_city", "level": "A1" },
+    { "id": "v_l0_u", "german": "Uhr", "article": "die", "plural": "die Uhren", "pos": "noun", "bengali": "ঘড়ি", "english": "clock / watch", "pronunciationBn": "উর", "example_de": "Wie viel Uhr ist es?", "example_bn": "কয়টা বাজে?", "topic": "time_calendar", "level": "A1" },
     { "id": "v_l0_6", "german": "Vater", "article": "der", "plural": "die Väter", "pos": "noun", "bengali": "বাবা", "english": "father", "pronunciationBn": "ফাটার", "example_de": "Mein Vater.", "example_bn": "আমার বাবা।", "topic": "family", "level": "A1" },
     { "id": "v_l0_7", "german": "Wasser", "article": "das", "pos": "noun", "bengali": "পানি / জল", "english": "water", "pronunciationBn": "ভাসার", "example_de": "Kaltes Wasser.", "example_bn": "ঠান্ডা পানি।", "topic": "food_drinks", "level": "A1" },
-    { "id": "v_l0_8", "german": "Zug", "article": "der", "plural": "die Züge", "pos": "noun", "bengali": "ট্রেন", "english": "train", "pronunciationBn": "ৎসুক", "example_de": "Der Zug kommt.", "example_bn": "ট্রেন আসছে।", "topic": "health_travel", "level": "A1" }
+    { "id": "v_l0_8", "german": "Zug", "article": "der", "plural": "die Züge", "pos": "noun", "bengali": "ট্রেন", "english": "train", "pronunciationBn": "ৎসুক", "example_de": "Der Zug kommt.", "example_bn": "ট্রেন আসছে।", "topic": "health_travel", "level": "A1" },
+    { "id": "v_l0_sz", "german": "Straße", "article": "die", "plural": "die Straßen", "pos": "noun", "bengali": "রাস্তা", "english": "street", "pronunciationBn": "শ্ট্রাসে", "example_de": "In der Straße.", "example_bn": "রাস্তায়।", "topic": "city_transport_travel", "level": "A1" }
   ],
   "grammarTip": {
-    "title_bn": "জার্মান উচ্চারণের মূল গোপন রহস্য",
-    "title_en": "Key German Pronunciation Rule",
-    "content_bn": "জার্মান ভাষার সবচেয়ে বড় সুবিধা হলো: যা লেখা হয়, প্রায় হুবহু তাই উচ্চারণ করা হয় (Phonetic language)।\n• 'J' সবসময় বাংলায় 'ইয়' (যেমন: Ja = ইয়া, Jahr = ইয়ার)।\n• 'W' বাংলায় 'ভ' (যেমন: Wasser = ভাসার, Wo = ভো)।\n• 'V' বাংলায় 'ফ' (যেমন: Vater = ফাটার, Vier = ফিয়ার)।\n• 'Z' বাংলায় 'ৎস' (যেমন: Zug = ৎসুক, Zeit = ৎসায়ট)।",
+    "title_bn": "জার্মান উচ্চারণের ৪টি গোল্ডেন রহস্য",
+    "title_en": "4 Golden German Pronunciation Rules",
+    "content_bn": "জার্মান ভাষায় পড়ার সময় এই চারটি অক্ষর বিশেষভাবে মনে রাখবেন:\n• 'W' সবসময় বাংলায় 'ভ' (যেমন: Wasser = ভাসার, Wo = ভো)।\n• 'V' প্রায় সব জার্মান শব্দে 'ফ' (যেমন: Vater = ফাটার, Vier = ফিয়ার, Vogel = ফোগেল)।\n• 'J' সবসময় বাংলায় 'য়' (যেমন: Ja = ইয়া, Jahr = ইয়ার, Juli = ইউলি)।\n• 'Z' সবসময় বাংলায় 'ৎস' (যেমন: Zug = ৎসুক, Zeit = ৎসায়ট, Zimmer = ৎসিমা)।\n• 'S' স্বরবর্ণের আগে বসলে ইংরেজি Z বা বাংলা 'জ' এর মতো হয় (যেমন: Sonne = জোনে, sieben = জিবেন)।",
     "rule_table": [
-      { "label": "J", "value": "ইয়", "note": "Ja (ইয়া = হ্যাঁ)" },
-      { "label": "W", "value": "ভ", "note": "Wasser (ভাসার = পানি)" },
-      { "label": "V", "value": "ফ", "note": "Vater (ফাটার = বাবা)" },
-      { "label": "Z", "value": "ৎস", "note": "Zug (ৎসুক = ট্রেন)" }
+      { "label": "W", "value": "ভ (V)", "note": "Wasser (ভাসার = পানি)" },
+      { "label": "V", "value": "ফ (F)", "note": "Vater (ফাটার = বাবা)" },
+      { "label": "J", "value": "য় (Y)", "note": "Ja (ইয়া = হ্যাঁ)" },
+      { "label": "Z", "value": "ৎস (TS)", "note": "Zug (ৎসুক = ট্রেন)" }
     ]
   },
   "exercises": [
@@ -116,6 +134,46 @@
       "correctAnswer": "Buch",
       "acceptedAnswers": ["das Buch", "Buch"],
       "placeholder": "যেমন: Buch"
+    },
+    {
+      "id": "ex_0_1_9",
+      "type": "multiple_choice",
+      "prompt_bn": "জার্মান 'Z' অক্ষরের নাম ও উচ্চারণ কী?",
+      "explanation_bn": "'Z' এর নাম 'ৎসেট' এবং এর উচ্চারণ হয় 'ৎস'। যেমন: Zug = ৎসুক (ট্রেন)।",
+      "question": "জার্মান 'Z' অক্ষরের সঠিক উচ্চারণ কোনটি?",
+      "options": ["বাংলা 'ৎস' (TS)", "বাংলা 'জ' (J)", "বাংলা 'ঝ' (JH)", "বাংলা 'দ' (D)"],
+      "correctAnswer": "বাংলা 'ৎস' (TS)"
+    },
+    {
+      "id": "ex_0_1_10",
+      "type": "listening",
+      "prompt_bn": "অডিও শুনে বলুন কোন শব্দটি উচ্চারিত হয়েছে:",
+      "explanation_bn": "সঠিক শব্দটি হলো 'Zug' (ট্রেন)।",
+      "audioText": "Zug",
+      "options": ["Zug (ট্রেন)", "Buch (বই)", "Tag (দিন)", "Haus (বাড়ি)"],
+      "correctAnswer": "Zug (ট্রেন)"
+    },
+    {
+      "id": "ex_0_1_11",
+      "type": "matching_pairs",
+      "prompt_bn": "শব্দের সাথে বাংলা অর্থ মেলান:",
+      "explanation_bn": "Haus = বাড়ি, Name = নাম, Sonne = সূর্য, Straße = রাস্তা",
+      "pairs": [
+        { "german": "das Haus", "bengali": "বাড়ি" },
+        { "german": "der Name", "bengali": "নাম" },
+        { "german": "die Sonne", "bengali": "সূর্য" },
+        { "german": "die Straße", "bengali": "রাস্তা" }
+      ]
+    },
+    {
+      "id": "ex_0_1_12",
+      "type": "typing",
+      "prompt_bn": "'পানি' এর জার্মান শব্দটি লিখুন (Wasser):",
+      "explanation_bn": "পানি = Wasser।",
+      "prompt": "পানি / জল",
+      "correctAnswer": "Wasser",
+      "acceptedAnswers": ["das Wasser", "Wasser"],
+      "placeholder": "যেমন: Wasser"
     }
   ]
 }

@@ -64,7 +64,10 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: `
               if ('serviceWorker' in navigator) {
-                if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+                var isDev = window.location.hostname === 'localhost' ||
+                            window.location.hostname === '127.0.0.1' ||
+                            window.location.hostname.includes('.run.app');
+                if (isDev) {
                   navigator.serviceWorker.getRegistrations().then(function(registrations) {
                     for (var r of registrations) { r.unregister(); }
                   });

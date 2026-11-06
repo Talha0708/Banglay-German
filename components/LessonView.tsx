@@ -11,6 +11,9 @@ import { useAppStore } from '../store/useAppStore';
 import { getNextLesson, getUnitTopics } from '../data/curriculum';
 import { getWordsByTopic, TOPIC_METADATA } from '../data/vocabulary';
 import { Word } from '../types/vocabulary';
+import { AlphabetStudio } from './AlphabetStudio';
+import { NumbersStudio } from './NumbersStudio';
+import { TimeColorsStudio } from './TimeColorsStudio';
 import { ArrowLeft, BookOpen, Dumbbell, Lightbulb, Play, Sparkles, ChevronDown, ChevronUp, Layers } from 'lucide-react';
 
 interface LessonViewProps {
@@ -157,7 +160,12 @@ export const LessonView: React.FC<LessonViewProps> = ({
             </div>
           </section>
 
-          {/* (2) 8-15 Key Vocabulary */}
+          {/* Specialized Interactive Studio for Foundation Lessons */}
+          {lesson.id === 'lesson_0_1' && <AlphabetStudio />}
+          {lesson.id === 'lesson_0_4' && <NumbersStudio />}
+          {lesson.id === 'lesson_0_5' && <TimeColorsStudio />}
+
+          {/* (2) 8-25+ Key Vocabulary */}
           <section className="space-y-3">
             <div className="flex items-center justify-between">
               <h3 className="font-bold text-sm text-slate-900 dark:text-white flex items-center gap-2">

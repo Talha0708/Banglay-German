@@ -9,8 +9,7 @@ const PRECACHE_URLS = [
   '/pwa-192x192.png',
   '/pwa-512x512.png',
   '/pwa-maskable-512x512.png',
-  '/apple-touch-icon.png',
-  '/data/about.json'
+  '/apple-touch-icon.png'
 ];
 
 self.addEventListener('install', (event) => {
